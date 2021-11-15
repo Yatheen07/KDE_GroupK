@@ -1,0 +1,103 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix oxly: <http://www.example.org/ont#> .
+
+<#WellBeingIndex>
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "WELLBEINGINDEX" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Region ;
+		rr:objectMap [ 
+			rr:column "REGION" ; 
+			rr:datatype xsd:String ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:HappinessRank ;
+		rr:objectMap [ 
+			rr:column "HAPPINESSRANK" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:HappinessScore ;
+		rr:objectMap [ 
+			rr:column "HAPPINESSSCORE" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Family ;
+		rr:objectMap [ 
+			rr:column "FAMILY" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:LifeExpectency ;
+		rr:objectMap [ 
+			rr:column "LIFEEXPECTENCY" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+     rr:predicateObjectMap [
+		rr:predicate oxly:Freedom ;
+		rr:objectMap [ 
+			rr:column "FREEDOM" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Corruption ;
+		rr:objectMap [ 
+			rr:column "CORRUPTION" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Generosity ;
+		rr:objectMap [ 
+			rr:column "GENEROSITY" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    .
+
+<#WellBeingIndexx>
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "WELLBEINGINDEXX" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRYY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:HappinessScore ;
+		rr:objectMap [ 
+			rr:column "HAPPINESSSCOREE" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+ 	
+	
