@@ -6,6 +6,60 @@
 
 @prefix oxly: <http://www.example.org/ont#> .
 
+<#GHGEmissions>
+ 	
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "GHGEmissions" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:2014 ;
+		rr:objectMap [ 
+			rr:column "2014" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2015 ;
+		rr:objectMap [ 
+			rr:column "2015" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2016 ;
+		rr:objectMap [ 
+			rr:column "2016" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2017 ;
+		rr:objectMap [ 
+			rr:column "2017" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2018 ;
+		rr:objectMap [ 
+			rr:column "2018" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+    
+    .
+
 <#WellBeingIndex>
 	a rr:TriplesMap ;
 	
@@ -157,4 +211,128 @@
 		] ; 
 	] ;
 
+    .
+
+<#MilitaryExpenditure>
+ 	
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "MilitaryExpenditure" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryCode ;
+		rr:objectMap [ 
+			rr:column "COUNTRYCODE" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:2014 ;
+		rr:objectMap [ 
+			rr:column "2014" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2015 ;
+		rr:objectMap [ 
+			rr:column "2015" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2016 ;
+		rr:objectMap [ 
+			rr:column "2016" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2017 ;
+		rr:objectMap [ 
+			rr:column "2017" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2018 ;
+		rr:objectMap [ 
+			rr:column "2018" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+    
+    .
+
+<#Population>
+ 	
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "Population" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryCode ;
+		rr:objectMap [ 
+			rr:column "COUNTRYCODE" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:2014 ;
+		rr:objectMap [ 
+			rr:column "2014" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2015 ;
+		rr:objectMap [ 
+			rr:column "2015" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2016 ;
+		rr:objectMap [ 
+			rr:column "2016" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2017 ;
+		rr:objectMap [ 
+			rr:column "2017" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:2018 ;
+		rr:objectMap [ 
+			rr:column "2018" ; 
+			rr:datatype xsd:gYear ; 
+		] ; 
+	] ;
+
+    
     .
