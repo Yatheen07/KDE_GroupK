@@ -9,7 +9,7 @@
 <#GDP>
     a rr:TriplesMap ;
 
-    rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
+    rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
 		rr:template "http://data.example.org/{ENTITY}" ;
@@ -54,71 +54,23 @@
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:Region ;
+		rr:predicate oxly:COUNTRYCODE ;
 		rr:objectMap [ 
-			rr:column "REGION" ; 
-			rr:datatype xsd:String ; 
+			rr:column "CODE" ; 
+			rr:datatype xsd:string ; 
 		] ; 
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:HappinessRank ;
+		rr:predicate oxly:year ;
 		rr:objectMap [ 
-			rr:column "HAPPINESSRANK" ; 
+			rr:column "YEAR" ; 
 			rr:datatype xsd:double ; 
 		] ; 
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:HappinessScore ;
-		rr:objectMap [ 
-			rr:column "HAPPINESSSCORE" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:Family ;
-		rr:objectMap [ 
-			rr:column "FAMILY" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:LifeExpectency ;
-		rr:objectMap [ 
-			rr:column "LIFEEXPECTENCY" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-     rr:predicateObjectMap [
-		rr:predicate oxly:Freedom ;
-		rr:objectMap [ 
-			rr:column "FREEDOM" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:Corruption ;
-		rr:objectMap [ 
-			rr:column "CORRUPTION" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:Generosity ;
-		rr:objectMap [ 
-			rr:column "GENEROSITY" ; 
-			rr:datatype xsd:double ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-        rr:predicate ex:contributes;
+        rr:predicate oxly:contributes;
         rr:objectMap [
             rr:parentTriplesMap <#GDP>;
             rr:joinCondition [
@@ -126,7 +78,7 @@
                 rr:parent "ENTITY";
             ];
         ];
-    ].
+    ]
 
     .
 
