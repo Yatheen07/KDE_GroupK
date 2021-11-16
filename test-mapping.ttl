@@ -118,7 +118,7 @@
 	] ;
 
     rr:predicateObjectMap [
-        rr:predicate ex:contributes;
+        rr:predicate oxly:contributes;
         rr:objectMap [
             rr:parentTriplesMap <#GDP>;
             rr:joinCondition [
@@ -126,8 +126,7 @@
                 rr:parent "ENTITY";
             ];
         ];
-    ].
-
+    ]
     .
 
 
