@@ -27,33 +27,22 @@
 		] ; 
 	] ;
 
-    rr:predicateObjectMap [
-		rr:predicate oxly:hasSustainability ;
-		rr:objectMap [ 
-			rr:parentTriplesMap <#GDPGROWTH>;
-            rr:joinCondition [
-                rr:child "COUNTRYYEAR";
-                rr:parent "ID";
-            ]
-		] ;  
-	] ;
-
     .
 
 <#GDP>
     a rr:TriplesMap ;
 
-    rr:logicalTable [ rr:tableName "GDP" ] ;
+    rr:logicalTable [ rr:tableName "GDPc" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/{ID}" ;
-		rr:class oxly:Entity;
+		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:class oxly:GDP;
 	] ;
 
     rr:predicateObjectMap [
 		rr:predicate oxly:Country;
 		rr:objectMap [ 
-			rr:column "ENTITY" ; 
+			rr:column "COUNTRY" ; 
 			rr:datatype xsd:string ; 
 		] ; 
 	] ;
@@ -74,38 +63,18 @@
 		] ; 
 	] ;
 
-    .
-
-<#GDPGROWTH>
-    a rr:TriplesMap ;
-
-    rr:logicalTable [ rr:tableName "GDPGROWTH" ] ;
-
-    rr:subjectMap [
-		rr:template "http://data.example.org/{ID}" ;
-		rr:class oxly:Entity;
-	] ;
-
     rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:gdpGrowth ;
 		rr:objectMap [ 
-			rr:column "COUNTRY" ; 
-			rr:datatype xsd:string ; 
-		] ; 
-	] ;
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:year ;
-		rr:objectMap [ 
-			rr:column "YEAR" ; 
+			rr:column "GDPGROWTH" ; 
 			rr:datatype xsd:double ; 
 		] ; 
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:gdpGrowthValue ;
+		rr:predicate oxly:militaryExpenditurePerGdp ;
 		rr:objectMap [ 
-			rr:column "GDPGROWTH" ; 
+			rr:column "MILITARYEXPENDITURE" ; 
 			rr:datatype xsd:double ; 
 		] ; 
 	] ;
