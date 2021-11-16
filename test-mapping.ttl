@@ -6,20 +6,54 @@
 
 @prefix oxly: <http://www.example.org/ont#> .
 
+<#Countries>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "COUNTRIES" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasEconomy ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#GDP>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ID";
+            ]
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasSustainability ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#GDPGROWTH>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ID";
+            ]
+		] ;  
+	] ;
+
+    .
+
 <#GDP>
     a rr:TriplesMap ;
 
     rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/{ENTITY}" ;
-		rr:class oxly:Country;
+		rr:template "http://data.example.org/{ID}" ;
+		rr:class oxly:Entity;
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:countryCode ;
+		rr:predicate oxly:Country;
 		rr:objectMap [ 
-			rr:column "CODE" ; 
+			rr:column "ENTITY" ; 
 			rr:datatype xsd:string ; 
 		] ; 
 	] ;
@@ -42,21 +76,20 @@
 
     .
 
-<#AirPollutionDeaths>
- 	
-	a rr:TriplesMap ;
-	
-	rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
-	
-	rr:subjectMap [
-		rr:template "http://data.example.org/{ENTITY}" ;
-		rr:class oxly:Country;
+<#GDPGROWTH>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "GDPGROWTH" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{ID}" ;
+		rr:class oxly:Entity;
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:countryCode ;
+		rr:predicate oxly:Country;
 		rr:objectMap [ 
-			rr:column "CODE" ; 
+			rr:column "COUNTRY" ; 
 			rr:datatype xsd:string ; 
 		] ; 
 	] ;
@@ -70,16 +103,11 @@
 	] ;
 
     rr:predicateObjectMap [
-        rr:predicate oxly:contributes;
-        rr:objectMap [
-            rr:parentTriplesMap <#GDP>;
-            rr:joinCondition [
-                rr:child "ENTITY";
-                rr:parent "ENTITY";
-            ];
-        ];
-    ]
+		rr:predicate oxly:gdpGrowthValue ;
+		rr:objectMap [ 
+			rr:column "GDPGROWTH" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
 
     .
-
-

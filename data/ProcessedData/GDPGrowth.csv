@@ -1,1026 +1,1026 @@
-﻿Country Name,Code,Year,GDP Growth
-Libya,LBY,2018,15.13%
-Libya,LBY,2017,26.68%
-Libya,LBY,2016,-2.80%
-Libya,LBY,2015,-8.86%
-Libya,LBY,2014,-24.00%
-Rwanda,RWA,2018,8.58%
-Rwanda,RWA,2017,3.98%
-Rwanda,RWA,2016,5.97%
-Rwanda,RWA,2015,8.86%
-Rwanda,RWA,2014,6.17%
-Ireland,IRL,2018,8.52%
-Ireland,IRL,2017,9.13%
-Ireland,IRL,2016,1.99%
-Ireland,IRL,2015,25.18%
-Ireland,IRL,2014,8.64%
-Djibouti,DJI,2018,8.41%
-Djibouti,DJI,2017,5.40%
-Djibouti,DJI,2016,6.65%
-Djibouti,DJI,2015,7.70%
-Djibouti,DJI,2014,7.06%
-Maldives,MDV,2018,8.13%
-Maldives,MDV,2017,7.21%
-Maldives,MDV,2016,6.34%
-Maldives,MDV,2015,2.88%
-Maldives,MDV,2014,7.33%
-Bangladesh,BGD,2018,7.86%
-Bangladesh,BGD,2017,7.28%
-Bangladesh,BGD,2016,7.11%
-Bangladesh,BGD,2015,6.55%
-Bangladesh,BGD,2014,6.06%
-Nepal,NPL,2018,7.62%
-Nepal,NPL,2017,8.98%
-Nepal,NPL,2016,0.43%
-Nepal,NPL,2015,3.98%
-Nepal,NPL,2014,6.01%
-Tajikistan,TJK,2018,7.60%
-Tajikistan,TJK,2017,7.10%
-Tajikistan,TJK,2016,6.90%
-Tajikistan,TJK,2015,6.00%
-Tajikistan,TJK,2014,6.70%
-Cambodia,KHM,2018,7.47%
-Cambodia,KHM,2017,6.84%
-Cambodia,KHM,2016,6.94%
-Cambodia,KHM,2015,7.12%
-Cambodia,KHM,2014,7.14%
-Mongolia,MNG,2018,7.25%
-Mongolia,MNG,2017,5.34%
-Mongolia,MNG,2016,1.17%
-Mongolia,MNG,2015,2.38%
-Mongolia,MNG,2014,7.89%
-"Gambia, The",GMB,2018,7.23%
-"Gambia, The",GMB,2017,4.82%
-"Gambia, The",GMB,2016,1.94%
-"Gambia, The",GMB,2015,4.06%
-"Gambia, The",GMB,2014,-1.41%
-Niger,NER,2018,7.22%
-Niger,NGA,2017,5.00%
-Niger,NER,2016,5.71%
-Niger,NGA,2015,4.39%
-Niger,NER,2014,6.64%
-Vietnam,VNM,2018,7.08%
-Vietnam,VNM,2017,6.81%
-Vietnam,VNM,2016,6.21%
-Vietnam,VNM,2015,6.68%
-Vietnam,VNM,2014,5.98%
-Dominican Republic,DOM,2018,6.98%
-Dominican Republic,DOM,2017,4.67%
-Dominican Republic,DOM,2016,6.66%
-Dominican Republic,DOM,2015,6.93%
-Dominican Republic,DOM,2014,7.05%
-Antigua And Barbuda,ATG,2018,6.95%
-Antigua And Barbuda,ATG,2017,3.14%
-Antigua And Barbuda,ATG,2016,5.50%
-Antigua And Barbuda,ATG,2015,3.83%
-Antigua And Barbuda,ATG,2014,3.80%
-Ethiopia,ETH,2018,6.82%
-Ethiopia,ETH,2017,9.56%
-Ethiopia,ETH,2016,9.43%
-Ethiopia,ETH,2015,10.39%
-Ethiopia,ETH,2014,10.26%
-Myanmar,MMR,2018,6.75%
-Myanmar,MMR,2017,6.41%
-Myanmar,MMR,2016,5.75%
-Myanmar,MMR,2015,6.99%
-Myanmar,MMR,2014,7.99%
-China,CHN,2018,6.75%
-China,HKG,2017,6.95%
-China,MAC,2016,6.85%
-China,CHN,2015,7.04%
-China,HKG,2014,7.43%
-Burkina Faso,BFA,2018,6.73%
-Burkina Faso,BFA,2017,6.20%
-Burkina Faso,BFA,2016,5.96%
-Burkina Faso,BFA,2015,3.92%
-Burkina Faso,BFA,2014,4.33%
-Benin,BEN,2018,6.70%
-Benin,BEN,2017,5.67%
-Benin,BEN,2016,3.34%
-Benin,BEN,2015,1.78%
-Benin,BEN,2014,6.36%
-India,IND,2018,6.53%
-India,IND,2017,6.80%
-India,IND,2016,8.26%
-India,IND,2015,8.00%
-India,IND,2014,7.41%
-"Macao, China",MAC,2018,6.47%
-"Macao, China",MAC,2017,9.98%
-"Macao, China",MAC,2016,-0.67%
-"Macao, China",MAC,2015,-21.49%
-"Macao, China",MAC,2014,-2.05%
-Guinea,PNG,2018,6.36%
-Guinea,GIN,2017,10.30%
-Guinea,GNB,2016,10.82%
-Guinea,GNQ,2015,3.83%
-Guinea,PNG,2014,3.70%
-Philippines,PHL,2018,6.34%
-Philippines,PHL,2017,6.93%
-Philippines,PHL,2016,7.15%
-Philippines,PHL,2015,6.35%
-Philippines,PHL,2014,6.35%
-Kenya,KEN,2018,6.32%
-Kenya,KEN,2017,4.81%
-Kenya,KEN,2016,5.88%
-Kenya,KEN,2015,5.72%
-Kenya,KEN,2014,5.36%
-Lao PDR,LAO,2018,6.25%
-Lao PDR,LAO,2017,6.89%
-Lao PDR,LAO,2016,7.02%
-Lao PDR,LAO,2015,7.27%
-Lao PDR,LAO,2014,7.61%
-Senegal,SEN,2018,6.21%
-Senegal,SEN,2017,7.41%
-Senegal,SEN,2016,6.36%
-Senegal,SEN,2015,6.37%
-Senegal,SEN,2014,6.22%
-Ghana,GHA,2018,6.20%
-Ghana,GHA,2017,8.13%
-Ghana,GHA,2016,3.37%
-Ghana,GHA,2015,2.12%
-Ghana,GHA,2014,2.86%
-Turkmenistan,TKM,2018,6.20%
-Turkmenistan,TKM,2017,6.50%
-Turkmenistan,TKM,2016,6.20%
-Turkmenistan,TKM,2015,6.50%
-Turkmenistan,TKM,2014,10.30%
-Uganda,UGA,2018,6.16%
-Uganda,UGA,2017,3.81%
-Uganda,UGA,2016,4.78%
-Uganda,UGA,2015,5.19%
-Uganda,UGA,2014,5.11%
-Monaco,MCO,2018,6.10%
-Monaco,MCO,2017,-3.40%
-Monaco,MCO,2016,3.50%
-Monaco,MCO,2015,4.90%
-Monaco,MCO,2014,7.20%
-Nauru,NRU,2018,6.10%
-Nauru,NRU,2017,-5.75%
-Nauru,NRU,2016,3.57%
-Nauru,NRU,2015,3.70%
-Nauru,NRU,2014,26.56%
-Pakistan,PAK,2018,5.84%
-Pakistan,PAK,2017,5.55%
-Pakistan,PAK,2016,5.53%
-Pakistan,PAK,2015,4.73%
-Pakistan,PAK,2014,4.67%
-"Congo. Dem. Rep., Dem. Rep.",COD,2018,5.82%
-"Congo. Dem. Rep., Dem. Rep.",COD,2017,3.73%
-"Congo. Dem. Rep., Dem. Rep.",COD,2016,2.40%
-"Congo. Dem. Rep., Dem. Rep.",COD,2015,6.92%
-"Congo. Dem. Rep., Dem. Rep.",COD,2014,9.47%
-Turks And Caicos Islands,TCA,2018,5.61%
-Turks And Caicos Islands,TCA,2017,-2.49%
-Turks And Caicos Islands,TCA,2016,7.25%
-Turks And Caicos Islands,TCA,2015,11.31%
-Turks And Caicos Islands,TCA,2014,8.71%
-Uzbekistan,UZB,2018,5.45%
-Uzbekistan,UZB,2017,4.46%
-Uzbekistan,UZB,2016,6.09%
-Uzbekistan,UZB,2015,7.45%
-Uzbekistan,UZB,2014,7.18%
-Tanzania,TZA,2018,5.45%
-Tanzania,TZA,2017,6.79%
-Tanzania,TZA,2016,6.87%
-Tanzania,TZA,2015,6.16%
-Tanzania,TZA,2014,6.73%
-Hungary,HUN,2018,5.40%
-Hungary,HUN,2017,4.32%
-Hungary,HUN,2016,2.14%
-Hungary,HUN,2015,3.82%
-Hungary,HUN,2014,4.23%
-Poland,POL,2018,5.35%
-Poland,POL,2017,4.83%
-Poland,POL,2016,3.14%
-Poland,POL,2015,4.24%
-Poland,POL,2014,3.38%
-"Egypt, Arab Rep.",EGY,2018,5.31%
-"Egypt, Arab Rep.",EGY,2017,4.18%
-"Egypt, Arab Rep.",EGY,2016,4.35%
-"Egypt, Arab Rep.",EGY,2015,4.37%
-"Egypt, Arab Rep.",EGY,2014,2.92%
-Cyprus,CYP,2018,5.24%
-Cyprus,CYP,2017,5.15%
-Cyprus,CYP,2016,6.44%
-Cyprus,CYP,2015,3.22%
-Cyprus,CYP,2014,-1.83%
-Armenia,ARM,2018,5.20%
-Armenia,ARM,2017,7.50%
-Armenia,ARM,2016,0.20%
-Armenia,ARM,2015,3.20%
-Armenia,ARM,2014,3.60%
-Malta,MLT,2018,5.18%
-Malta,MLT,2017,8.12%
-Malta,MLT,2016,4.09%
-Malta,MLT,2015,9.61%
-Malta,MLT,2014,7.63%
-Indonesia,IDN,2018,5.17%
-Indonesia,IDN,2017,5.07%
-Indonesia,IDN,2016,5.03%
-Indonesia,IDN,2015,4.88%
-Indonesia,IDN,2014,5.01%
-Montenegro,MNE,2018,5.08%
-Montenegro,MNE,2017,4.72%
-Montenegro,MNE,2016,2.95%
-Montenegro,MNE,2015,3.39%
-Montenegro,MNE,2014,1.78%
-Togo,TGO,2018,4.98%
-Togo,TGO,2017,4.35%
-Togo,TGO,2016,5.56%
-Togo,TGO,2015,5.74%
-Togo,TGO,2014,5.92%
-Suriname,SUR,2018,4.95%
-Suriname,SUR,2017,1.57%
-Suriname,SUR,2016,-4.92%
-Suriname,SUR,2015,-3.41%
-Suriname,SUR,2014,0.26%
-Georgia,GEO,2018,4.84%
-Georgia,GEO,2017,4.84%
-Georgia,GEO,2016,2.91%
-Georgia,GEO,2015,3.02%
-Georgia,GEO,2014,4.43%
-Malaysia,MYS,2018,4.77%
-Malaysia,MYS,2017,5.81%
-Malaysia,MYS,2016,4.45%
-Malaysia,MYS,2015,5.09%
-Malaysia,MYS,2014,6.01%
-Mali,MLI,2018,4.75%
-Mali,MLI,2017,5.31%
-Mali,MLI,2016,5.85%
-Mali,MLI,2015,6.17%
-Mali,MLI,2014,7.08%
-Iceland,ISL,2018,4.71%
-Iceland,ISL,2017,4.19%
-Iceland,ISL,2016,6.30%
-Iceland,ISL,2015,4.44%
-Iceland,ISL,2014,1.69%
-Cabo Verde,CPV,2018,4.53%
-Cabo Verde,CPV,2017,3.70%
-Cabo Verde,CPV,2016,4.71%
-Cabo Verde,CPV,2015,1.01%
-Cabo Verde,CPV,2014,0.61%
-Serbia,SRB,2018,4.50%
-Serbia,SRB,2017,2.10%
-Serbia,SRB,2016,3.34%
-Serbia,SRB,2015,1.81%
-Serbia,SRB,2014,-1.59%
-Botswana,BWA,2018,4.48%
-Botswana,BWA,2017,2.90%
-Botswana,BWA,2016,4.30%
-Botswana,BWA,2015,-1.70%
-Botswana,BWA,2014,4.15%
-Romania,ROU,2018,4.47%
-Romania,ROU,2017,7.32%
-Romania,ROU,2016,4.70%
-Romania,ROU,2015,2.95%
-Romania,ROU,2014,3.61%
-Guyana,GUY,2018,4.44%
-Guyana,GUY,2017,3.73%
-Guyana,GUY,2016,3.81%
-Guyana,GUY,2015,0.69%
-Guyana,GUY,2014,1.69%
-Malawi,MWI,2018,4.42%
-Malawi,MWI,2017,4.00%
-Malawi,MWI,2016,2.48%
-Malawi,MWI,2015,2.80%
-Malawi,MWI,2014,5.70%
-Slovenia,SVN,2018,4.38%
-Slovenia,SVN,2017,4.79%
-Slovenia,SVN,2016,3.19%
-Slovenia,SVN,2015,2.21%
-Slovenia,SVN,2014,2.77%
-Estonia,EST,2018,4.36%
-Estonia,EST,2017,5.50%
-Estonia,EST,2016,3.19%
-Estonia,EST,2015,1.84%
-Estonia,EST,2014,2.99%
-Moldova,MDA,2018,4.30%
-Moldova,MDA,2017,4.69%
-Moldova,MDA,2016,4.41%
-Moldova,MDA,2015,-0.34%
-Moldova,MDA,2014,5.00%
-Bolivia,BOL,2018,4.22%
-Bolivia,BOL,2017,4.20%
-Bolivia,BOL,2016,4.26%
-Bolivia,BOL,2015,4.86%
-Bolivia,BOL,2014,5.46%
-Cayman Islands,CYM,2018,4.19%
-Cayman Islands,CYM,2017,3.18%
-Cayman Islands,CYM,2016,3.24%
-Cayman Islands,CYM,2015,2.83%
-Cayman Islands,CYM,2014,2.65%
-Thailand,THA,2018,4.19%
-Thailand,THA,2017,4.18%
-Thailand,THA,2016,3.44%
-Thailand,THA,2015,3.13%
-Thailand,THA,2014,0.98%
-Grenada,GRD,2018,4.14%
-Grenada,GRD,2017,4.44%
-Grenada,GRD,2016,3.74%
-Grenada,GRD,2015,6.44%
-Grenada,GRD,2014,7.34%
-Kazakhstan,KAZ,2018,4.10%
-Kazakhstan,KAZ,2017,4.10%
-Kazakhstan,KAZ,2016,1.10%
-Kazakhstan,KAZ,2015,1.20%
-Kazakhstan,KAZ,2014,4.20%
-Albania,ALB,2018,4.07%
-Albania,ALB,2017,3.80%
-Albania,ALB,2016,3.31%
-Albania,ALB,2015,2.22%
-Albania,ALB,2014,1.77%
-Cameroon,CMR,2018,4.06%
-Cameroon,CMR,2017,3.55%
-Cameroon,CMR,2016,4.65%
-Cameroon,CMR,2015,5.65%
-Cameroon,CMR,2014,5.88%
-Palau,PLW,2018,4.06%
-Palau,PLW,2017,-1.92%
-Palau,PLW,2016,-0.08%
-Palau,PLW,2015,7.54%
-Palau,PLW,2014,6.29%
-Zambia,ZMB,2018,4.03%
-Zambia,ZMB,2017,3.50%
-Zambia,ZMB,2016,3.78%
-Zambia,ZMB,2015,2.92%
-Zambia,ZMB,2014,4.70%
-Latvia,LVA,2018,4.02%
-Latvia,LVA,2017,3.25%
-Latvia,LVA,2016,2.37%
-Latvia,LVA,2015,4.01%
-Latvia,LVA,2014,1.07%
-Peru,PER,2018,3.97%
-Peru,PER,2017,2.52%
-Peru,PER,2016,3.95%
-Peru,PER,2015,3.25%
-Peru,PER,2014,2.38%
-Solomon Islands,SLB,2018,3.94%
-Solomon Islands,SLB,2017,5.34%
-Solomon Islands,SLB,2016,5.88%
-Solomon Islands,SLB,2015,1.42%
-Solomon Islands,SLB,2014,1.05%
-Lithuania,LTU,2018,3.94%
-Lithuania,LTU,2017,4.28%
-Lithuania,LTU,2016,2.52%
-Lithuania,LTU,2015,2.02%
-Lithuania,LTU,2014,3.54%
-Honduras,HND,2018,3.85%
-Honduras,HND,2017,4.84%
-Honduras,HND,2016,3.89%
-Honduras,HND,2015,3.84%
-Honduras,HND,2014,3.06%
-Kosovo,XKX,2018,3.81%
-Kosovo,XKX,2017,4.23%
-Kosovo,XKX,2016,4.07%
-Kosovo,XKX,2015,4.10%
-Kosovo,XKX,2014,1.22%
-Fiji,FJI,2018,3.81%
-Fiji,FJI,2017,5.35%
-Fiji,FJI,2016,2.44%
-Fiji,FJI,2015,4.50%
-Fiji,FJI,2014,5.60%
-Central African Republic,CAF,2018,3.79%
-Central African Republic,CAF,2017,4.53%
-Central African Republic,CAF,2016,4.75%
-Central African Republic,CAF,2015,4.34%
-Central African Republic,CAF,2014,0.08%
-Mauritius,MUS,2018,3.76%
-Mauritius,MUS,2017,3.81%
-Mauritius,MUS,2016,3.84%
-Mauritius,MUS,2015,3.55%
-Mauritius,MUS,2014,3.74%
-Kyrgyz Republic,KGZ,2018,3.76%
-Kyrgyz Republic,KGZ,2017,4.74%
-Kyrgyz Republic,KGZ,2016,4.34%
-Kyrgyz Republic,KGZ,2015,3.88%
-Kyrgyz Republic,KGZ,2014,4.02%
-Bosnia,BIH,2018,3.74%
-Bosnia,BIH,2017,3.17%
-Bosnia,BIH,2016,3.15%
-Bosnia,BIH,2015,3.09%
-Bosnia,BIH,2014,1.15%
-Chile,CHL,2018,3.71%
-Chile,CHL,2017,1.18%
-Chile,CHL,2016,1.71%
-Chile,CHL,2015,2.30%
-Chile,CHL,2014,1.77%
-Slovak Republic,SVK,2018,3.65%
-Slovak Republic,SVK,2017,2.99%
-Slovak Republic,SVK,2016,2.13%
-Slovak Republic,SVK,2015,4.81%
-Slovak Republic,SVK,2014,2.64%
-Panama,PAN,2018,3.60%
-Panama,PAN,2017,5.59%
-Panama,PAN,2016,4.95%
-Panama,PAN,2015,5.73%
-Panama,PAN,2014,5.07%
-Singapore,SGP,2018,3.50%
-Singapore,SGP,2017,4.52%
-Singapore,SGP,2016,3.33%
-Singapore,SGP,2015,2.99%
-Singapore,SGP,2014,3.94%
-Zimbabwe,ZWE,2018,3.50%
-Zimbabwe,ZWE,2017,4.70%
-Zimbabwe,ZWE,2016,0.76%
-Zimbabwe,ZWE,2015,1.78%
-Zimbabwe,ZWE,2014,2.38%
-Israel,ISR,2018,3.48%
-Israel,ISR,2017,3.56%
-Israel,ISR,2016,3.83%
-Israel,ISR,2015,2.22%
-Israel,ISR,2014,3.92%
-Sierra Leone,SLE,2018,3.45%
-Sierra Leone,SLE,2017,4.21%
-Sierra Leone,SLE,2016,6.06%
-Sierra Leone,SLE,2015,-20.60%
-Sierra Leone,SLE,2014,4.56%
-Mozambique,MOZ,2018,3.44%
-Mozambique,MOZ,2017,3.74%
-Mozambique,MOZ,2016,3.82%
-Mozambique,MOZ,2015,6.72%
-Mozambique,MOZ,2014,7.40%
-Comoros,COM,2018,3.43%
-Comoros,COM,2017,3.82%
-Comoros,COM,2016,3.32%
-Comoros,COM,2015,1.12%
-Comoros,COM,2014,2.10%
-Ukraine,UKR,2018,3.41%
-Ukraine,UKR,2017,2.47%
-Ukraine,UKR,2016,2.24%
-Ukraine,UKR,2015,-9.77%
-Ukraine,UKR,2014,-6.55%
-Marshall Islands,MHL,2018,3.35%
-Marshall Islands,MHL,2017,3.38%
-Marshall Islands,MHL,2016,1.03%
-Marshall Islands,MHL,2015,1.61%
-Marshall Islands,MHL,2014,-0.95%
-American Samoa,ASM,2018,3.34%
-American Samoa,ASM,2017,-6.99%
-American Samoa,ASM,2016,-1.68%
-American Samoa,ASM,2015,3.15%
-American Samoa,ASM,2014,1.76%
-Guatemala,GTM,2018,3.32%
-Guatemala,GTM,2017,3.08%
-Guatemala,GTM,2016,2.68%
-Guatemala,GTM,2015,4.09%
-Guatemala,GTM,2014,4.44%
-Sri Lanka,LKA,2018,3.27%
-Sri Lanka,LKA,2017,3.58%
-Sri Lanka,LKA,2016,4.49%
-Sri Lanka,LKA,2015,5.01%
-Sri Lanka,LKA,2014,4.96%
-Greenland,GRL,2018,3.22%
-Greenland,GRL,2017,0.47%
-Greenland,GRL,2016,4.68%
-Greenland,GRL,2015,-2.53%
-Greenland,GRL,2014,4.74%
-New Zealand,NZL,2018,3.21%
-New Zealand,NZL,2017,3.61%
-New Zealand,NZL,2016,3.73%
-New Zealand,NZL,2015,3.71%
-New Zealand,NZL,2014,3.81%
-Paraguay,PRY,2018,3.20%
-Paraguay,PRY,2017,4.81%
-Paraguay,PRY,2016,4.27%
-Paraguay,PRY,2015,2.96%
-Paraguay,PRY,2014,5.30%
-Madagascar,MDG,2018,3.20%
-Madagascar,MDG,2017,3.93%
-Madagascar,MDG,2016,3.99%
-Madagascar,MDG,2015,3.13%
-Madagascar,MDG,2014,3.34%
-Czech Republic,CZE,2018,3.20%
-Czech Republic,CZE,2017,5.17%
-Czech Republic,CZE,2016,2.54%
-Czech Republic,CZE,2015,5.39%
-Czech Republic,CZE,2014,2.26%
-Belarus,BLR,2018,3.15%
-Belarus,BLR,2017,2.53%
-Belarus,BLR,2016,-2.53%
-Belarus,BLR,2015,-3.83%
-Belarus,BLR,2014,1.73%
-Morocco,MAR,2018,3.15%
-Morocco,MAR,2017,4.25%
-Morocco,MAR,2016,1.06%
-Morocco,MAR,2015,4.54%
-Morocco,MAR,2014,2.67%
-Luxembourg,LUX,2018,3.11%
-Luxembourg,LUX,2017,1.80%
-Luxembourg,LUX,2016,4.57%
-Luxembourg,LUX,2015,4.31%
-Luxembourg,LUX,2014,4.30%
-Bulgaria,BGR,2018,3.09%
-Bulgaria,BGR,2017,3.50%
-Bulgaria,BGR,2016,3.82%
-Bulgaria,BGR,2015,3.99%
-Bulgaria,BGR,2014,1.89%
-Bhutan,BTN,2018,3.06%
-Bhutan,BTN,2017,4.65%
-Bhutan,BTN,2016,8.13%
-Bhutan,BTN,2015,6.64%
-Bhutan,BTN,2014,5.78%
-"Bahamas, The",BHS,2018,3.03%
-"Bahamas, The",BHS,2017,3.12%
-"Bahamas, The",BHS,2016,1.44%
-"Bahamas, The",BHS,2015,0.23%
-"Bahamas, The",BHS,2014,1.05%
-Switzerland,CHE,2018,3.01%
-Switzerland,CHE,2017,1.58%
-Switzerland,CHE,2016,2.05%
-Switzerland,CHE,2015,1.66%
-Switzerland,CHE,2014,2.45%
-United States,USA,2018,3.00%
-United States,USA,2017,2.33%
-United States,USA,2016,1.71%
-United States,USA,2015,3.08%
-United States,USA,2014,2.53%
-Turkey,TUR,2018,2.96%
-Turkey,TUR,2017,7.50%
-Turkey,TUR,2016,3.32%
-Turkey,TUR,2015,6.08%
-Turkey,TUR,2014,4.94%
-Australia,AUS,2018,2.95%
-Australia,AUS,2017,2.30%
-Australia,AUS,2016,2.77%
-Australia,AUS,2015,2.19%
-Australia,AUS,2014,2.53%
-Sao Tome And Principe,STP,2018,2.95%
-Sao Tome And Principe,STP,2017,3.85%
-Sao Tome And Principe,STP,2016,4.16%
-Sao Tome And Principe,STP,2015,3.91%
-Sao Tome And Principe,STP,2014,6.55%
-St. Kitts And Nevis,KNA,2018,2.92%
-St. Kitts And Nevis,KNA,2017,-1.98%
-St. Kitts And Nevis,KNA,2016,2.83%
-St. Kitts And Nevis,KNA,2015,1.03%
-St. Kitts And Nevis,KNA,2014,6.28%
-Belize,BLZ,2018,2.91%
-Belize,BLZ,2017,1.81%
-Belize,BLZ,2016,-0.03%
-Belize,BLZ,2015,2.63%
-Belize,BLZ,2014,4.04%
-South Korea,KOR,2018,2.91%
-South Korea,KOR,2017,3.16%
-South Korea,KOR,2016,2.95%
-South Korea,KOR,2015,2.81%
-South Korea,KOR,2014,3.20%
-Vanuatu,VUT,2018,2.90%
-Vanuatu,VUT,2017,6.32%
-Vanuatu,VUT,2016,4.69%
-Vanuatu,VUT,2015,0.37%
-Vanuatu,VUT,2014,3.13%
-North Macedonia,MKD,2018,2.88%
-North Macedonia,MKD,2017,1.08%
-North Macedonia,MKD,2016,2.85%
-North Macedonia,MKD,2015,3.86%
-North Macedonia,MKD,2014,3.63%
-Portugal,PRT,2018,2.85%
-Portugal,PRT,2017,3.51%
-Portugal,PRT,2016,2.02%
-Portugal,PRT,2015,1.79%
-Portugal,PRT,2014,0.79%
-"Hong Kong, China",HKG,2018,2.85%
-"Hong Kong, China",HKG,2017,3.79%
-"Hong Kong, China",HKG,2016,2.17%
-"Hong Kong, China",HKG,2015,2.39%
-"Hong Kong, China",HKG,2014,2.76%
-Sudan,SDN,2018,2.82%
-Sudan,SSD,2017,4.67%
-Sudan,SDN,2016,3.57%
-Sudan,SSD,2015,4.01%
-Sudan,SDN,2014,7.04%
-Croatia,HRV,2018,2.81%
-Croatia,HRV,2017,3.44%
-Croatia,HRV,2016,3.50%
-Croatia,HRV,2015,2.43%
-Croatia,HRV,2014,-0.34%
-Russia,RUS,2018,2.81%
-Russia,RUS,2017,1.83%
-Russia,RUS,2016,0.19%
-Russia,RUS,2015,-1.97%
-Russia,RUS,2014,0.74%
-Somalia,SOM,2018,2.79%
-Somalia,SOM,2017,1.39%
-Somalia,SOM,2016,2.89%
-Somalia,SOM,2015,3.46%
-Somalia,SOM,2014,2.36%
-Tunisia,TUN,2018,2.66%
-Tunisia,TUN,2017,1.92%
-Tunisia,TUN,2016,1.25%
-Tunisia,TUN,2015,1.17%
-Tunisia,TUN,2014,2.87%
-St. Lucia,LCA,2018,2.64%
-St. Lucia,LCA,2017,3.49%
-St. Lucia,LCA,2016,3.99%
-St. Lucia,LCA,2015,-1.36%
-St. Lucia,LCA,2014,1.76%
-Austria,AUT,2018,2.58%
-Austria,AUT,2017,2.40%
-Austria,AUT,2016,1.99%
-Austria,AUT,2015,1.01%
-Austria,AUT,2014,0.66%
-Colombia,COL,2018,2.56%
-Colombia,COL,2017,1.36%
-Colombia,COL,2016,2.09%
-Colombia,COL,2015,2.96%
-Colombia,COL,2014,4.50%
-Tuvalu,TUV,2018,2.50%
-Tuvalu,TUV,2017,4.09%
-Tuvalu,TUV,2016,3.03%
-Tuvalu,TUV,2015,9.14%
-Tuvalu,TUV,2014,1.35%
-Saudi Arabia,SAU,2018,2.43%
-Saudi Arabia,SAU,2017,-0.74%
-Saudi Arabia,SAU,2016,1.67%
-Saudi Arabia,SAU,2015,4.11%
-Saudi Arabia,SAU,2014,3.65%
-Spain,ESP,2018,2.43%
-Spain,ESP,2017,2.97%
-Spain,ESP,2016,3.03%
-Spain,ESP,2015,3.84%
-Spain,ESP,2014,1.38%
-Canada,CAN,2018,2.43%
-Canada,CAN,2017,3.04%
-Canada,CAN,2016,1.00%
-Canada,CAN,2015,0.66%
-Canada,CAN,2014,2.87%
-El Salvador,SLV,2018,2.41%
-El Salvador,SLV,2017,2.25%
-El Salvador,SLV,2016,2.54%
-El Salvador,SLV,2015,2.40%
-El Salvador,SLV,2014,1.71%
-Chad,TCD,2018,2.37%
-Chad,TCD,2017,-2.99%
-Chad,TCD,2016,-6.26%
-Chad,TCD,2015,2.77%
-Chad,TCD,2014,6.90%
-Eswatini,SWZ,2018,2.37%
-Eswatini,SWZ,2017,2.03%
-Eswatini,SWZ,2016,1.10%
-Eswatini,SWZ,2015,2.20%
-Eswatini,SWZ,2014,0.91%
-Netherlands,NLD,2018,2.36%
-Netherlands,NLD,2017,2.91%
-Netherlands,NLD,2016,2.19%
-Netherlands,NLD,2015,1.96%
-Netherlands,NLD,2014,1.42%
-Kiribati,KIR,2018,2.31%
-Kiribati,KIR,2017,0.89%
-Kiribati,KIR,2016,5.14%
-Kiribati,KIR,2015,10.41%
-Kiribati,KIR,2014,-0.70%
-Dominica,DMA,2018,2.30%
-Dominica,DOM,2017,-6.80%
-Dominica,DMA,2016,2.56%
-Dominica,DOM,2015,-2.69%
-Dominica,DMA,2014,4.45%
-Cuba,CUB,2018,2.25%
-Cuba,CUB,2017,1.81%
-Cuba,CUB,2016,0.51%
-Cuba,CUB,2015,4.44%
-Cuba,CUB,2014,1.05%
-Isle Of Man,IMN,2018,2.21%
-Isle Of Man,IMN,2017,2.84%
-Isle Of Man,IMN,2016,6.95%
-Isle Of Man,IMN,2015,-0.39%
-Isle Of Man,IMN,2014,5.16%
-Mexico,MEX,2018,2.20%
-Mexico,MEX,2017,2.11%
-Mexico,MEX,2016,2.63%
-Mexico,MEX,2015,3.29%
-Mexico,MEX,2014,2.85%
-Denmark,DNK,2018,2.18%
-Denmark,DNK,2017,2.82%
-Denmark,DNK,2016,3.25%
-Denmark,DNK,2015,2.34%
-Denmark,DNK,2014,1.62%
-St. Vincent And The Grenadines,VCT,2018,2.16%
-St. Vincent And The Grenadines,VCT,2017,1.00%
-St. Vincent And The Grenadines,VCT,2016,1.90%
-St. Vincent And The Grenadines,VCT,2015,1.33%
-St. Vincent And The Grenadines,VCT,2014,1.21%
-Mauritania,MRT,2018,2.12%
-Mauritania,MRT,2017,3.50%
-Mauritania,MRT,2016,1.26%
-Mauritania,MRT,2015,5.38%
-Mauritania,MRT,2014,4.27%
-Costa Rica,CRI,2018,2.06%
-Costa Rica,CRI,2017,4.16%
-Costa Rica,CRI,2016,4.20%
-Costa Rica,CRI,2015,3.65%
-Costa Rica,CRI,2014,3.54%
-Sweden,SWE,2018,1.95%
-Sweden,SWE,2017,2.57%
-Sweden,SWE,2016,2.07%
-Sweden,SWE,2015,4.49%
-Sweden,SWE,2014,2.66%
-Jordan,JOR,2018,1.93%
-Jordan,JOR,2017,2.09%
-Jordan,JOR,2016,1.99%
-Jordan,JOR,2015,2.50%
-Jordan,JOR,2014,3.38%
-Nigeria,NGA,2018,1.92%
-Nigeria,NGA,2017,0.81%
-Nigeria,NGA,2016,-1.62%
-Nigeria,NGA,2015,2.65%
-Nigeria,NGA,2014,6.31%
-Jamaica,JAM,2018,1.89%
-Jamaica,JAM,2017,1.00%
-Jamaica,JAM,2016,1.38%
-Jamaica,JAM,2015,0.92%
-Jamaica,JAM,2014,0.69%
-France,FRA,2018,1.79%
-France,FRA,2017,2.29%
-France,FRA,2016,1.10%
-France,FRA,2015,1.11%
-France,FRA,2014,0.96%
-Belgium,BEL,2018,1.79%
-Belgium,BEL,2017,1.62%
-Belgium,BEL,2016,1.27%
-Belgium,BEL,2015,2.04%
-Belgium,BEL,2014,1.58%
-Brazil,BRA,2018,1.78%
-Brazil,BRA,2017,1.32%
-Brazil,BRA,2016,-3.28%
-Brazil,BRA,2015,-3.55%
-Brazil,BRA,2014,0.50%
-Bahrain,BHR,2018,1.72%
-Bahrain,BHR,2017,4.29%
-Bahrain,BHR,2016,3.56%
-Bahrain,BHR,2015,2.49%
-Bahrain,BHR,2014,4.35%
-Haiti,HTI,2018,1.67%
-Haiti,HTI,2017,2.29%
-Haiti,HTI,2016,1.72%
-Haiti,HTI,2015,1.62%
-Haiti,HTI,2014,3.40%
-Burundi,BDI,2018,1.61%
-Burundi,BDI,2017,0.50%
-Burundi,BDI,2016,-0.60%
-Burundi,BDI,2015,-3.90%
-Burundi,BDI,2014,4.24%
-Andorra,AND,2018,1.59%
-Andorra,AND,2017,0.35%
-Andorra,AND,2016,3.71%
-Andorra,AND,2015,1.43%
-Andorra,AND,2014,2.50%
-Greece,GRC,2018,1.56%
-Greece,GRC,2017,1.28%
-Greece,GRC,2016,-0.49%
-Greece,GRC,2015,-0.41%
-Greece,GRC,2014,0.70%
-San Marino,SMR,2018,1.54%
-San Marino,SMR,2017,0.26%
-San Marino,SMR,2016,2.34%
-San Marino,SMR,2015,2.29%
-San Marino,SMR,2014,-0.70%
-Virgin Islands (U.S.),VIR,2018,1.51%
-Virgin Islands (U.S.),VIR,2017,-0.61%
-Virgin Islands (U.S.),VIR,2016,1.13%
-Virgin Islands (U.S.),VIR,2015,0.26%
-Virgin Islands (U.S.),VIR,2014,-0.87%
-Azerbaijan,AZE,2018,1.50%
-Azerbaijan,AZE,2017,0.15%
-Azerbaijan,AZE,2016,-3.06%
-Azerbaijan,AZE,2015,1.05%
-Azerbaijan,AZE,2014,2.80%
-Seychelles,SYC,2018,1.33%
-Seychelles,SYC,2017,4.82%
-Seychelles,SYC,2016,4.56%
-Seychelles,SYC,2015,4.94%
-Seychelles,SYC,2014,4.50%
-Finland,FIN,2018,1.31%
-Finland,FIN,2017,3.19%
-Finland,FIN,2016,2.81%
-Finland,FIN,2015,0.54%
-Finland,FIN,2014,-0.36%
-Ecuador,ECU,2018,1.29%
-Ecuador,ECU,2017,2.37%
-Ecuador,ECU,2016,-1.23%
-Ecuador,ECU,2015,0.10%
-Ecuador,ECU,2014,3.79%
-Guinea-Bissau,GNB,2018,1.28%
-Guinea-Bissau,GNB,2017,5.92%
-Guinea-Bissau,GNB,2016,6.26%
-Guinea-Bissau,GNB,2015,6.13%
-Guinea-Bissau,GNB,2014,0.96%
-Germany,DEU,2018,1.27%
-Germany,DEU,2017,2.60%
-Germany,DEU,2016,2.23%
-Germany,DEU,2015,1.49%
-Germany,DEU,2014,2.21%
-United Kingdom,GBR,2018,1.25%
-United Kingdom,GBR,2017,1.74%
-United Kingdom,GBR,2016,1.72%
-United Kingdom,GBR,2015,2.36%
-United Kingdom,GBR,2014,2.86%
-Kuwait,KWT,2018,1.25%
-Kuwait,KWT,2017,-4.71%
-Kuwait,KWT,2016,2.93%
-Kuwait,KWT,2015,0.59%
-Kuwait,KWT,2014,0.50%
-Qatar,QAT,2018,1.23%
-Qatar,QAT,2017,-1.50%
-Qatar,QAT,2016,3.06%
-Qatar,QAT,2015,4.75%
-Qatar,QAT,2014,5.33%
-West Bank And Gaza,PSE,2018,1.23%
-West Bank And Gaza,PSE,2017,1.42%
-West Bank And Gaza,PSE,2016,8.86%
-West Bank And Gaza,PSE,2015,3.72%
-West Bank And Gaza,PSE,2014,-0.16%
-Liberia,LBR,2018,1.22%
-Liberia,LBR,2017,2.47%
-Liberia,LBR,2016,-1.60%
-Liberia,LBR,2015,0.00%
-Liberia,LBR,2014,0.70%
-Algeria,DZA,2018,1.20%
-Algeria,DZA,2017,1.30%
-Algeria,DZA,2016,3.20%
-Algeria,DZA,2015,3.70%
-Algeria,DZA,2014,3.80%
-UAE,UAE,2018,1.19%
-UAE,UAE,2017,2.37%
-UAE,UAE,2016,3.06%
-UAE,UAE,2015,5.11%
-UAE,UAE,2014,4.28%
-Afghanistan,AFG,2018,1.19%
-Afghanistan,AFG,2017,2.65%
-Afghanistan,AFG,2016,2.26%
-Afghanistan,AFG,2015,1.45%
-Afghanistan,AFG,2014,2.72%
-Norway,NOR,2018,1.12%
-Norway,NOR,2017,2.32%
-Norway,NOR,2016,1.07%
-Norway,NOR,2015,1.97%
-Norway,NOR,2014,1.97%
-Namibia,NAM,2018,1.11%
-Namibia,NAM,2017,-1.03%
-Namibia,NAM,2016,0.03%
-Namibia,NAM,2015,4.26%
-Namibia,NAM,2014,6.09%
-Italy,ITA,2018,0.94%
-Italy,ITA,2017,1.67%
-Italy,ITA,2016,1.29%
-Italy,ITA,2015,0.78%
-Italy,ITA,2014,0.00%
-Oman,OMN,2018,0.92%
-Oman,OMN,2017,0.35%
-Oman,OMN,2016,5.10%
-Oman,OMN,2015,4.63%
-Oman,OMN,2014,1.46%
-Gabon,GAB,2018,0.84%
-Gabon,GAB,2017,0.47%
-Gabon,GAB,2016,2.09%
-Gabon,GAB,2015,3.88%
-Gabon,GAB,2014,4.32%
-South Africa,ZAF,2018,0.79%
-South Africa,ZAF,2017,1.41%
-South Africa,ZAF,2016,0.40%
-South Africa,ZAF,2015,1.19%
-South Africa,ZAF,2014,1.85%
-"Yemen, Rep.",YEM,2018,0.75%
-"Yemen, Rep.",YEM,2017,-5.07%
-"Yemen, Rep.",YEM,2016,-9.38%
-"Yemen, Rep.",YEM,2015,-27.99%
-"Yemen, Rep.",YEM,2014,-0.19%
-Uruguay,URY,2018,0.48%
-Uruguay,URY,2017,1.63%
-Uruguay,URY,2016,1.69%
-Uruguay,URY,2015,0.37%
-Uruguay,URY,2014,3.24%
-Japan,JPN,2018,0.32%
-Japan,JPN,2017,2.17%
-Japan,JPN,2016,0.52%
-Japan,JPN,2015,1.22%
-Japan,JPN,2014,0.37%
-Tonga,TON,2018,0.30%
-Tonga,TON,2017,3.32%
-Tonga,TON,2016,6.57%
-Tonga,TON,2015,1.17%
-Tonga,TON,2014,2.02%
-"Micronesia, Fed. Sts.",FSM,2018,0.21%
-"Micronesia, Fed. Sts.",FSM,2017,2.68%
-"Micronesia, Fed. Sts.",FSM,2016,0.90%
-"Micronesia, Fed. Sts.",FSM,2015,4.62%
-"Micronesia, Fed. Sts.",FSM,2014,-2.31%
-Trinidad And Tobago,TTO,2018,0.07%
-Trinidad And Tobago,TTO,2017,-2.99%
-Trinidad And Tobago,TTO,2016,-5.60%
-Trinidad And Tobago,TTO,2015,1.48%
-Trinidad And Tobago,TTO,2014,-0.91%
-Brunei,BRN,2018,0.05%
-Brunei,BRN,2017,1.33%
-Brunei,BRN,2016,-2.48%
-Brunei,BRN,2015,-0.39%
-Brunei,BRN,2014,-2.51%
-Papua New Guinea,PNG,2018,-0.28%
-Papua New Guinea,PNG,2017,3.53%
-Papua New Guinea,PNG,2016,5.49%
-Papua New Guinea,PNG,2015,6.58%
-Papua New Guinea,PNG,2014,13.54%
-Bermuda,BMU,2018,-0.43%
-Bermuda,BMU,2017,3.61%
-Bermuda,BMU,2016,-0.66%
-Bermuda,BMU,2015,0.78%
-Bermuda,BMU,2014,-3.70%
-Barbados,BRB,2018,-0.58%
-Barbados,BRB,2017,0.48%
-Barbados,BRB,2016,2.48%
-Barbados,BRB,2015,2.45%
-Barbados,BRB,2014,-0.12%
-Guam,GUM,2018,-0.90%
-Guam,GUM,2017,0.89%
-Guam,GUM,2016,0.18%
-Guam,GUM,2015,0.83%
-Guam,GUM,2014,1.79%
-Timor-Leste,TLS,2018,-1.05%
-Timor-Leste,TLS,2017,-4.10%
-Timor-Leste,TLS,2016,3.36%
-Timor-Leste,TLS,2015,2.91%
-Timor-Leste,TLS,2014,4.45%
-Iraq,IRQ,2018,-1.21%
-Iraq,IRQ,2017,-1.75%
-Iraq,IRQ,2016,13.79%
-Iraq,IRQ,2015,4.72%
-Iraq,IRQ,2014,0.20%
-Lesotho,LSO,2018,-1.22%
-Lesotho,LSO,2017,-3.14%
-Lesotho,LSO,2016,3.59%
-Lesotho,LSO,2015,3.13%
-Lesotho,LSO,2014,1.71%
-Lebanon,LBN,2018,-1.93%
-Lebanon,LBN,2017,0.85%
-Lebanon,LBN,2016,1.53%
-Lebanon,LBN,2015,0.21%
-Lebanon,LBN,2014,2.46%
-Angola,AGO,2018,-2.00%
-Angola,AGO,2017,-0.15%
-Angola,AGO,2016,-2.58%
-Angola,AGO,2015,0.94%
-Angola,AGO,2014,4.82%
-Samoa,ASM,2018,-2.06%
-Samoa,WSM,2017,1.04%
-Samoa,ASM,2016,8.05%
-Samoa,WSM,2015,4.27%
-Samoa,ASM,2014,0.08%
-Curacao,CUW,2018,-2.17%
-Curacao,CUW,2017,-1.74%
-Curacao,CUW,2016,-0.99%
-Curacao,CUW,2015,0.28%
-Curacao,CUW,2014,-1.14%
-Argentina,ARG,2018,-2.57%
-Argentina,ARG,2017,2.82%
-Argentina,ARG,2016,-2.08%
-Argentina,ARG,2015,2.73%
-Argentina,ARG,2014,-2.51%
-Nicaragua,NIC,2018,-3.36%
-Nicaragua,NIC,2017,4.63%
-Nicaragua,NIC,2016,4.56%
-Nicaragua,NIC,2015,4.79%
-Nicaragua,NIC,2014,4.79%
-Puerto Rico,PRI,2018,-4.15%
-Puerto Rico,PRI,2017,-2.89%
-Puerto Rico,PRI,2016,-1.26%
-Puerto Rico,PRI,2015,-1.05%
-Puerto Rico,PRI,2014,-1.19%
-"Congo. Rep., Rep.",COG,2018,-4.85%
-"Congo. Rep., Rep.",COG,2017,-4.37%
-"Congo. Rep., Rep.",COG,2016,-10.70%
-"Congo. Rep., Rep.",COG,2015,-3.55%
-"Congo. Rep., Rep.",COG,2014,6.72%
-"Iran, Islamic Rep.",IRN,2018,-6.03%
-"Iran, Islamic Rep.",IRN,2017,3.76%
-"Iran, Islamic Rep.",IRN,2016,13.40%
-"Iran, Islamic Rep.",IRN,2015,-1.32%
-"Iran, Islamic Rep.",IRN,2014,4.60%
-Equatorial Guinea,GNQ,2018,-6.24%
-Equatorial Guinea,GNQ,2017,-5.67%
-Equatorial Guinea,GNQ,2016,-8.82%
-Equatorial Guinea,GNQ,2015,-9.11%
-Equatorial Guinea,GNQ,2014,0.42%
-Sint Maarten (Dutch Part),SXM,2018,-6.60%
-Sint Maarten (Dutch Part),SXM,2017,-5.80%
-Sint Maarten (Dutch Part),SXM,2016,0.50%
-Sint Maarten (Dutch Part),SXM,2015,0.40%
-Sint Maarten (Dutch Part),SXM,2014,1.58%
-Northern Mariana Islands,MNP,2018,-19.35%
-Northern Mariana Islands,MNP,2017,23.17%
-Northern Mariana Islands,MNP,2016,29.21%
-Northern Mariana Islands,MNP,2015,3.38%
-Northern Mariana Islands,MNP,2014,4.18%
-"Venezuela, RB",VEN,2018,0.00%
-"Venezuela, RB",VEN,2017,0.00%
-"Venezuela, RB",VEN,2016,0.00%
-"Venezuela, RB",VEN,2015,0.00%
-"Venezuela, RB",VEN,2014,-3.89%
-South Sudan,SSD,2018,0.00%
-South Sudan,SSD,2017,0.00%
-South Sudan,SSD,2016,0.00%
-South Sudan,SSD,2015,-10.79%
-South Sudan,SSD,2014,3.37%
-Aruba,ABW,2018,0.00%
-Aruba,ABW,2017,2.00%
-Aruba,ABW,2016,2.10%
-Aruba,ABW,2015,5.70%
-Aruba,ABW,2014,0.30%
+,Country,Code,Year,GDPGrowth,ID
+0,Libya,LBY,2018,15.13%,Libya_2018
+1,Libya,LBY,2017,26.68%,Libya_2017
+2,Libya,LBY,2016,-2.80%,Libya_2016
+3,Libya,LBY,2015,-8.86%,Libya_2015
+4,Libya,LBY,2014,-24.00%,Libya_2014
+5,Rwanda,RWA,2018,8.58%,Rwanda_2018
+6,Rwanda,RWA,2017,3.98%,Rwanda_2017
+7,Rwanda,RWA,2016,5.97%,Rwanda_2016
+8,Rwanda,RWA,2015,8.86%,Rwanda_2015
+9,Rwanda,RWA,2014,6.17%,Rwanda_2014
+10,Ireland,IRL,2018,8.52%,Ireland_2018
+11,Ireland,IRL,2017,9.13%,Ireland_2017
+12,Ireland,IRL,2016,1.99%,Ireland_2016
+13,Ireland,IRL,2015,25.18%,Ireland_2015
+14,Ireland,IRL,2014,8.64%,Ireland_2014
+15,Djibouti,DJI,2018,8.41%,Djibouti_2018
+16,Djibouti,DJI,2017,5.40%,Djibouti_2017
+17,Djibouti,DJI,2016,6.65%,Djibouti_2016
+18,Djibouti,DJI,2015,7.70%,Djibouti_2015
+19,Djibouti,DJI,2014,7.06%,Djibouti_2014
+20,Maldives,MDV,2018,8.13%,Maldives_2018
+21,Maldives,MDV,2017,7.21%,Maldives_2017
+22,Maldives,MDV,2016,6.34%,Maldives_2016
+23,Maldives,MDV,2015,2.88%,Maldives_2015
+24,Maldives,MDV,2014,7.33%,Maldives_2014
+25,Bangladesh,BGD,2018,7.86%,Bangladesh_2018
+26,Bangladesh,BGD,2017,7.28%,Bangladesh_2017
+27,Bangladesh,BGD,2016,7.11%,Bangladesh_2016
+28,Bangladesh,BGD,2015,6.55%,Bangladesh_2015
+29,Bangladesh,BGD,2014,6.06%,Bangladesh_2014
+30,Nepal,NPL,2018,7.62%,Nepal_2018
+31,Nepal,NPL,2017,8.98%,Nepal_2017
+32,Nepal,NPL,2016,0.43%,Nepal_2016
+33,Nepal,NPL,2015,3.98%,Nepal_2015
+34,Nepal,NPL,2014,6.01%,Nepal_2014
+35,Tajikistan,TJK,2018,7.60%,Tajikistan_2018
+36,Tajikistan,TJK,2017,7.10%,Tajikistan_2017
+37,Tajikistan,TJK,2016,6.90%,Tajikistan_2016
+38,Tajikistan,TJK,2015,6.00%,Tajikistan_2015
+39,Tajikistan,TJK,2014,6.70%,Tajikistan_2014
+40,Cambodia,KHM,2018,7.47%,Cambodia_2018
+41,Cambodia,KHM,2017,6.84%,Cambodia_2017
+42,Cambodia,KHM,2016,6.94%,Cambodia_2016
+43,Cambodia,KHM,2015,7.12%,Cambodia_2015
+44,Cambodia,KHM,2014,7.14%,Cambodia_2014
+45,Mongolia,MNG,2018,7.25%,Mongolia_2018
+46,Mongolia,MNG,2017,5.34%,Mongolia_2017
+47,Mongolia,MNG,2016,1.17%,Mongolia_2016
+48,Mongolia,MNG,2015,2.38%,Mongolia_2015
+49,Mongolia,MNG,2014,7.89%,Mongolia_2014
+50,"Gambia, The",GMB,2018,7.23%,"Gambia, The_2018"
+51,"Gambia, The",GMB,2017,4.82%,"Gambia, The_2017"
+52,"Gambia, The",GMB,2016,1.94%,"Gambia, The_2016"
+53,"Gambia, The",GMB,2015,4.06%,"Gambia, The_2015"
+54,"Gambia, The",GMB,2014,-1.41%,"Gambia, The_2014"
+55,Niger,NER,2018,7.22%,Niger_2018
+56,Niger,NGA,2017,5.00%,Niger_2017
+57,Niger,NER,2016,5.71%,Niger_2016
+58,Niger,NGA,2015,4.39%,Niger_2015
+59,Niger,NER,2014,6.64%,Niger_2014
+60,Vietnam,VNM,2018,7.08%,Vietnam_2018
+61,Vietnam,VNM,2017,6.81%,Vietnam_2017
+62,Vietnam,VNM,2016,6.21%,Vietnam_2016
+63,Vietnam,VNM,2015,6.68%,Vietnam_2015
+64,Vietnam,VNM,2014,5.98%,Vietnam_2014
+65,Dominican Republic,DOM,2018,6.98%,Dominican Republic_2018
+66,Dominican Republic,DOM,2017,4.67%,Dominican Republic_2017
+67,Dominican Republic,DOM,2016,6.66%,Dominican Republic_2016
+68,Dominican Republic,DOM,2015,6.93%,Dominican Republic_2015
+69,Dominican Republic,DOM,2014,7.05%,Dominican Republic_2014
+70,Antigua And Barbuda,ATG,2018,6.95%,Antigua And Barbuda_2018
+71,Antigua And Barbuda,ATG,2017,3.14%,Antigua And Barbuda_2017
+72,Antigua And Barbuda,ATG,2016,5.50%,Antigua And Barbuda_2016
+73,Antigua And Barbuda,ATG,2015,3.83%,Antigua And Barbuda_2015
+74,Antigua And Barbuda,ATG,2014,3.80%,Antigua And Barbuda_2014
+75,Ethiopia,ETH,2018,6.82%,Ethiopia_2018
+76,Ethiopia,ETH,2017,9.56%,Ethiopia_2017
+77,Ethiopia,ETH,2016,9.43%,Ethiopia_2016
+78,Ethiopia,ETH,2015,10.39%,Ethiopia_2015
+79,Ethiopia,ETH,2014,10.26%,Ethiopia_2014
+80,Myanmar,MMR,2018,6.75%,Myanmar_2018
+81,Myanmar,MMR,2017,6.41%,Myanmar_2017
+82,Myanmar,MMR,2016,5.75%,Myanmar_2016
+83,Myanmar,MMR,2015,6.99%,Myanmar_2015
+84,Myanmar,MMR,2014,7.99%,Myanmar_2014
+85,China,CHN,2018,6.75%,China_2018
+86,China,HKG,2017,6.95%,China_2017
+87,China,MAC,2016,6.85%,China_2016
+88,China,CHN,2015,7.04%,China_2015
+89,China,HKG,2014,7.43%,China_2014
+90,Burkina Faso,BFA,2018,6.73%,Burkina Faso_2018
+91,Burkina Faso,BFA,2017,6.20%,Burkina Faso_2017
+92,Burkina Faso,BFA,2016,5.96%,Burkina Faso_2016
+93,Burkina Faso,BFA,2015,3.92%,Burkina Faso_2015
+94,Burkina Faso,BFA,2014,4.33%,Burkina Faso_2014
+95,Benin,BEN,2018,6.70%,Benin_2018
+96,Benin,BEN,2017,5.67%,Benin_2017
+97,Benin,BEN,2016,3.34%,Benin_2016
+98,Benin,BEN,2015,1.78%,Benin_2015
+99,Benin,BEN,2014,6.36%,Benin_2014
+100,India,IND,2018,6.53%,India_2018
+101,India,IND,2017,6.80%,India_2017
+102,India,IND,2016,8.26%,India_2016
+103,India,IND,2015,8.00%,India_2015
+104,India,IND,2014,7.41%,India_2014
+105,"Macao, China",MAC,2018,6.47%,"Macao, China_2018"
+106,"Macao, China",MAC,2017,9.98%,"Macao, China_2017"
+107,"Macao, China",MAC,2016,-0.67%,"Macao, China_2016"
+108,"Macao, China",MAC,2015,-21.49%,"Macao, China_2015"
+109,"Macao, China",MAC,2014,-2.05%,"Macao, China_2014"
+110,Guinea,PNG,2018,6.36%,Guinea_2018
+111,Guinea,GIN,2017,10.30%,Guinea_2017
+112,Guinea,GNB,2016,10.82%,Guinea_2016
+113,Guinea,GNQ,2015,3.83%,Guinea_2015
+114,Guinea,PNG,2014,3.70%,Guinea_2014
+115,Philippines,PHL,2018,6.34%,Philippines_2018
+116,Philippines,PHL,2017,6.93%,Philippines_2017
+117,Philippines,PHL,2016,7.15%,Philippines_2016
+118,Philippines,PHL,2015,6.35%,Philippines_2015
+119,Philippines,PHL,2014,6.35%,Philippines_2014
+120,Kenya,KEN,2018,6.32%,Kenya_2018
+121,Kenya,KEN,2017,4.81%,Kenya_2017
+122,Kenya,KEN,2016,5.88%,Kenya_2016
+123,Kenya,KEN,2015,5.72%,Kenya_2015
+124,Kenya,KEN,2014,5.36%,Kenya_2014
+125,Lao PDR,LAO,2018,6.25%,Lao PDR_2018
+126,Lao PDR,LAO,2017,6.89%,Lao PDR_2017
+127,Lao PDR,LAO,2016,7.02%,Lao PDR_2016
+128,Lao PDR,LAO,2015,7.27%,Lao PDR_2015
+129,Lao PDR,LAO,2014,7.61%,Lao PDR_2014
+130,Senegal,SEN,2018,6.21%,Senegal_2018
+131,Senegal,SEN,2017,7.41%,Senegal_2017
+132,Senegal,SEN,2016,6.36%,Senegal_2016
+133,Senegal,SEN,2015,6.37%,Senegal_2015
+134,Senegal,SEN,2014,6.22%,Senegal_2014
+135,Ghana,GHA,2018,6.20%,Ghana_2018
+136,Ghana,GHA,2017,8.13%,Ghana_2017
+137,Ghana,GHA,2016,3.37%,Ghana_2016
+138,Ghana,GHA,2015,2.12%,Ghana_2015
+139,Ghana,GHA,2014,2.86%,Ghana_2014
+140,Turkmenistan,TKM,2018,6.20%,Turkmenistan_2018
+141,Turkmenistan,TKM,2017,6.50%,Turkmenistan_2017
+142,Turkmenistan,TKM,2016,6.20%,Turkmenistan_2016
+143,Turkmenistan,TKM,2015,6.50%,Turkmenistan_2015
+144,Turkmenistan,TKM,2014,10.30%,Turkmenistan_2014
+145,Uganda,UGA,2018,6.16%,Uganda_2018
+146,Uganda,UGA,2017,3.81%,Uganda_2017
+147,Uganda,UGA,2016,4.78%,Uganda_2016
+148,Uganda,UGA,2015,5.19%,Uganda_2015
+149,Uganda,UGA,2014,5.11%,Uganda_2014
+150,Monaco,MCO,2018,6.10%,Monaco_2018
+151,Monaco,MCO,2017,-3.40%,Monaco_2017
+152,Monaco,MCO,2016,3.50%,Monaco_2016
+153,Monaco,MCO,2015,4.90%,Monaco_2015
+154,Monaco,MCO,2014,7.20%,Monaco_2014
+155,Nauru,NRU,2018,6.10%,Nauru_2018
+156,Nauru,NRU,2017,-5.75%,Nauru_2017
+157,Nauru,NRU,2016,3.57%,Nauru_2016
+158,Nauru,NRU,2015,3.70%,Nauru_2015
+159,Nauru,NRU,2014,26.56%,Nauru_2014
+160,Pakistan,PAK,2018,5.84%,Pakistan_2018
+161,Pakistan,PAK,2017,5.55%,Pakistan_2017
+162,Pakistan,PAK,2016,5.53%,Pakistan_2016
+163,Pakistan,PAK,2015,4.73%,Pakistan_2015
+164,Pakistan,PAK,2014,4.67%,Pakistan_2014
+165,"Congo. Dem. Rep., Dem. Rep.",COD,2018,5.82%,"Congo. Dem. Rep., Dem. Rep._2018"
+166,"Congo. Dem. Rep., Dem. Rep.",COD,2017,3.73%,"Congo. Dem. Rep., Dem. Rep._2017"
+167,"Congo. Dem. Rep., Dem. Rep.",COD,2016,2.40%,"Congo. Dem. Rep., Dem. Rep._2016"
+168,"Congo. Dem. Rep., Dem. Rep.",COD,2015,6.92%,"Congo. Dem. Rep., Dem. Rep._2015"
+169,"Congo. Dem. Rep., Dem. Rep.",COD,2014,9.47%,"Congo. Dem. Rep., Dem. Rep._2014"
+170,Turks And Caicos Islands,TCA,2018,5.61%,Turks And Caicos Islands_2018
+171,Turks And Caicos Islands,TCA,2017,-2.49%,Turks And Caicos Islands_2017
+172,Turks And Caicos Islands,TCA,2016,7.25%,Turks And Caicos Islands_2016
+173,Turks And Caicos Islands,TCA,2015,11.31%,Turks And Caicos Islands_2015
+174,Turks And Caicos Islands,TCA,2014,8.71%,Turks And Caicos Islands_2014
+175,Uzbekistan,UZB,2018,5.45%,Uzbekistan_2018
+176,Uzbekistan,UZB,2017,4.46%,Uzbekistan_2017
+177,Uzbekistan,UZB,2016,6.09%,Uzbekistan_2016
+178,Uzbekistan,UZB,2015,7.45%,Uzbekistan_2015
+179,Uzbekistan,UZB,2014,7.18%,Uzbekistan_2014
+180,Tanzania,TZA,2018,5.45%,Tanzania_2018
+181,Tanzania,TZA,2017,6.79%,Tanzania_2017
+182,Tanzania,TZA,2016,6.87%,Tanzania_2016
+183,Tanzania,TZA,2015,6.16%,Tanzania_2015
+184,Tanzania,TZA,2014,6.73%,Tanzania_2014
+185,Hungary,HUN,2018,5.40%,Hungary_2018
+186,Hungary,HUN,2017,4.32%,Hungary_2017
+187,Hungary,HUN,2016,2.14%,Hungary_2016
+188,Hungary,HUN,2015,3.82%,Hungary_2015
+189,Hungary,HUN,2014,4.23%,Hungary_2014
+190,Poland,POL,2018,5.35%,Poland_2018
+191,Poland,POL,2017,4.83%,Poland_2017
+192,Poland,POL,2016,3.14%,Poland_2016
+193,Poland,POL,2015,4.24%,Poland_2015
+194,Poland,POL,2014,3.38%,Poland_2014
+195,"Egypt, Arab Rep.",EGY,2018,5.31%,"Egypt, Arab Rep._2018"
+196,"Egypt, Arab Rep.",EGY,2017,4.18%,"Egypt, Arab Rep._2017"
+197,"Egypt, Arab Rep.",EGY,2016,4.35%,"Egypt, Arab Rep._2016"
+198,"Egypt, Arab Rep.",EGY,2015,4.37%,"Egypt, Arab Rep._2015"
+199,"Egypt, Arab Rep.",EGY,2014,2.92%,"Egypt, Arab Rep._2014"
+200,Cyprus,CYP,2018,5.24%,Cyprus_2018
+201,Cyprus,CYP,2017,5.15%,Cyprus_2017
+202,Cyprus,CYP,2016,6.44%,Cyprus_2016
+203,Cyprus,CYP,2015,3.22%,Cyprus_2015
+204,Cyprus,CYP,2014,-1.83%,Cyprus_2014
+205,Armenia,ARM,2018,5.20%,Armenia_2018
+206,Armenia,ARM,2017,7.50%,Armenia_2017
+207,Armenia,ARM,2016,0.20%,Armenia_2016
+208,Armenia,ARM,2015,3.20%,Armenia_2015
+209,Armenia,ARM,2014,3.60%,Armenia_2014
+210,Malta,MLT,2018,5.18%,Malta_2018
+211,Malta,MLT,2017,8.12%,Malta_2017
+212,Malta,MLT,2016,4.09%,Malta_2016
+213,Malta,MLT,2015,9.61%,Malta_2015
+214,Malta,MLT,2014,7.63%,Malta_2014
+215,Indonesia,IDN,2018,5.17%,Indonesia_2018
+216,Indonesia,IDN,2017,5.07%,Indonesia_2017
+217,Indonesia,IDN,2016,5.03%,Indonesia_2016
+218,Indonesia,IDN,2015,4.88%,Indonesia_2015
+219,Indonesia,IDN,2014,5.01%,Indonesia_2014
+220,Montenegro,MNE,2018,5.08%,Montenegro_2018
+221,Montenegro,MNE,2017,4.72%,Montenegro_2017
+222,Montenegro,MNE,2016,2.95%,Montenegro_2016
+223,Montenegro,MNE,2015,3.39%,Montenegro_2015
+224,Montenegro,MNE,2014,1.78%,Montenegro_2014
+225,Togo,TGO,2018,4.98%,Togo_2018
+226,Togo,TGO,2017,4.35%,Togo_2017
+227,Togo,TGO,2016,5.56%,Togo_2016
+228,Togo,TGO,2015,5.74%,Togo_2015
+229,Togo,TGO,2014,5.92%,Togo_2014
+230,Suriname,SUR,2018,4.95%,Suriname_2018
+231,Suriname,SUR,2017,1.57%,Suriname_2017
+232,Suriname,SUR,2016,-4.92%,Suriname_2016
+233,Suriname,SUR,2015,-3.41%,Suriname_2015
+234,Suriname,SUR,2014,0.26%,Suriname_2014
+235,Georgia,GEO,2018,4.84%,Georgia_2018
+236,Georgia,GEO,2017,4.84%,Georgia_2017
+237,Georgia,GEO,2016,2.91%,Georgia_2016
+238,Georgia,GEO,2015,3.02%,Georgia_2015
+239,Georgia,GEO,2014,4.43%,Georgia_2014
+240,Malaysia,MYS,2018,4.77%,Malaysia_2018
+241,Malaysia,MYS,2017,5.81%,Malaysia_2017
+242,Malaysia,MYS,2016,4.45%,Malaysia_2016
+243,Malaysia,MYS,2015,5.09%,Malaysia_2015
+244,Malaysia,MYS,2014,6.01%,Malaysia_2014
+245,Mali,MLI,2018,4.75%,Mali_2018
+246,Mali,MLI,2017,5.31%,Mali_2017
+247,Mali,MLI,2016,5.85%,Mali_2016
+248,Mali,MLI,2015,6.17%,Mali_2015
+249,Mali,MLI,2014,7.08%,Mali_2014
+250,Iceland,ISL,2018,4.71%,Iceland_2018
+251,Iceland,ISL,2017,4.19%,Iceland_2017
+252,Iceland,ISL,2016,6.30%,Iceland_2016
+253,Iceland,ISL,2015,4.44%,Iceland_2015
+254,Iceland,ISL,2014,1.69%,Iceland_2014
+255,Cabo Verde,CPV,2018,4.53%,Cabo Verde_2018
+256,Cabo Verde,CPV,2017,3.70%,Cabo Verde_2017
+257,Cabo Verde,CPV,2016,4.71%,Cabo Verde_2016
+258,Cabo Verde,CPV,2015,1.01%,Cabo Verde_2015
+259,Cabo Verde,CPV,2014,0.61%,Cabo Verde_2014
+260,Serbia,SRB,2018,4.50%,Serbia_2018
+261,Serbia,SRB,2017,2.10%,Serbia_2017
+262,Serbia,SRB,2016,3.34%,Serbia_2016
+263,Serbia,SRB,2015,1.81%,Serbia_2015
+264,Serbia,SRB,2014,-1.59%,Serbia_2014
+265,Botswana,BWA,2018,4.48%,Botswana_2018
+266,Botswana,BWA,2017,2.90%,Botswana_2017
+267,Botswana,BWA,2016,4.30%,Botswana_2016
+268,Botswana,BWA,2015,-1.70%,Botswana_2015
+269,Botswana,BWA,2014,4.15%,Botswana_2014
+270,Romania,ROU,2018,4.47%,Romania_2018
+271,Romania,ROU,2017,7.32%,Romania_2017
+272,Romania,ROU,2016,4.70%,Romania_2016
+273,Romania,ROU,2015,2.95%,Romania_2015
+274,Romania,ROU,2014,3.61%,Romania_2014
+275,Guyana,GUY,2018,4.44%,Guyana_2018
+276,Guyana,GUY,2017,3.73%,Guyana_2017
+277,Guyana,GUY,2016,3.81%,Guyana_2016
+278,Guyana,GUY,2015,0.69%,Guyana_2015
+279,Guyana,GUY,2014,1.69%,Guyana_2014
+280,Malawi,MWI,2018,4.42%,Malawi_2018
+281,Malawi,MWI,2017,4.00%,Malawi_2017
+282,Malawi,MWI,2016,2.48%,Malawi_2016
+283,Malawi,MWI,2015,2.80%,Malawi_2015
+284,Malawi,MWI,2014,5.70%,Malawi_2014
+285,Slovenia,SVN,2018,4.38%,Slovenia_2018
+286,Slovenia,SVN,2017,4.79%,Slovenia_2017
+287,Slovenia,SVN,2016,3.19%,Slovenia_2016
+288,Slovenia,SVN,2015,2.21%,Slovenia_2015
+289,Slovenia,SVN,2014,2.77%,Slovenia_2014
+290,Estonia,EST,2018,4.36%,Estonia_2018
+291,Estonia,EST,2017,5.50%,Estonia_2017
+292,Estonia,EST,2016,3.19%,Estonia_2016
+293,Estonia,EST,2015,1.84%,Estonia_2015
+294,Estonia,EST,2014,2.99%,Estonia_2014
+295,Moldova,MDA,2018,4.30%,Moldova_2018
+296,Moldova,MDA,2017,4.69%,Moldova_2017
+297,Moldova,MDA,2016,4.41%,Moldova_2016
+298,Moldova,MDA,2015,-0.34%,Moldova_2015
+299,Moldova,MDA,2014,5.00%,Moldova_2014
+300,Bolivia,BOL,2018,4.22%,Bolivia_2018
+301,Bolivia,BOL,2017,4.20%,Bolivia_2017
+302,Bolivia,BOL,2016,4.26%,Bolivia_2016
+303,Bolivia,BOL,2015,4.86%,Bolivia_2015
+304,Bolivia,BOL,2014,5.46%,Bolivia_2014
+305,Cayman Islands,CYM,2018,4.19%,Cayman Islands_2018
+306,Cayman Islands,CYM,2017,3.18%,Cayman Islands_2017
+307,Cayman Islands,CYM,2016,3.24%,Cayman Islands_2016
+308,Cayman Islands,CYM,2015,2.83%,Cayman Islands_2015
+309,Cayman Islands,CYM,2014,2.65%,Cayman Islands_2014
+310,Thailand,THA,2018,4.19%,Thailand_2018
+311,Thailand,THA,2017,4.18%,Thailand_2017
+312,Thailand,THA,2016,3.44%,Thailand_2016
+313,Thailand,THA,2015,3.13%,Thailand_2015
+314,Thailand,THA,2014,0.98%,Thailand_2014
+315,Grenada,GRD,2018,4.14%,Grenada_2018
+316,Grenada,GRD,2017,4.44%,Grenada_2017
+317,Grenada,GRD,2016,3.74%,Grenada_2016
+318,Grenada,GRD,2015,6.44%,Grenada_2015
+319,Grenada,GRD,2014,7.34%,Grenada_2014
+320,Kazakhstan,KAZ,2018,4.10%,Kazakhstan_2018
+321,Kazakhstan,KAZ,2017,4.10%,Kazakhstan_2017
+322,Kazakhstan,KAZ,2016,1.10%,Kazakhstan_2016
+323,Kazakhstan,KAZ,2015,1.20%,Kazakhstan_2015
+324,Kazakhstan,KAZ,2014,4.20%,Kazakhstan_2014
+325,Albania,ALB,2018,4.07%,Albania_2018
+326,Albania,ALB,2017,3.80%,Albania_2017
+327,Albania,ALB,2016,3.31%,Albania_2016
+328,Albania,ALB,2015,2.22%,Albania_2015
+329,Albania,ALB,2014,1.77%,Albania_2014
+330,Cameroon,CMR,2018,4.06%,Cameroon_2018
+331,Cameroon,CMR,2017,3.55%,Cameroon_2017
+332,Cameroon,CMR,2016,4.65%,Cameroon_2016
+333,Cameroon,CMR,2015,5.65%,Cameroon_2015
+334,Cameroon,CMR,2014,5.88%,Cameroon_2014
+335,Palau,PLW,2018,4.06%,Palau_2018
+336,Palau,PLW,2017,-1.92%,Palau_2017
+337,Palau,PLW,2016,-0.08%,Palau_2016
+338,Palau,PLW,2015,7.54%,Palau_2015
+339,Palau,PLW,2014,6.29%,Palau_2014
+340,Zambia,ZMB,2018,4.03%,Zambia_2018
+341,Zambia,ZMB,2017,3.50%,Zambia_2017
+342,Zambia,ZMB,2016,3.78%,Zambia_2016
+343,Zambia,ZMB,2015,2.92%,Zambia_2015
+344,Zambia,ZMB,2014,4.70%,Zambia_2014
+345,Latvia,LVA,2018,4.02%,Latvia_2018
+346,Latvia,LVA,2017,3.25%,Latvia_2017
+347,Latvia,LVA,2016,2.37%,Latvia_2016
+348,Latvia,LVA,2015,4.01%,Latvia_2015
+349,Latvia,LVA,2014,1.07%,Latvia_2014
+350,Peru,PER,2018,3.97%,Peru_2018
+351,Peru,PER,2017,2.52%,Peru_2017
+352,Peru,PER,2016,3.95%,Peru_2016
+353,Peru,PER,2015,3.25%,Peru_2015
+354,Peru,PER,2014,2.38%,Peru_2014
+355,Solomon Islands,SLB,2018,3.94%,Solomon Islands_2018
+356,Solomon Islands,SLB,2017,5.34%,Solomon Islands_2017
+357,Solomon Islands,SLB,2016,5.88%,Solomon Islands_2016
+358,Solomon Islands,SLB,2015,1.42%,Solomon Islands_2015
+359,Solomon Islands,SLB,2014,1.05%,Solomon Islands_2014
+360,Lithuania,LTU,2018,3.94%,Lithuania_2018
+361,Lithuania,LTU,2017,4.28%,Lithuania_2017
+362,Lithuania,LTU,2016,2.52%,Lithuania_2016
+363,Lithuania,LTU,2015,2.02%,Lithuania_2015
+364,Lithuania,LTU,2014,3.54%,Lithuania_2014
+365,Honduras,HND,2018,3.85%,Honduras_2018
+366,Honduras,HND,2017,4.84%,Honduras_2017
+367,Honduras,HND,2016,3.89%,Honduras_2016
+368,Honduras,HND,2015,3.84%,Honduras_2015
+369,Honduras,HND,2014,3.06%,Honduras_2014
+370,Kosovo,XKX,2018,3.81%,Kosovo_2018
+371,Kosovo,XKX,2017,4.23%,Kosovo_2017
+372,Kosovo,XKX,2016,4.07%,Kosovo_2016
+373,Kosovo,XKX,2015,4.10%,Kosovo_2015
+374,Kosovo,XKX,2014,1.22%,Kosovo_2014
+375,Fiji,FJI,2018,3.81%,Fiji_2018
+376,Fiji,FJI,2017,5.35%,Fiji_2017
+377,Fiji,FJI,2016,2.44%,Fiji_2016
+378,Fiji,FJI,2015,4.50%,Fiji_2015
+379,Fiji,FJI,2014,5.60%,Fiji_2014
+380,Central African Republic,CAF,2018,3.79%,Central African Republic_2018
+381,Central African Republic,CAF,2017,4.53%,Central African Republic_2017
+382,Central African Republic,CAF,2016,4.75%,Central African Republic_2016
+383,Central African Republic,CAF,2015,4.34%,Central African Republic_2015
+384,Central African Republic,CAF,2014,0.08%,Central African Republic_2014
+385,Mauritius,MUS,2018,3.76%,Mauritius_2018
+386,Mauritius,MUS,2017,3.81%,Mauritius_2017
+387,Mauritius,MUS,2016,3.84%,Mauritius_2016
+388,Mauritius,MUS,2015,3.55%,Mauritius_2015
+389,Mauritius,MUS,2014,3.74%,Mauritius_2014
+390,Kyrgyz Republic,KGZ,2018,3.76%,Kyrgyz Republic_2018
+391,Kyrgyz Republic,KGZ,2017,4.74%,Kyrgyz Republic_2017
+392,Kyrgyz Republic,KGZ,2016,4.34%,Kyrgyz Republic_2016
+393,Kyrgyz Republic,KGZ,2015,3.88%,Kyrgyz Republic_2015
+394,Kyrgyz Republic,KGZ,2014,4.02%,Kyrgyz Republic_2014
+395,Bosnia,BIH,2018,3.74%,Bosnia_2018
+396,Bosnia,BIH,2017,3.17%,Bosnia_2017
+397,Bosnia,BIH,2016,3.15%,Bosnia_2016
+398,Bosnia,BIH,2015,3.09%,Bosnia_2015
+399,Bosnia,BIH,2014,1.15%,Bosnia_2014
+400,Chile,CHL,2018,3.71%,Chile_2018
+401,Chile,CHL,2017,1.18%,Chile_2017
+402,Chile,CHL,2016,1.71%,Chile_2016
+403,Chile,CHL,2015,2.30%,Chile_2015
+404,Chile,CHL,2014,1.77%,Chile_2014
+405,Slovak Republic,SVK,2018,3.65%,Slovak Republic_2018
+406,Slovak Republic,SVK,2017,2.99%,Slovak Republic_2017
+407,Slovak Republic,SVK,2016,2.13%,Slovak Republic_2016
+408,Slovak Republic,SVK,2015,4.81%,Slovak Republic_2015
+409,Slovak Republic,SVK,2014,2.64%,Slovak Republic_2014
+410,Panama,PAN,2018,3.60%,Panama_2018
+411,Panama,PAN,2017,5.59%,Panama_2017
+412,Panama,PAN,2016,4.95%,Panama_2016
+413,Panama,PAN,2015,5.73%,Panama_2015
+414,Panama,PAN,2014,5.07%,Panama_2014
+415,Singapore,SGP,2018,3.50%,Singapore_2018
+416,Singapore,SGP,2017,4.52%,Singapore_2017
+417,Singapore,SGP,2016,3.33%,Singapore_2016
+418,Singapore,SGP,2015,2.99%,Singapore_2015
+419,Singapore,SGP,2014,3.94%,Singapore_2014
+420,Zimbabwe,ZWE,2018,3.50%,Zimbabwe_2018
+421,Zimbabwe,ZWE,2017,4.70%,Zimbabwe_2017
+422,Zimbabwe,ZWE,2016,0.76%,Zimbabwe_2016
+423,Zimbabwe,ZWE,2015,1.78%,Zimbabwe_2015
+424,Zimbabwe,ZWE,2014,2.38%,Zimbabwe_2014
+425,Israel,ISR,2018,3.48%,Israel_2018
+426,Israel,ISR,2017,3.56%,Israel_2017
+427,Israel,ISR,2016,3.83%,Israel_2016
+428,Israel,ISR,2015,2.22%,Israel_2015
+429,Israel,ISR,2014,3.92%,Israel_2014
+430,Sierra Leone,SLE,2018,3.45%,Sierra Leone_2018
+431,Sierra Leone,SLE,2017,4.21%,Sierra Leone_2017
+432,Sierra Leone,SLE,2016,6.06%,Sierra Leone_2016
+433,Sierra Leone,SLE,2015,-20.60%,Sierra Leone_2015
+434,Sierra Leone,SLE,2014,4.56%,Sierra Leone_2014
+435,Mozambique,MOZ,2018,3.44%,Mozambique_2018
+436,Mozambique,MOZ,2017,3.74%,Mozambique_2017
+437,Mozambique,MOZ,2016,3.82%,Mozambique_2016
+438,Mozambique,MOZ,2015,6.72%,Mozambique_2015
+439,Mozambique,MOZ,2014,7.40%,Mozambique_2014
+440,Comoros,COM,2018,3.43%,Comoros_2018
+441,Comoros,COM,2017,3.82%,Comoros_2017
+442,Comoros,COM,2016,3.32%,Comoros_2016
+443,Comoros,COM,2015,1.12%,Comoros_2015
+444,Comoros,COM,2014,2.10%,Comoros_2014
+445,Ukraine,UKR,2018,3.41%,Ukraine_2018
+446,Ukraine,UKR,2017,2.47%,Ukraine_2017
+447,Ukraine,UKR,2016,2.24%,Ukraine_2016
+448,Ukraine,UKR,2015,-9.77%,Ukraine_2015
+449,Ukraine,UKR,2014,-6.55%,Ukraine_2014
+450,Marshall Islands,MHL,2018,3.35%,Marshall Islands_2018
+451,Marshall Islands,MHL,2017,3.38%,Marshall Islands_2017
+452,Marshall Islands,MHL,2016,1.03%,Marshall Islands_2016
+453,Marshall Islands,MHL,2015,1.61%,Marshall Islands_2015
+454,Marshall Islands,MHL,2014,-0.95%,Marshall Islands_2014
+455,American Samoa,ASM,2018,3.34%,American Samoa_2018
+456,American Samoa,ASM,2017,-6.99%,American Samoa_2017
+457,American Samoa,ASM,2016,-1.68%,American Samoa_2016
+458,American Samoa,ASM,2015,3.15%,American Samoa_2015
+459,American Samoa,ASM,2014,1.76%,American Samoa_2014
+460,Guatemala,GTM,2018,3.32%,Guatemala_2018
+461,Guatemala,GTM,2017,3.08%,Guatemala_2017
+462,Guatemala,GTM,2016,2.68%,Guatemala_2016
+463,Guatemala,GTM,2015,4.09%,Guatemala_2015
+464,Guatemala,GTM,2014,4.44%,Guatemala_2014
+465,Sri Lanka,LKA,2018,3.27%,Sri Lanka_2018
+466,Sri Lanka,LKA,2017,3.58%,Sri Lanka_2017
+467,Sri Lanka,LKA,2016,4.49%,Sri Lanka_2016
+468,Sri Lanka,LKA,2015,5.01%,Sri Lanka_2015
+469,Sri Lanka,LKA,2014,4.96%,Sri Lanka_2014
+470,Greenland,GRL,2018,3.22%,Greenland_2018
+471,Greenland,GRL,2017,0.47%,Greenland_2017
+472,Greenland,GRL,2016,4.68%,Greenland_2016
+473,Greenland,GRL,2015,-2.53%,Greenland_2015
+474,Greenland,GRL,2014,4.74%,Greenland_2014
+475,New Zealand,NZL,2018,3.21%,New Zealand_2018
+476,New Zealand,NZL,2017,3.61%,New Zealand_2017
+477,New Zealand,NZL,2016,3.73%,New Zealand_2016
+478,New Zealand,NZL,2015,3.71%,New Zealand_2015
+479,New Zealand,NZL,2014,3.81%,New Zealand_2014
+480,Paraguay,PRY,2018,3.20%,Paraguay_2018
+481,Paraguay,PRY,2017,4.81%,Paraguay_2017
+482,Paraguay,PRY,2016,4.27%,Paraguay_2016
+483,Paraguay,PRY,2015,2.96%,Paraguay_2015
+484,Paraguay,PRY,2014,5.30%,Paraguay_2014
+485,Madagascar,MDG,2018,3.20%,Madagascar_2018
+486,Madagascar,MDG,2017,3.93%,Madagascar_2017
+487,Madagascar,MDG,2016,3.99%,Madagascar_2016
+488,Madagascar,MDG,2015,3.13%,Madagascar_2015
+489,Madagascar,MDG,2014,3.34%,Madagascar_2014
+490,Czech Republic,CZE,2018,3.20%,Czech Republic_2018
+491,Czech Republic,CZE,2017,5.17%,Czech Republic_2017
+492,Czech Republic,CZE,2016,2.54%,Czech Republic_2016
+493,Czech Republic,CZE,2015,5.39%,Czech Republic_2015
+494,Czech Republic,CZE,2014,2.26%,Czech Republic_2014
+495,Belarus,BLR,2018,3.15%,Belarus_2018
+496,Belarus,BLR,2017,2.53%,Belarus_2017
+497,Belarus,BLR,2016,-2.53%,Belarus_2016
+498,Belarus,BLR,2015,-3.83%,Belarus_2015
+499,Belarus,BLR,2014,1.73%,Belarus_2014
+500,Morocco,MAR,2018,3.15%,Morocco_2018
+501,Morocco,MAR,2017,4.25%,Morocco_2017
+502,Morocco,MAR,2016,1.06%,Morocco_2016
+503,Morocco,MAR,2015,4.54%,Morocco_2015
+504,Morocco,MAR,2014,2.67%,Morocco_2014
+505,Luxembourg,LUX,2018,3.11%,Luxembourg_2018
+506,Luxembourg,LUX,2017,1.80%,Luxembourg_2017
+507,Luxembourg,LUX,2016,4.57%,Luxembourg_2016
+508,Luxembourg,LUX,2015,4.31%,Luxembourg_2015
+509,Luxembourg,LUX,2014,4.30%,Luxembourg_2014
+510,Bulgaria,BGR,2018,3.09%,Bulgaria_2018
+511,Bulgaria,BGR,2017,3.50%,Bulgaria_2017
+512,Bulgaria,BGR,2016,3.82%,Bulgaria_2016
+513,Bulgaria,BGR,2015,3.99%,Bulgaria_2015
+514,Bulgaria,BGR,2014,1.89%,Bulgaria_2014
+515,Bhutan,BTN,2018,3.06%,Bhutan_2018
+516,Bhutan,BTN,2017,4.65%,Bhutan_2017
+517,Bhutan,BTN,2016,8.13%,Bhutan_2016
+518,Bhutan,BTN,2015,6.64%,Bhutan_2015
+519,Bhutan,BTN,2014,5.78%,Bhutan_2014
+520,"Bahamas, The",BHS,2018,3.03%,"Bahamas, The_2018"
+521,"Bahamas, The",BHS,2017,3.12%,"Bahamas, The_2017"
+522,"Bahamas, The",BHS,2016,1.44%,"Bahamas, The_2016"
+523,"Bahamas, The",BHS,2015,0.23%,"Bahamas, The_2015"
+524,"Bahamas, The",BHS,2014,1.05%,"Bahamas, The_2014"
+525,Switzerland,CHE,2018,3.01%,Switzerland_2018
+526,Switzerland,CHE,2017,1.58%,Switzerland_2017
+527,Switzerland,CHE,2016,2.05%,Switzerland_2016
+528,Switzerland,CHE,2015,1.66%,Switzerland_2015
+529,Switzerland,CHE,2014,2.45%,Switzerland_2014
+530,United States,USA,2018,3.00%,United States_2018
+531,United States,USA,2017,2.33%,United States_2017
+532,United States,USA,2016,1.71%,United States_2016
+533,United States,USA,2015,3.08%,United States_2015
+534,United States,USA,2014,2.53%,United States_2014
+535,Turkey,TUR,2018,2.96%,Turkey_2018
+536,Turkey,TUR,2017,7.50%,Turkey_2017
+537,Turkey,TUR,2016,3.32%,Turkey_2016
+538,Turkey,TUR,2015,6.08%,Turkey_2015
+539,Turkey,TUR,2014,4.94%,Turkey_2014
+540,Australia,AUS,2018,2.95%,Australia_2018
+541,Australia,AUS,2017,2.30%,Australia_2017
+542,Australia,AUS,2016,2.77%,Australia_2016
+543,Australia,AUS,2015,2.19%,Australia_2015
+544,Australia,AUS,2014,2.53%,Australia_2014
+545,Sao Tome And Principe,STP,2018,2.95%,Sao Tome And Principe_2018
+546,Sao Tome And Principe,STP,2017,3.85%,Sao Tome And Principe_2017
+547,Sao Tome And Principe,STP,2016,4.16%,Sao Tome And Principe_2016
+548,Sao Tome And Principe,STP,2015,3.91%,Sao Tome And Principe_2015
+549,Sao Tome And Principe,STP,2014,6.55%,Sao Tome And Principe_2014
+550,St. Kitts And Nevis,KNA,2018,2.92%,St. Kitts And Nevis_2018
+551,St. Kitts And Nevis,KNA,2017,-1.98%,St. Kitts And Nevis_2017
+552,St. Kitts And Nevis,KNA,2016,2.83%,St. Kitts And Nevis_2016
+553,St. Kitts And Nevis,KNA,2015,1.03%,St. Kitts And Nevis_2015
+554,St. Kitts And Nevis,KNA,2014,6.28%,St. Kitts And Nevis_2014
+555,Belize,BLZ,2018,2.91%,Belize_2018
+556,Belize,BLZ,2017,1.81%,Belize_2017
+557,Belize,BLZ,2016,-0.03%,Belize_2016
+558,Belize,BLZ,2015,2.63%,Belize_2015
+559,Belize,BLZ,2014,4.04%,Belize_2014
+560,South Korea,KOR,2018,2.91%,South Korea_2018
+561,South Korea,KOR,2017,3.16%,South Korea_2017
+562,South Korea,KOR,2016,2.95%,South Korea_2016
+563,South Korea,KOR,2015,2.81%,South Korea_2015
+564,South Korea,KOR,2014,3.20%,South Korea_2014
+565,Vanuatu,VUT,2018,2.90%,Vanuatu_2018
+566,Vanuatu,VUT,2017,6.32%,Vanuatu_2017
+567,Vanuatu,VUT,2016,4.69%,Vanuatu_2016
+568,Vanuatu,VUT,2015,0.37%,Vanuatu_2015
+569,Vanuatu,VUT,2014,3.13%,Vanuatu_2014
+570,North Macedonia,MKD,2018,2.88%,North Macedonia_2018
+571,North Macedonia,MKD,2017,1.08%,North Macedonia_2017
+572,North Macedonia,MKD,2016,2.85%,North Macedonia_2016
+573,North Macedonia,MKD,2015,3.86%,North Macedonia_2015
+574,North Macedonia,MKD,2014,3.63%,North Macedonia_2014
+575,Portugal,PRT,2018,2.85%,Portugal_2018
+576,Portugal,PRT,2017,3.51%,Portugal_2017
+577,Portugal,PRT,2016,2.02%,Portugal_2016
+578,Portugal,PRT,2015,1.79%,Portugal_2015
+579,Portugal,PRT,2014,0.79%,Portugal_2014
+580,"Hong Kong, China",HKG,2018,2.85%,"Hong Kong, China_2018"
+581,"Hong Kong, China",HKG,2017,3.79%,"Hong Kong, China_2017"
+582,"Hong Kong, China",HKG,2016,2.17%,"Hong Kong, China_2016"
+583,"Hong Kong, China",HKG,2015,2.39%,"Hong Kong, China_2015"
+584,"Hong Kong, China",HKG,2014,2.76%,"Hong Kong, China_2014"
+585,Sudan,SDN,2018,2.82%,Sudan_2018
+586,Sudan,SSD,2017,4.67%,Sudan_2017
+587,Sudan,SDN,2016,3.57%,Sudan_2016
+588,Sudan,SSD,2015,4.01%,Sudan_2015
+589,Sudan,SDN,2014,7.04%,Sudan_2014
+590,Croatia,HRV,2018,2.81%,Croatia_2018
+591,Croatia,HRV,2017,3.44%,Croatia_2017
+592,Croatia,HRV,2016,3.50%,Croatia_2016
+593,Croatia,HRV,2015,2.43%,Croatia_2015
+594,Croatia,HRV,2014,-0.34%,Croatia_2014
+595,Russia,RUS,2018,2.81%,Russia_2018
+596,Russia,RUS,2017,1.83%,Russia_2017
+597,Russia,RUS,2016,0.19%,Russia_2016
+598,Russia,RUS,2015,-1.97%,Russia_2015
+599,Russia,RUS,2014,0.74%,Russia_2014
+600,Somalia,SOM,2018,2.79%,Somalia_2018
+601,Somalia,SOM,2017,1.39%,Somalia_2017
+602,Somalia,SOM,2016,2.89%,Somalia_2016
+603,Somalia,SOM,2015,3.46%,Somalia_2015
+604,Somalia,SOM,2014,2.36%,Somalia_2014
+605,Tunisia,TUN,2018,2.66%,Tunisia_2018
+606,Tunisia,TUN,2017,1.92%,Tunisia_2017
+607,Tunisia,TUN,2016,1.25%,Tunisia_2016
+608,Tunisia,TUN,2015,1.17%,Tunisia_2015
+609,Tunisia,TUN,2014,2.87%,Tunisia_2014
+610,St. Lucia,LCA,2018,2.64%,St. Lucia_2018
+611,St. Lucia,LCA,2017,3.49%,St. Lucia_2017
+612,St. Lucia,LCA,2016,3.99%,St. Lucia_2016
+613,St. Lucia,LCA,2015,-1.36%,St. Lucia_2015
+614,St. Lucia,LCA,2014,1.76%,St. Lucia_2014
+615,Austria,AUT,2018,2.58%,Austria_2018
+616,Austria,AUT,2017,2.40%,Austria_2017
+617,Austria,AUT,2016,1.99%,Austria_2016
+618,Austria,AUT,2015,1.01%,Austria_2015
+619,Austria,AUT,2014,0.66%,Austria_2014
+620,Colombia,COL,2018,2.56%,Colombia_2018
+621,Colombia,COL,2017,1.36%,Colombia_2017
+622,Colombia,COL,2016,2.09%,Colombia_2016
+623,Colombia,COL,2015,2.96%,Colombia_2015
+624,Colombia,COL,2014,4.50%,Colombia_2014
+625,Tuvalu,TUV,2018,2.50%,Tuvalu_2018
+626,Tuvalu,TUV,2017,4.09%,Tuvalu_2017
+627,Tuvalu,TUV,2016,3.03%,Tuvalu_2016
+628,Tuvalu,TUV,2015,9.14%,Tuvalu_2015
+629,Tuvalu,TUV,2014,1.35%,Tuvalu_2014
+630,Saudi Arabia,SAU,2018,2.43%,Saudi Arabia_2018
+631,Saudi Arabia,SAU,2017,-0.74%,Saudi Arabia_2017
+632,Saudi Arabia,SAU,2016,1.67%,Saudi Arabia_2016
+633,Saudi Arabia,SAU,2015,4.11%,Saudi Arabia_2015
+634,Saudi Arabia,SAU,2014,3.65%,Saudi Arabia_2014
+635,Spain,ESP,2018,2.43%,Spain_2018
+636,Spain,ESP,2017,2.97%,Spain_2017
+637,Spain,ESP,2016,3.03%,Spain_2016
+638,Spain,ESP,2015,3.84%,Spain_2015
+639,Spain,ESP,2014,1.38%,Spain_2014
+640,Canada,CAN,2018,2.43%,Canada_2018
+641,Canada,CAN,2017,3.04%,Canada_2017
+642,Canada,CAN,2016,1.00%,Canada_2016
+643,Canada,CAN,2015,0.66%,Canada_2015
+644,Canada,CAN,2014,2.87%,Canada_2014
+645,El Salvador,SLV,2018,2.41%,El Salvador_2018
+646,El Salvador,SLV,2017,2.25%,El Salvador_2017
+647,El Salvador,SLV,2016,2.54%,El Salvador_2016
+648,El Salvador,SLV,2015,2.40%,El Salvador_2015
+649,El Salvador,SLV,2014,1.71%,El Salvador_2014
+650,Chad,TCD,2018,2.37%,Chad_2018
+651,Chad,TCD,2017,-2.99%,Chad_2017
+652,Chad,TCD,2016,-6.26%,Chad_2016
+653,Chad,TCD,2015,2.77%,Chad_2015
+654,Chad,TCD,2014,6.90%,Chad_2014
+655,Eswatini,SWZ,2018,2.37%,Eswatini_2018
+656,Eswatini,SWZ,2017,2.03%,Eswatini_2017
+657,Eswatini,SWZ,2016,1.10%,Eswatini_2016
+658,Eswatini,SWZ,2015,2.20%,Eswatini_2015
+659,Eswatini,SWZ,2014,0.91%,Eswatini_2014
+660,Netherlands,NLD,2018,2.36%,Netherlands_2018
+661,Netherlands,NLD,2017,2.91%,Netherlands_2017
+662,Netherlands,NLD,2016,2.19%,Netherlands_2016
+663,Netherlands,NLD,2015,1.96%,Netherlands_2015
+664,Netherlands,NLD,2014,1.42%,Netherlands_2014
+665,Kiribati,KIR,2018,2.31%,Kiribati_2018
+666,Kiribati,KIR,2017,0.89%,Kiribati_2017
+667,Kiribati,KIR,2016,5.14%,Kiribati_2016
+668,Kiribati,KIR,2015,10.41%,Kiribati_2015
+669,Kiribati,KIR,2014,-0.70%,Kiribati_2014
+670,Dominica,DMA,2018,2.30%,Dominica_2018
+671,Dominica,DOM,2017,-6.80%,Dominica_2017
+672,Dominica,DMA,2016,2.56%,Dominica_2016
+673,Dominica,DOM,2015,-2.69%,Dominica_2015
+674,Dominica,DMA,2014,4.45%,Dominica_2014
+675,Cuba,CUB,2018,2.25%,Cuba_2018
+676,Cuba,CUB,2017,1.81%,Cuba_2017
+677,Cuba,CUB,2016,0.51%,Cuba_2016
+678,Cuba,CUB,2015,4.44%,Cuba_2015
+679,Cuba,CUB,2014,1.05%,Cuba_2014
+680,Isle Of Man,IMN,2018,2.21%,Isle Of Man_2018
+681,Isle Of Man,IMN,2017,2.84%,Isle Of Man_2017
+682,Isle Of Man,IMN,2016,6.95%,Isle Of Man_2016
+683,Isle Of Man,IMN,2015,-0.39%,Isle Of Man_2015
+684,Isle Of Man,IMN,2014,5.16%,Isle Of Man_2014
+685,Mexico,MEX,2018,2.20%,Mexico_2018
+686,Mexico,MEX,2017,2.11%,Mexico_2017
+687,Mexico,MEX,2016,2.63%,Mexico_2016
+688,Mexico,MEX,2015,3.29%,Mexico_2015
+689,Mexico,MEX,2014,2.85%,Mexico_2014
+690,Denmark,DNK,2018,2.18%,Denmark_2018
+691,Denmark,DNK,2017,2.82%,Denmark_2017
+692,Denmark,DNK,2016,3.25%,Denmark_2016
+693,Denmark,DNK,2015,2.34%,Denmark_2015
+694,Denmark,DNK,2014,1.62%,Denmark_2014
+695,St. Vincent And The Grenadines,VCT,2018,2.16%,St. Vincent And The Grenadines_2018
+696,St. Vincent And The Grenadines,VCT,2017,1.00%,St. Vincent And The Grenadines_2017
+697,St. Vincent And The Grenadines,VCT,2016,1.90%,St. Vincent And The Grenadines_2016
+698,St. Vincent And The Grenadines,VCT,2015,1.33%,St. Vincent And The Grenadines_2015
+699,St. Vincent And The Grenadines,VCT,2014,1.21%,St. Vincent And The Grenadines_2014
+700,Mauritania,MRT,2018,2.12%,Mauritania_2018
+701,Mauritania,MRT,2017,3.50%,Mauritania_2017
+702,Mauritania,MRT,2016,1.26%,Mauritania_2016
+703,Mauritania,MRT,2015,5.38%,Mauritania_2015
+704,Mauritania,MRT,2014,4.27%,Mauritania_2014
+705,Costa Rica,CRI,2018,2.06%,Costa Rica_2018
+706,Costa Rica,CRI,2017,4.16%,Costa Rica_2017
+707,Costa Rica,CRI,2016,4.20%,Costa Rica_2016
+708,Costa Rica,CRI,2015,3.65%,Costa Rica_2015
+709,Costa Rica,CRI,2014,3.54%,Costa Rica_2014
+710,Sweden,SWE,2018,1.95%,Sweden_2018
+711,Sweden,SWE,2017,2.57%,Sweden_2017
+712,Sweden,SWE,2016,2.07%,Sweden_2016
+713,Sweden,SWE,2015,4.49%,Sweden_2015
+714,Sweden,SWE,2014,2.66%,Sweden_2014
+715,Jordan,JOR,2018,1.93%,Jordan_2018
+716,Jordan,JOR,2017,2.09%,Jordan_2017
+717,Jordan,JOR,2016,1.99%,Jordan_2016
+718,Jordan,JOR,2015,2.50%,Jordan_2015
+719,Jordan,JOR,2014,3.38%,Jordan_2014
+720,Nigeria,NGA,2018,1.92%,Nigeria_2018
+721,Nigeria,NGA,2017,0.81%,Nigeria_2017
+722,Nigeria,NGA,2016,-1.62%,Nigeria_2016
+723,Nigeria,NGA,2015,2.65%,Nigeria_2015
+724,Nigeria,NGA,2014,6.31%,Nigeria_2014
+725,Jamaica,JAM,2018,1.89%,Jamaica_2018
+726,Jamaica,JAM,2017,1.00%,Jamaica_2017
+727,Jamaica,JAM,2016,1.38%,Jamaica_2016
+728,Jamaica,JAM,2015,0.92%,Jamaica_2015
+729,Jamaica,JAM,2014,0.69%,Jamaica_2014
+730,France,FRA,2018,1.79%,France_2018
+731,France,FRA,2017,2.29%,France_2017
+732,France,FRA,2016,1.10%,France_2016
+733,France,FRA,2015,1.11%,France_2015
+734,France,FRA,2014,0.96%,France_2014
+735,Belgium,BEL,2018,1.79%,Belgium_2018
+736,Belgium,BEL,2017,1.62%,Belgium_2017
+737,Belgium,BEL,2016,1.27%,Belgium_2016
+738,Belgium,BEL,2015,2.04%,Belgium_2015
+739,Belgium,BEL,2014,1.58%,Belgium_2014
+740,Brazil,BRA,2018,1.78%,Brazil_2018
+741,Brazil,BRA,2017,1.32%,Brazil_2017
+742,Brazil,BRA,2016,-3.28%,Brazil_2016
+743,Brazil,BRA,2015,-3.55%,Brazil_2015
+744,Brazil,BRA,2014,0.50%,Brazil_2014
+745,Bahrain,BHR,2018,1.72%,Bahrain_2018
+746,Bahrain,BHR,2017,4.29%,Bahrain_2017
+747,Bahrain,BHR,2016,3.56%,Bahrain_2016
+748,Bahrain,BHR,2015,2.49%,Bahrain_2015
+749,Bahrain,BHR,2014,4.35%,Bahrain_2014
+750,Haiti,HTI,2018,1.67%,Haiti_2018
+751,Haiti,HTI,2017,2.29%,Haiti_2017
+752,Haiti,HTI,2016,1.72%,Haiti_2016
+753,Haiti,HTI,2015,1.62%,Haiti_2015
+754,Haiti,HTI,2014,3.40%,Haiti_2014
+755,Burundi,BDI,2018,1.61%,Burundi_2018
+756,Burundi,BDI,2017,0.50%,Burundi_2017
+757,Burundi,BDI,2016,-0.60%,Burundi_2016
+758,Burundi,BDI,2015,-3.90%,Burundi_2015
+759,Burundi,BDI,2014,4.24%,Burundi_2014
+760,Andorra,AND,2018,1.59%,Andorra_2018
+761,Andorra,AND,2017,0.35%,Andorra_2017
+762,Andorra,AND,2016,3.71%,Andorra_2016
+763,Andorra,AND,2015,1.43%,Andorra_2015
+764,Andorra,AND,2014,2.50%,Andorra_2014
+765,Greece,GRC,2018,1.56%,Greece_2018
+766,Greece,GRC,2017,1.28%,Greece_2017
+767,Greece,GRC,2016,-0.49%,Greece_2016
+768,Greece,GRC,2015,-0.41%,Greece_2015
+769,Greece,GRC,2014,0.70%,Greece_2014
+770,San Marino,SMR,2018,1.54%,San Marino_2018
+771,San Marino,SMR,2017,0.26%,San Marino_2017
+772,San Marino,SMR,2016,2.34%,San Marino_2016
+773,San Marino,SMR,2015,2.29%,San Marino_2015
+774,San Marino,SMR,2014,-0.70%,San Marino_2014
+775,Virgin Islands (U.S.),VIR,2018,1.51%,Virgin Islands (U.S.)_2018
+776,Virgin Islands (U.S.),VIR,2017,-0.61%,Virgin Islands (U.S.)_2017
+777,Virgin Islands (U.S.),VIR,2016,1.13%,Virgin Islands (U.S.)_2016
+778,Virgin Islands (U.S.),VIR,2015,0.26%,Virgin Islands (U.S.)_2015
+779,Virgin Islands (U.S.),VIR,2014,-0.87%,Virgin Islands (U.S.)_2014
+780,Azerbaijan,AZE,2018,1.50%,Azerbaijan_2018
+781,Azerbaijan,AZE,2017,0.15%,Azerbaijan_2017
+782,Azerbaijan,AZE,2016,-3.06%,Azerbaijan_2016
+783,Azerbaijan,AZE,2015,1.05%,Azerbaijan_2015
+784,Azerbaijan,AZE,2014,2.80%,Azerbaijan_2014
+785,Seychelles,SYC,2018,1.33%,Seychelles_2018
+786,Seychelles,SYC,2017,4.82%,Seychelles_2017
+787,Seychelles,SYC,2016,4.56%,Seychelles_2016
+788,Seychelles,SYC,2015,4.94%,Seychelles_2015
+789,Seychelles,SYC,2014,4.50%,Seychelles_2014
+790,Finland,FIN,2018,1.31%,Finland_2018
+791,Finland,FIN,2017,3.19%,Finland_2017
+792,Finland,FIN,2016,2.81%,Finland_2016
+793,Finland,FIN,2015,0.54%,Finland_2015
+794,Finland,FIN,2014,-0.36%,Finland_2014
+795,Ecuador,ECU,2018,1.29%,Ecuador_2018
+796,Ecuador,ECU,2017,2.37%,Ecuador_2017
+797,Ecuador,ECU,2016,-1.23%,Ecuador_2016
+798,Ecuador,ECU,2015,0.10%,Ecuador_2015
+799,Ecuador,ECU,2014,3.79%,Ecuador_2014
+800,Guinea-Bissau,GNB,2018,1.28%,Guinea-Bissau_2018
+801,Guinea-Bissau,GNB,2017,5.92%,Guinea-Bissau_2017
+802,Guinea-Bissau,GNB,2016,6.26%,Guinea-Bissau_2016
+803,Guinea-Bissau,GNB,2015,6.13%,Guinea-Bissau_2015
+804,Guinea-Bissau,GNB,2014,0.96%,Guinea-Bissau_2014
+805,Germany,DEU,2018,1.27%,Germany_2018
+806,Germany,DEU,2017,2.60%,Germany_2017
+807,Germany,DEU,2016,2.23%,Germany_2016
+808,Germany,DEU,2015,1.49%,Germany_2015
+809,Germany,DEU,2014,2.21%,Germany_2014
+810,United Kingdom,GBR,2018,1.25%,United Kingdom_2018
+811,United Kingdom,GBR,2017,1.74%,United Kingdom_2017
+812,United Kingdom,GBR,2016,1.72%,United Kingdom_2016
+813,United Kingdom,GBR,2015,2.36%,United Kingdom_2015
+814,United Kingdom,GBR,2014,2.86%,United Kingdom_2014
+815,Kuwait,KWT,2018,1.25%,Kuwait_2018
+816,Kuwait,KWT,2017,-4.71%,Kuwait_2017
+817,Kuwait,KWT,2016,2.93%,Kuwait_2016
+818,Kuwait,KWT,2015,0.59%,Kuwait_2015
+819,Kuwait,KWT,2014,0.50%,Kuwait_2014
+820,Qatar,QAT,2018,1.23%,Qatar_2018
+821,Qatar,QAT,2017,-1.50%,Qatar_2017
+822,Qatar,QAT,2016,3.06%,Qatar_2016
+823,Qatar,QAT,2015,4.75%,Qatar_2015
+824,Qatar,QAT,2014,5.33%,Qatar_2014
+825,West Bank And Gaza,PSE,2018,1.23%,West Bank And Gaza_2018
+826,West Bank And Gaza,PSE,2017,1.42%,West Bank And Gaza_2017
+827,West Bank And Gaza,PSE,2016,8.86%,West Bank And Gaza_2016
+828,West Bank And Gaza,PSE,2015,3.72%,West Bank And Gaza_2015
+829,West Bank And Gaza,PSE,2014,-0.16%,West Bank And Gaza_2014
+830,Liberia,LBR,2018,1.22%,Liberia_2018
+831,Liberia,LBR,2017,2.47%,Liberia_2017
+832,Liberia,LBR,2016,-1.60%,Liberia_2016
+833,Liberia,LBR,2015,0.00%,Liberia_2015
+834,Liberia,LBR,2014,0.70%,Liberia_2014
+835,Algeria,DZA,2018,1.20%,Algeria_2018
+836,Algeria,DZA,2017,1.30%,Algeria_2017
+837,Algeria,DZA,2016,3.20%,Algeria_2016
+838,Algeria,DZA,2015,3.70%,Algeria_2015
+839,Algeria,DZA,2014,3.80%,Algeria_2014
+840,UAE,UAE,2018,1.19%,UAE_2018
+841,UAE,UAE,2017,2.37%,UAE_2017
+842,UAE,UAE,2016,3.06%,UAE_2016
+843,UAE,UAE,2015,5.11%,UAE_2015
+844,UAE,UAE,2014,4.28%,UAE_2014
+845,Afghanistan,AFG,2018,1.19%,Afghanistan_2018
+846,Afghanistan,AFG,2017,2.65%,Afghanistan_2017
+847,Afghanistan,AFG,2016,2.26%,Afghanistan_2016
+848,Afghanistan,AFG,2015,1.45%,Afghanistan_2015
+849,Afghanistan,AFG,2014,2.72%,Afghanistan_2014
+850,Norway,NOR,2018,1.12%,Norway_2018
+851,Norway,NOR,2017,2.32%,Norway_2017
+852,Norway,NOR,2016,1.07%,Norway_2016
+853,Norway,NOR,2015,1.97%,Norway_2015
+854,Norway,NOR,2014,1.97%,Norway_2014
+855,Namibia,NAM,2018,1.11%,Namibia_2018
+856,Namibia,NAM,2017,-1.03%,Namibia_2017
+857,Namibia,NAM,2016,0.03%,Namibia_2016
+858,Namibia,NAM,2015,4.26%,Namibia_2015
+859,Namibia,NAM,2014,6.09%,Namibia_2014
+860,Italy,ITA,2018,0.94%,Italy_2018
+861,Italy,ITA,2017,1.67%,Italy_2017
+862,Italy,ITA,2016,1.29%,Italy_2016
+863,Italy,ITA,2015,0.78%,Italy_2015
+864,Italy,ITA,2014,0.00%,Italy_2014
+865,Oman,OMN,2018,0.92%,Oman_2018
+866,Oman,OMN,2017,0.35%,Oman_2017
+867,Oman,OMN,2016,5.10%,Oman_2016
+868,Oman,OMN,2015,4.63%,Oman_2015
+869,Oman,OMN,2014,1.46%,Oman_2014
+870,Gabon,GAB,2018,0.84%,Gabon_2018
+871,Gabon,GAB,2017,0.47%,Gabon_2017
+872,Gabon,GAB,2016,2.09%,Gabon_2016
+873,Gabon,GAB,2015,3.88%,Gabon_2015
+874,Gabon,GAB,2014,4.32%,Gabon_2014
+875,South Africa,ZAF,2018,0.79%,South Africa_2018
+876,South Africa,ZAF,2017,1.41%,South Africa_2017
+877,South Africa,ZAF,2016,0.40%,South Africa_2016
+878,South Africa,ZAF,2015,1.19%,South Africa_2015
+879,South Africa,ZAF,2014,1.85%,South Africa_2014
+880,"Yemen, Rep.",YEM,2018,0.75%,"Yemen, Rep._2018"
+881,"Yemen, Rep.",YEM,2017,-5.07%,"Yemen, Rep._2017"
+882,"Yemen, Rep.",YEM,2016,-9.38%,"Yemen, Rep._2016"
+883,"Yemen, Rep.",YEM,2015,-27.99%,"Yemen, Rep._2015"
+884,"Yemen, Rep.",YEM,2014,-0.19%,"Yemen, Rep._2014"
+885,Uruguay,URY,2018,0.48%,Uruguay_2018
+886,Uruguay,URY,2017,1.63%,Uruguay_2017
+887,Uruguay,URY,2016,1.69%,Uruguay_2016
+888,Uruguay,URY,2015,0.37%,Uruguay_2015
+889,Uruguay,URY,2014,3.24%,Uruguay_2014
+890,Japan,JPN,2018,0.32%,Japan_2018
+891,Japan,JPN,2017,2.17%,Japan_2017
+892,Japan,JPN,2016,0.52%,Japan_2016
+893,Japan,JPN,2015,1.22%,Japan_2015
+894,Japan,JPN,2014,0.37%,Japan_2014
+895,Tonga,TON,2018,0.30%,Tonga_2018
+896,Tonga,TON,2017,3.32%,Tonga_2017
+897,Tonga,TON,2016,6.57%,Tonga_2016
+898,Tonga,TON,2015,1.17%,Tonga_2015
+899,Tonga,TON,2014,2.02%,Tonga_2014
+900,"Micronesia, Fed. Sts.",FSM,2018,0.21%,"Micronesia, Fed. Sts._2018"
+901,"Micronesia, Fed. Sts.",FSM,2017,2.68%,"Micronesia, Fed. Sts._2017"
+902,"Micronesia, Fed. Sts.",FSM,2016,0.90%,"Micronesia, Fed. Sts._2016"
+903,"Micronesia, Fed. Sts.",FSM,2015,4.62%,"Micronesia, Fed. Sts._2015"
+904,"Micronesia, Fed. Sts.",FSM,2014,-2.31%,"Micronesia, Fed. Sts._2014"
+905,Trinidad And Tobago,TTO,2018,0.07%,Trinidad And Tobago_2018
+906,Trinidad And Tobago,TTO,2017,-2.99%,Trinidad And Tobago_2017
+907,Trinidad And Tobago,TTO,2016,-5.60%,Trinidad And Tobago_2016
+908,Trinidad And Tobago,TTO,2015,1.48%,Trinidad And Tobago_2015
+909,Trinidad And Tobago,TTO,2014,-0.91%,Trinidad And Tobago_2014
+910,Brunei,BRN,2018,0.05%,Brunei_2018
+911,Brunei,BRN,2017,1.33%,Brunei_2017
+912,Brunei,BRN,2016,-2.48%,Brunei_2016
+913,Brunei,BRN,2015,-0.39%,Brunei_2015
+914,Brunei,BRN,2014,-2.51%,Brunei_2014
+915,Papua New Guinea,PNG,2018,-0.28%,Papua New Guinea_2018
+916,Papua New Guinea,PNG,2017,3.53%,Papua New Guinea_2017
+917,Papua New Guinea,PNG,2016,5.49%,Papua New Guinea_2016
+918,Papua New Guinea,PNG,2015,6.58%,Papua New Guinea_2015
+919,Papua New Guinea,PNG,2014,13.54%,Papua New Guinea_2014
+920,Bermuda,BMU,2018,-0.43%,Bermuda_2018
+921,Bermuda,BMU,2017,3.61%,Bermuda_2017
+922,Bermuda,BMU,2016,-0.66%,Bermuda_2016
+923,Bermuda,BMU,2015,0.78%,Bermuda_2015
+924,Bermuda,BMU,2014,-3.70%,Bermuda_2014
+925,Barbados,BRB,2018,-0.58%,Barbados_2018
+926,Barbados,BRB,2017,0.48%,Barbados_2017
+927,Barbados,BRB,2016,2.48%,Barbados_2016
+928,Barbados,BRB,2015,2.45%,Barbados_2015
+929,Barbados,BRB,2014,-0.12%,Barbados_2014
+930,Guam,GUM,2018,-0.90%,Guam_2018
+931,Guam,GUM,2017,0.89%,Guam_2017
+932,Guam,GUM,2016,0.18%,Guam_2016
+933,Guam,GUM,2015,0.83%,Guam_2015
+934,Guam,GUM,2014,1.79%,Guam_2014
+935,Timor-Leste,TLS,2018,-1.05%,Timor-Leste_2018
+936,Timor-Leste,TLS,2017,-4.10%,Timor-Leste_2017
+937,Timor-Leste,TLS,2016,3.36%,Timor-Leste_2016
+938,Timor-Leste,TLS,2015,2.91%,Timor-Leste_2015
+939,Timor-Leste,TLS,2014,4.45%,Timor-Leste_2014
+940,Iraq,IRQ,2018,-1.21%,Iraq_2018
+941,Iraq,IRQ,2017,-1.75%,Iraq_2017
+942,Iraq,IRQ,2016,13.79%,Iraq_2016
+943,Iraq,IRQ,2015,4.72%,Iraq_2015
+944,Iraq,IRQ,2014,0.20%,Iraq_2014
+945,Lesotho,LSO,2018,-1.22%,Lesotho_2018
+946,Lesotho,LSO,2017,-3.14%,Lesotho_2017
+947,Lesotho,LSO,2016,3.59%,Lesotho_2016
+948,Lesotho,LSO,2015,3.13%,Lesotho_2015
+949,Lesotho,LSO,2014,1.71%,Lesotho_2014
+950,Lebanon,LBN,2018,-1.93%,Lebanon_2018
+951,Lebanon,LBN,2017,0.85%,Lebanon_2017
+952,Lebanon,LBN,2016,1.53%,Lebanon_2016
+953,Lebanon,LBN,2015,0.21%,Lebanon_2015
+954,Lebanon,LBN,2014,2.46%,Lebanon_2014
+955,Angola,AGO,2018,-2.00%,Angola_2018
+956,Angola,AGO,2017,-0.15%,Angola_2017
+957,Angola,AGO,2016,-2.58%,Angola_2016
+958,Angola,AGO,2015,0.94%,Angola_2015
+959,Angola,AGO,2014,4.82%,Angola_2014
+960,Samoa,ASM,2018,-2.06%,Samoa_2018
+961,Samoa,WSM,2017,1.04%,Samoa_2017
+962,Samoa,ASM,2016,8.05%,Samoa_2016
+963,Samoa,WSM,2015,4.27%,Samoa_2015
+964,Samoa,ASM,2014,0.08%,Samoa_2014
+965,Curacao,CUW,2018,-2.17%,Curacao_2018
+966,Curacao,CUW,2017,-1.74%,Curacao_2017
+967,Curacao,CUW,2016,-0.99%,Curacao_2016
+968,Curacao,CUW,2015,0.28%,Curacao_2015
+969,Curacao,CUW,2014,-1.14%,Curacao_2014
+970,Argentina,ARG,2018,-2.57%,Argentina_2018
+971,Argentina,ARG,2017,2.82%,Argentina_2017
+972,Argentina,ARG,2016,-2.08%,Argentina_2016
+973,Argentina,ARG,2015,2.73%,Argentina_2015
+974,Argentina,ARG,2014,-2.51%,Argentina_2014
+975,Nicaragua,NIC,2018,-3.36%,Nicaragua_2018
+976,Nicaragua,NIC,2017,4.63%,Nicaragua_2017
+977,Nicaragua,NIC,2016,4.56%,Nicaragua_2016
+978,Nicaragua,NIC,2015,4.79%,Nicaragua_2015
+979,Nicaragua,NIC,2014,4.79%,Nicaragua_2014
+980,Puerto Rico,PRI,2018,-4.15%,Puerto Rico_2018
+981,Puerto Rico,PRI,2017,-2.89%,Puerto Rico_2017
+982,Puerto Rico,PRI,2016,-1.26%,Puerto Rico_2016
+983,Puerto Rico,PRI,2015,-1.05%,Puerto Rico_2015
+984,Puerto Rico,PRI,2014,-1.19%,Puerto Rico_2014
+985,"Congo. Rep., Rep.",COG,2018,-4.85%,"Congo. Rep., Rep._2018"
+986,"Congo. Rep., Rep.",COG,2017,-4.37%,"Congo. Rep., Rep._2017"
+987,"Congo. Rep., Rep.",COG,2016,-10.70%,"Congo. Rep., Rep._2016"
+988,"Congo. Rep., Rep.",COG,2015,-3.55%,"Congo. Rep., Rep._2015"
+989,"Congo. Rep., Rep.",COG,2014,6.72%,"Congo. Rep., Rep._2014"
+990,"Iran, Islamic Rep.",IRN,2018,-6.03%,"Iran, Islamic Rep._2018"
+991,"Iran, Islamic Rep.",IRN,2017,3.76%,"Iran, Islamic Rep._2017"
+992,"Iran, Islamic Rep.",IRN,2016,13.40%,"Iran, Islamic Rep._2016"
+993,"Iran, Islamic Rep.",IRN,2015,-1.32%,"Iran, Islamic Rep._2015"
+994,"Iran, Islamic Rep.",IRN,2014,4.60%,"Iran, Islamic Rep._2014"
+995,Equatorial Guinea,GNQ,2018,-6.24%,Equatorial Guinea_2018
+996,Equatorial Guinea,GNQ,2017,-5.67%,Equatorial Guinea_2017
+997,Equatorial Guinea,GNQ,2016,-8.82%,Equatorial Guinea_2016
+998,Equatorial Guinea,GNQ,2015,-9.11%,Equatorial Guinea_2015
+999,Equatorial Guinea,GNQ,2014,0.42%,Equatorial Guinea_2014
+1000,Sint Maarten (Dutch Part),SXM,2018,-6.60%,Sint Maarten (Dutch Part)_2018
+1001,Sint Maarten (Dutch Part),SXM,2017,-5.80%,Sint Maarten (Dutch Part)_2017
+1002,Sint Maarten (Dutch Part),SXM,2016,0.50%,Sint Maarten (Dutch Part)_2016
+1003,Sint Maarten (Dutch Part),SXM,2015,0.40%,Sint Maarten (Dutch Part)_2015
+1004,Sint Maarten (Dutch Part),SXM,2014,1.58%,Sint Maarten (Dutch Part)_2014
+1005,Northern Mariana Islands,MNP,2018,-19.35%,Northern Mariana Islands_2018
+1006,Northern Mariana Islands,MNP,2017,23.17%,Northern Mariana Islands_2017
+1007,Northern Mariana Islands,MNP,2016,29.21%,Northern Mariana Islands_2016
+1008,Northern Mariana Islands,MNP,2015,3.38%,Northern Mariana Islands_2015
+1009,Northern Mariana Islands,MNP,2014,4.18%,Northern Mariana Islands_2014
+1010,"Venezuela, RB",VEN,2018,0.00%,"Venezuela, RB_2018"
+1011,"Venezuela, RB",VEN,2017,0.00%,"Venezuela, RB_2017"
+1012,"Venezuela, RB",VEN,2016,0.00%,"Venezuela, RB_2016"
+1013,"Venezuela, RB",VEN,2015,0.00%,"Venezuela, RB_2015"
+1014,"Venezuela, RB",VEN,2014,-3.89%,"Venezuela, RB_2014"
+1015,South Sudan,SSD,2018,0.00%,South Sudan_2018
+1016,South Sudan,SSD,2017,0.00%,South Sudan_2017
+1017,South Sudan,SSD,2016,0.00%,South Sudan_2016
+1018,South Sudan,SSD,2015,-10.79%,South Sudan_2015
+1019,South Sudan,SSD,2014,3.37%,South Sudan_2014
+1020,Aruba,ABW,2018,0.00%,Aruba_2018
+1021,Aruba,ABW,2017,2.00%,Aruba_2017
+1022,Aruba,ABW,2016,2.10%,Aruba_2016
+1023,Aruba,ABW,2015,5.70%,Aruba_2015
+1024,Aruba,ABW,2014,0.30%,Aruba_2014
