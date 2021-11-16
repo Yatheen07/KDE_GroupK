@@ -1,0 +1,88 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix oxly: <http://www.example.org/ont#> .
+
+<#GDP>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "GDP" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{ENTITY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:COUNTRYCODE ;
+		rr:objectMap [ 
+			rr:column "CODE" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:year ;
+		rr:objectMap [ 
+			rr:column "YEAR" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:gdpValue ;
+		rr:objectMap [ 
+			rr:column "GDP" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    .
+
+<#AirPollutionDeaths>
+ 	
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:COUNTRYCODE ;
+		rr:objectMap [ 
+			rr:column "CODE" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:year ;
+		rr:objectMap [ 
+			rr:column "YEAR" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+        rr:predicate oxly:contributes;
+        rr:objectMap [
+            rr:parentTriplesMap <#GDP>;
+            rr:joinCondition [
+                rr:child "COUNTRY";
+                rr:parent "ENTITY";
+            ];
+        ];
+    ]
+<<<<<<< HEAD
+
+=======
+>>>>>>> bb6ff551960199b1791f06e4673f7dcc3ffdba48
+    .
+
+
