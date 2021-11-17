@@ -16,6 +16,15 @@
 		rr:class oxly:Country;
 	] ;
 
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:countryName;
+		  rr:objectMap [
+		  	 rr:column "COUNTRY" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
     rr:predicateObjectMap [
 		rr:predicate oxly:hasEconomy ;
 		rr:objectMap [ 
@@ -27,12 +36,25 @@
 		] ; 
 	] ;
 
-    .
+	rr:predicateObjectMap
+		[
+			rr:predicate oxly:hasMilitary;
+			rr:objectMap
+				[
+					rr:parentTriplesMap <#MilitaryExpenditure> ;
+					rr:joinCondition
+						[
+							rr:child "COUNTRY" ;
+							rr:parent "COUNTRY" ;
+						]
+				] ;
+		] ;
+.
 
 <#GDP>
     a rr:TriplesMap ;
 
-    rr:logicalTable [ rr:tableName "GDPc" ] ;
+    rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
 		rr:template "http://data.example.org/economy/{ID}" ;
@@ -74,9 +96,11 @@
     rr:predicateObjectMap [
 		rr:predicate oxly:militaryExpenditurePerGdp ;
 		rr:objectMap [ 
-			rr:column "MILITARYEXPENDITURE" ; 
+			rr:column "MILITARYEXPENDITURE" ;
 			rr:datatype xsd:double ; 
 		] ; 
 	] ;
 
     .
+
+
