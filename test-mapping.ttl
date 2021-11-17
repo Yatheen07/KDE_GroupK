@@ -57,7 +57,7 @@
 
     rr:subjectMap [
 		rr:template "http://data.example.org/economy/{ID}" ;
-		rr:class oxly:GDP;
+		rr:class oxly:Economy;
 	] ;
 
 	rr:predicateObjectMap [
@@ -88,7 +88,7 @@
 
     rr:subjectMap [
 		rr:template "http://data.example.org/economy/{ID}" ;
-		rr:class oxly:GDP;
+		rr:class oxly:Sustainability;
 	] ;
 
 	rr:predicateObjectMap [
