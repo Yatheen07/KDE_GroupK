@@ -120,6 +120,17 @@
             ]
 		] ; 
   	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryPollution;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Pollution>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ENTITY";
+            ]
+		] ; 
+  	] ;
 	
 	.
 
@@ -193,8 +204,6 @@
 		] ; 
 	] ;
 
-
-
     rr:predicateObjectMap [
 		rr:predicate oxly:year;
 		rr:objectMap [ 
@@ -212,7 +221,6 @@
 	] ;
 
 .
-
 
 <#WellbeingIndex>
     a rr:TriplesMap ;
@@ -249,6 +257,84 @@
 		] ; 
 	] ;
 
-.
+	.
+
+<#Pollution>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "GHGEMISSIONS" ] ;
+
+    rr:subjectMap [
+      rr:template "http://data.example.org/Sustainabiliby/Pollution/{ENTITY}" ;
+      rr:class oxly:Pollution;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "ENTITY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:ghgEmission;
+		rr:objectMap [ 
+			rr:column "GHGEMISSION" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryWBI;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#AIRPollutionDeaths>;
+            rr:joinCondition [
+                rr:child "ENTITY";
+                rr:parent "Id";
+            ]
+		] ; 
+  	] ;
+
+	.
+
+<#AIRPollutionDeaths>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
+
+    rr:subjectMap [
+      rr:template "http://data.example.org/Sustainabiliby/API/{Id}" ;
+      rr:class oxly:AirPollutionIndex;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "ENTITY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:year;
+		rr:objectMap [ 
+			rr:column "YEAR" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:deathCount;
+		rr:objectMap [ 
+			rr:column "AIRPOLLUTIONDEATH" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+	.
+
+
 
 
