@@ -34,21 +34,18 @@
                 rr:parent "ID";
             ]
 		] ; 
-	] ;
+  ] ;
 
-	rr:predicateObjectMap
-		[
-			rr:predicate oxly:hasMilitary;
-			rr:objectMap
-				[
-					rr:parentTriplesMap <#MilitaryExpenditure> ;
-					rr:joinCondition
-						[
-							rr:child "COUNTRY" ;
-							rr:parent "COUNTRY" ;
-						]
-				] ;
-		] ;
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasSustainability;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#HumanDevelopmentIndex>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ID";
+            ]
+		] ; 
+  ] ;
 .
 
 <#GDP>
@@ -102,5 +99,41 @@
 	] ;
 
     .
+
+<#HumanDevelopmentIndex>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "HumanDevelopmentIndex" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/Sustainabiliby/HDI/{ID}" ;
+		rr:class oxly:HumanDevelopmentIndex;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "ENTITY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:year ;
+		rr:objectmap [ 
+			rr:column "YEAR" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hdiScore;
+		rr:objectMap [ 
+			rr:column "HDI_SCORE" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+.
 
 
