@@ -1,6 +1,772 @@
-Country,CountryYear
 China,China_2014
 China,China_2015
 China,China_2016
 China,China_2017
-China,China_2018
+United States,United States_2014
+United States,United States_2015
+United States,United States_2016
+United States,United States_2017
+India,India_2014
+India,India_2015
+India,India_2016
+India,India_2017
+Russia,Russia_2014
+Russia,Russia_2015
+Russia,Russia_2016
+Russia,Russia_2017
+Indonesia,Indonesia_2014
+Indonesia,Indonesia_2015
+Indonesia,Indonesia_2016
+Indonesia,Indonesia_2017
+Brazil,Brazil_2014
+Brazil,Brazil_2015
+Brazil,Brazil_2016
+Brazil,Brazil_2017
+Japan,Japan_2014
+Japan,Japan_2015
+Japan,Japan_2016
+Japan,Japan_2017
+Iran,Iran_2014
+Iran,Iran_2015
+Iran,Iran_2016
+Iran,Iran_2017
+Germany,Germany_2014
+Germany,Germany_2015
+Germany,Germany_2016
+Germany,Germany_2017
+Canada,Canada_2014
+Canada,Canada_2015
+Canada,Canada_2016
+Canada,Canada_2017
+Mexico,Mexico_2014
+Mexico,Mexico_2015
+Mexico,Mexico_2016
+Mexico,Mexico_2017
+Democratic Republic of the Congo,Democratic Republic of the Congo_2014
+Democratic Republic of the Congo,Democratic Republic of the Congo_2015
+Democratic Republic of the Congo,Democratic Republic of the Congo_2016
+Democratic Republic of the Congo,Democratic Republic of the Congo_2017
+South Korea,South Korea_2014
+South Korea,South Korea_2015
+South Korea,South Korea_2016
+South Korea,South Korea_2017
+Saudi Arabia,Saudi Arabia_2014
+Saudi Arabia,Saudi Arabia_2015
+Saudi Arabia,Saudi Arabia_2016
+Saudi Arabia,Saudi Arabia_2017
+Australia,Australia_2014
+Australia,Australia_2015
+Australia,Australia_2016
+Australia,Australia_2017
+South Africa,South Africa_2014
+South Africa,South Africa_2015
+South Africa,South Africa_2016
+South Africa,South Africa_2017
+Turkey,Turkey_2014
+Turkey,Turkey_2015
+Turkey,Turkey_2016
+Turkey,Turkey_2017
+United Kingdom,United Kingdom_2014
+United Kingdom,United Kingdom_2015
+United Kingdom,United Kingdom_2016
+United Kingdom,United Kingdom_2017
+Pakistan,Pakistan_2014
+Pakistan,Pakistan_2015
+Pakistan,Pakistan_2016
+Pakistan,Pakistan_2017
+Thailand,Thailand_2014
+Thailand,Thailand_2015
+Thailand,Thailand_2016
+Thailand,Thailand_2017
+Argentina,Argentina_2014
+Argentina,Argentina_2015
+Argentina,Argentina_2016
+Argentina,Argentina_2017
+Malaysia,Malaysia_2014
+Malaysia,Malaysia_2015
+Malaysia,Malaysia_2016
+Malaysia,Malaysia_2017
+Italy,Italy_2014
+Italy,Italy_2015
+Italy,Italy_2016
+Italy,Italy_2017
+Vietnam,Vietnam_2014
+Vietnam,Vietnam_2015
+Vietnam,Vietnam_2016
+Vietnam,Vietnam_2017
+France,France_2014
+France,France_2015
+France,France_2016
+France,France_2017
+Nigeria,Nigeria_2014
+Nigeria,Nigeria_2015
+Nigeria,Nigeria_2016
+Nigeria,Nigeria_2017
+Poland,Poland_2014
+Poland,Poland_2015
+Poland,Poland_2016
+Poland,Poland_2017
+Egypt,Egypt_2014
+Egypt,Egypt_2015
+Egypt,Egypt_2016
+Egypt,Egypt_2017
+Spain,Spain_2014
+Spain,Spain_2015
+Spain,Spain_2016
+Spain,Spain_2017
+Venezuela,Venezuela_2014
+Venezuela,Venezuela_2015
+Venezuela,Venezuela_2016
+Venezuela,Venezuela_2017
+Kazakhstan,Kazakhstan_2014
+Kazakhstan,Kazakhstan_2015
+Kazakhstan,Kazakhstan_2016
+Kazakhstan,Kazakhstan_2017
+Colombia,Colombia_2014
+Colombia,Colombia_2015
+Colombia,Colombia_2016
+Colombia,Colombia_2017
+United Arab Emirates,United Arab Emirates_2014
+United Arab Emirates,United Arab Emirates_2015
+United Arab Emirates,United Arab Emirates_2016
+United Arab Emirates,United Arab Emirates_2017
+Ukraine,Ukraine_2014
+Ukraine,Ukraine_2015
+Ukraine,Ukraine_2016
+Ukraine,Ukraine_2017
+Philippines,Philippines_2014
+Philippines,Philippines_2015
+Philippines,Philippines_2016
+Philippines,Philippines_2017
+Uzbekistan,Uzbekistan_2014
+Uzbekistan,Uzbekistan_2015
+Uzbekistan,Uzbekistan_2016
+Uzbekistan,Uzbekistan_2017
+Myanmar,Myanmar_2014
+Myanmar,Myanmar_2015
+Myanmar,Myanmar_2016
+Myanmar,Myanmar_2017
+Bangladesh,Bangladesh_2014
+Bangladesh,Bangladesh_2015
+Bangladesh,Bangladesh_2016
+Bangladesh,Bangladesh_2017
+Algeria,Algeria_2014
+Algeria,Algeria_2015
+Algeria,Algeria_2016
+Algeria,Algeria_2017
+Iraq,Iraq_2014
+Iraq,Iraq_2015
+Iraq,Iraq_2016
+Iraq,Iraq_2017
+Ethiopia,Ethiopia_2014
+Ethiopia,Ethiopia_2015
+Ethiopia,Ethiopia_2016
+Ethiopia,Ethiopia_2017
+Peru,Peru_2014
+Peru,Peru_2015
+Peru,Peru_2016
+Peru,Peru_2017
+Netherlands,Netherlands_2014
+Netherlands,Netherlands_2015
+Netherlands,Netherlands_2016
+Netherlands,Netherlands_2017
+Tanzania,Tanzania_2014
+Tanzania,Tanzania_2015
+Tanzania,Tanzania_2016
+Tanzania,Tanzania_2017
+Sudan,Sudan_2014
+Sudan,Sudan_2015
+Sudan,Sudan_2016
+Sudan,Sudan_2017
+Bolivia,Bolivia_2014
+Bolivia,Bolivia_2015
+Bolivia,Bolivia_2016
+Bolivia,Bolivia_2017
+Turkmenistan,Turkmenistan_2014
+Turkmenistan,Turkmenistan_2015
+Turkmenistan,Turkmenistan_2016
+Turkmenistan,Turkmenistan_2017
+Angola,Angola_2014
+Angola,Angola_2015
+Angola,Angola_2016
+Angola,Angola_2017
+Cameroon,Cameroon_2014
+Cameroon,Cameroon_2015
+Cameroon,Cameroon_2016
+Cameroon,Cameroon_2017
+Zimbabwe,Zimbabwe_2014
+Zimbabwe,Zimbabwe_2015
+Zimbabwe,Zimbabwe_2016
+Zimbabwe,Zimbabwe_2017
+Czech Republic,Czech Republic_2014
+Czech Republic,Czech Republic_2015
+Czech Republic,Czech Republic_2016
+Czech Republic,Czech Republic_2017
+Kuwait,Kuwait_2014
+Kuwait,Kuwait_2015
+Kuwait,Kuwait_2016
+Kuwait,Kuwait_2017
+Mozambique,Mozambique_2014
+Mozambique,Mozambique_2015
+Mozambique,Mozambique_2016
+Mozambique,Mozambique_2017
+Belgium,Belgium_2014
+Belgium,Belgium_2015
+Belgium,Belgium_2016
+Belgium,Belgium_2017
+Chad,Chad_2014
+Chad,Chad_2015
+Chad,Chad_2016
+Chad,Chad_2017
+Libya,Libya_2014
+Libya,Libya_2015
+Libya,Libya_2016
+Libya,Libya_2017
+Qatar,Qatar_2014
+Qatar,Qatar_2015
+Qatar,Qatar_2016
+Qatar,Qatar_2017
+Afghanistan,Afghanistan_2014
+Afghanistan,Afghanistan_2015
+Afghanistan,Afghanistan_2016
+Afghanistan,Afghanistan_2017
+Paraguay,Paraguay_2014
+Paraguay,Paraguay_2015
+Paraguay,Paraguay_2016
+Paraguay,Paraguay_2017
+Zambia,Zambia_2014
+Zambia,Zambia_2015
+Zambia,Zambia_2016
+Zambia,Zambia_2017
+Morocco,Morocco_2014
+Morocco,Morocco_2015
+Morocco,Morocco_2016
+Morocco,Morocco_2017
+Ecuador,Ecuador_2014
+Ecuador,Ecuador_2015
+Ecuador,Ecuador_2016
+Ecuador,Ecuador_2017
+Israel,Israel_2014
+Israel,Israel_2015
+Israel,Israel_2016
+Israel,Israel_2017
+Central African Republic,Central African Republic_2014
+Central African Republic,Central African Republic_2015
+Central African Republic,Central African Republic_2016
+Central African Republic,Central African Republic_2017
+Greece,Greece_2014
+Greece,Greece_2015
+Greece,Greece_2016
+Greece,Greece_2017
+Romania,Romania_2014
+Romania,Romania_2015
+Romania,Romania_2016
+Romania,Romania_2017
+Oman,Oman_2014
+Oman,Oman_2015
+Oman,Oman_2016
+Oman,Oman_2017
+Azerbaijan,Azerbaijan_2014
+Azerbaijan,Azerbaijan_2015
+Azerbaijan,Azerbaijan_2016
+Azerbaijan,Azerbaijan_2017
+Kenya,Kenya_2014
+Kenya,Kenya_2015
+Kenya,Kenya_2016
+Kenya,Kenya_2017
+New Zealand,New Zealand_2014
+New Zealand,New Zealand_2015
+New Zealand,New Zealand_2016
+New Zealand,New Zealand_2017
+Uganda,Uganda_2014
+Uganda,Uganda_2015
+Uganda,Uganda_2016
+Uganda,Uganda_2017
+Cambodia,Cambodia_2014
+Cambodia,Cambodia_2015
+Cambodia,Cambodia_2016
+Cambodia,Cambodia_2017
+South Sudan,South Sudan_2014
+South Sudan,South Sudan_2015
+South Sudan,South Sudan_2016
+South Sudan,South Sudan_2017
+Austria,Austria_2014
+Austria,Austria_2015
+Austria,Austria_2016
+Austria,Austria_2017
+Portugal,Portugal_2014
+Portugal,Portugal_2015
+Portugal,Portugal_2016
+Portugal,Portugal_2017
+Belarus,Belarus_2014
+Belarus,Belarus_2015
+Belarus,Belarus_2016
+Belarus,Belarus_2017
+Singapore,Singapore_2014
+Singapore,Singapore_2015
+Singapore,Singapore_2016
+Singapore,Singapore_2017
+Papua New Guinea,Papua New Guinea_2014
+Papua New Guinea,Papua New Guinea_2015
+Papua New Guinea,Papua New Guinea_2016
+Papua New Guinea,Papua New Guinea_2017
+Hungary,Hungary_2014
+Hungary,Hungary_2015
+Hungary,Hungary_2016
+Hungary,Hungary_2017
+Serbia,Serbia_2014
+Serbia,Serbia_2015
+Serbia,Serbia_2016
+Serbia,Serbia_2017
+Ireland,Ireland_2014
+Ireland,Ireland_2015
+Ireland,Ireland_2016
+Ireland,Ireland_2017
+Finland,Finland_2014
+Finland,Finland_2015
+Finland,Finland_2016
+Finland,Finland_2017
+Botswana,Botswana_2014
+Botswana,Botswana_2015
+Botswana,Botswana_2016
+Botswana,Botswana_2017
+Mongolia,Mongolia_2014
+Mongolia,Mongolia_2015
+Mongolia,Mongolia_2016
+Mongolia,Mongolia_2017
+Burkina Faso,Burkina Faso_2014
+Burkina Faso,Burkina Faso_2015
+Burkina Faso,Burkina Faso_2016
+Burkina Faso,Burkina Faso_2017
+Nepal,Nepal_2014
+Nepal,Nepal_2015
+Nepal,Nepal_2016
+Nepal,Nepal_2017
+Chile,Chile_2014
+Chile,Chile_2015
+Chile,Chile_2016
+Chile,Chile_2017
+Côte d'Ivoire,Côte d'Ivoire_2014
+Côte d'Ivoire,Côte d'Ivoire_2015
+Côte d'Ivoire,Côte d'Ivoire_2016
+Côte d'Ivoire,Côte d'Ivoire_2017
+Bahrain,Bahrain_2014
+Bahrain,Bahrain_2015
+Bahrain,Bahrain_2016
+Bahrain,Bahrain_2017
+Denmark,Denmark_2014
+Denmark,Denmark_2015
+Denmark,Denmark_2016
+Denmark,Denmark_2017
+Solomon Islands,Solomon Islands_2014
+Solomon Islands,Solomon Islands_2015
+Solomon Islands,Solomon Islands_2016
+Solomon Islands,Solomon Islands_2017
+Syria,Syria_2014
+Syria,Syria_2015
+Syria,Syria_2016
+Syria,Syria_2017
+Niger,Niger_2014
+Niger,Niger_2015
+Niger,Niger_2016
+Niger,Niger_2017
+North Korea,North Korea_2014
+North Korea,North Korea_2015
+North Korea,North Korea_2016
+North Korea,North Korea_2017
+Somalia,Somalia_2014
+Somalia,Somalia_2015
+Somalia,Somalia_2016
+Somalia,Somalia_2017
+Switzerland,Switzerland_2014
+Switzerland,Switzerland_2015
+Switzerland,Switzerland_2016
+Switzerland,Switzerland_2017
+Mali,Mali_2014
+Mali,Mali_2015
+Mali,Mali_2016
+Mali,Mali_2017
+Madagascar,Madagascar_2014
+Madagascar,Madagascar_2015
+Madagascar,Madagascar_2016
+Madagascar,Madagascar_2017
+Guinea,Guinea_2014
+Guinea,Guinea_2015
+Guinea,Guinea_2016
+Guinea,Guinea_2017
+Slovakia,Slovakia_2014
+Slovakia,Slovakia_2015
+Slovakia,Slovakia_2016
+Slovakia,Slovakia_2017
+Cuba,Cuba_2014
+Cuba,Cuba_2015
+Cuba,Cuba_2016
+Cuba,Cuba_2017
+Guatemala,Guatemala_2014
+Guatemala,Guatemala_2015
+Guatemala,Guatemala_2016
+Guatemala,Guatemala_2017
+Nicaragua,Nicaragua_2014
+Nicaragua,Nicaragua_2015
+Nicaragua,Nicaragua_2016
+Nicaragua,Nicaragua_2017
+Laos,Laos_2014
+Laos,Laos_2015
+Laos,Laos_2016
+Laos,Laos_2017
+Dominican Republic,Dominican Republic_2014
+Dominican Republic,Dominican Republic_2015
+Dominican Republic,Dominican Republic_2016
+Dominican Republic,Dominican Republic_2017
+Tunisia,Tunisia_2014
+Tunisia,Tunisia_2015
+Tunisia,Tunisia_2016
+Tunisia,Tunisia_2017
+Sri Lanka,Sri Lanka_2014
+Sri Lanka,Sri Lanka_2015
+Sri Lanka,Sri Lanka_2016
+Sri Lanka,Sri Lanka_2017
+Jordan,Jordan_2014
+Jordan,Jordan_2015
+Jordan,Jordan_2016
+Jordan,Jordan_2017
+Uruguay,Uruguay_2014
+Uruguay,Uruguay_2015
+Uruguay,Uruguay_2016
+Uruguay,Uruguay_2017
+Senegal,Senegal_2014
+Senegal,Senegal_2015
+Senegal,Senegal_2016
+Senegal,Senegal_2017
+Lebanon,Lebanon_2014
+Lebanon,Lebanon_2015
+Lebanon,Lebanon_2016
+Lebanon,Lebanon_2017
+Sweden,Sweden_2014
+Sweden,Sweden_2015
+Sweden,Sweden_2016
+Sweden,Sweden_2017
+Norway,Norway_2014
+Norway,Norway_2015
+Norway,Norway_2016
+Norway,Norway_2017
+Honduras,Honduras_2014
+Honduras,Honduras_2015
+Honduras,Honduras_2016
+Honduras,Honduras_2017
+Benin,Benin_2014
+Benin,Benin_2015
+Benin,Benin_2016
+Benin,Benin_2017
+Malawi,Malawi_2014
+Malawi,Malawi_2015
+Malawi,Malawi_2016
+Malawi,Malawi_2017
+Bosnia and Herzegovina,Bosnia and Herzegovina_2014
+Bosnia and Herzegovina,Bosnia and Herzegovina_2015
+Bosnia and Herzegovina,Bosnia and Herzegovina_2016
+Bosnia and Herzegovina,Bosnia and Herzegovina_2017
+Equatorial Guinea,Equatorial Guinea_2014
+Equatorial Guinea,Equatorial Guinea_2015
+Equatorial Guinea,Equatorial Guinea_2016
+Equatorial Guinea,Equatorial Guinea_2017
+Trinidad and Tobago,Trinidad and Tobago_2014
+Trinidad and Tobago,Trinidad and Tobago_2015
+Trinidad and Tobago,Trinidad and Tobago_2016
+Trinidad and Tobago,Trinidad and Tobago_2017
+Liberia,Liberia_2014
+Liberia,Liberia_2015
+Liberia,Liberia_2016
+Liberia,Liberia_2017
+Namibia,Namibia_2014
+Namibia,Namibia_2015
+Namibia,Namibia_2016
+Namibia,Namibia_2017
+Panama,Panama_2014
+Panama,Panama_2015
+Panama,Panama_2016
+Panama,Panama_2017
+Yemen,Yemen_2014
+Yemen,Yemen_2015
+Yemen,Yemen_2016
+Yemen,Yemen_2017
+Estonia,Estonia_2014
+Estonia,Estonia_2015
+Estonia,Estonia_2016
+Estonia,Estonia_2017
+Republic of Congo,Republic of Congo_2014
+Republic of Congo,Republic of Congo_2015
+Republic of Congo,Republic of Congo_2016
+Republic of Congo,Republic of Congo_2017
+Ghana,Ghana_2014
+Ghana,Ghana_2015
+Ghana,Ghana_2016
+Ghana,Ghana_2017
+Bulgaria,Bulgaria_2014
+Bulgaria,Bulgaria_2015
+Bulgaria,Bulgaria_2016
+Bulgaria,Bulgaria_2017
+Guyana,Guyana_2014
+Guyana,Guyana_2015
+Guyana,Guyana_2016
+Guyana,Guyana_2017
+Lithuania,Lithuania_2014
+Lithuania,Lithuania_2015
+Lithuania,Lithuania_2016
+Lithuania,Lithuania_2017
+Croatia,Croatia_2014
+Croatia,Croatia_2015
+Croatia,Croatia_2016
+Croatia,Croatia_2017
+Slovenia,Slovenia_2014
+Slovenia,Slovenia_2015
+Slovenia,Slovenia_2016
+Slovenia,Slovenia_2017
+Brunei,Brunei_2014
+Brunei,Brunei_2015
+Brunei,Brunei_2016
+Brunei,Brunei_2017
+Georgia,Georgia_2014
+Georgia,Georgia_2015
+Georgia,Georgia_2016
+Georgia,Georgia_2017
+Tajikistan,Tajikistan_2014
+Tajikistan,Tajikistan_2015
+Tajikistan,Tajikistan_2016
+Tajikistan,Tajikistan_2017
+Kyrgyzstan,Kyrgyzstan_2014
+Kyrgyzstan,Kyrgyzstan_2015
+Kyrgyzstan,Kyrgyzstan_2016
+Kyrgyzstan,Kyrgyzstan_2017
+Gabon,Gabon_2014
+Gabon,Gabon_2015
+Gabon,Gabon_2016
+Gabon,Gabon_2017
+El Salvador,El Salvador_2014
+El Salvador,El Salvador_2015
+El Salvador,El Salvador_2016
+El Salvador,El Salvador_2017
+Moldova,Moldova_2014
+Moldova,Moldova_2015
+Moldova,Moldova_2016
+Moldova,Moldova_2017
+Suriname,Suriname_2014
+Suriname,Suriname_2015
+Suriname,Suriname_2016
+Suriname,Suriname_2017
+Mauritania,Mauritania_2014
+Mauritania,Mauritania_2015
+Mauritania,Mauritania_2016
+Mauritania,Mauritania_2017
+Sierra Leone,Sierra Leone_2014
+Sierra Leone,Sierra Leone_2015
+Sierra Leone,Sierra Leone_2016
+Sierra Leone,Sierra Leone_2017
+Haiti,Haiti_2014
+Haiti,Haiti_2015
+Haiti,Haiti_2016
+Haiti,Haiti_2017
+Macedonia,Macedonia_2014
+Macedonia,Macedonia_2015
+Macedonia,Macedonia_2016
+Macedonia,Macedonia_2017
+Jamaica,Jamaica_2014
+Jamaica,Jamaica_2015
+Jamaica,Jamaica_2016
+Jamaica,Jamaica_2017
+Luxembourg,Luxembourg_2014
+Luxembourg,Luxembourg_2015
+Luxembourg,Luxembourg_2016
+Luxembourg,Luxembourg_2017
+Albania,Albania_2014
+Albania,Albania_2015
+Albania,Albania_2016
+Albania,Albania_2017
+Armenia,Armenia_2014
+Armenia,Armenia_2015
+Armenia,Armenia_2016
+Armenia,Armenia_2017
+Togo,Togo_2014
+Togo,Togo_2015
+Togo,Togo_2016
+Togo,Togo_2017
+Burundi,Burundi_2014
+Burundi,Burundi_2015
+Burundi,Burundi_2016
+Burundi,Burundi_2017
+Latvia,Latvia_2014
+Latvia,Latvia_2015
+Latvia,Latvia_2016
+Latvia,Latvia_2017
+Costa Rica,Costa Rica_2014
+Costa Rica,Costa Rica_2015
+Costa Rica,Costa Rica_2016
+Costa Rica,Costa Rica_2017
+Cyprus,Cyprus_2014
+Cyprus,Cyprus_2015
+Cyprus,Cyprus_2016
+Cyprus,Cyprus_2017
+Eritrea,Eritrea_2014
+Eritrea,Eritrea_2015
+Eritrea,Eritrea_2016
+Eritrea,Eritrea_2017
+Rwanda,Rwanda_2014
+Rwanda,Rwanda_2015
+Rwanda,Rwanda_2016
+Rwanda,Rwanda_2017
+Belize,Belize_2014
+Belize,Belize_2015
+Belize,Belize_2016
+Belize,Belize_2017
+Mauritius,Mauritius_2014
+Mauritius,Mauritius_2015
+Mauritius,Mauritius_2016
+Mauritius,Mauritius_2017
+Timor-Leste,Timor-Leste_2014
+Timor-Leste,Timor-Leste_2015
+Timor-Leste,Timor-Leste_2016
+Timor-Leste,Timor-Leste_2017
+Lesotho,Lesotho_2014
+Lesotho,Lesotho_2015
+Lesotho,Lesotho_2016
+Lesotho,Lesotho_2017
+Guinea-Bissau,Guinea-Bissau_2014
+Guinea-Bissau,Guinea-Bissau_2015
+Guinea-Bissau,Guinea-Bissau_2016
+Guinea-Bissau,Guinea-Bissau_2017
+Montenegro,Montenegro_2014
+Montenegro,Montenegro_2015
+Montenegro,Montenegro_2016
+Montenegro,Montenegro_2017
+Barbados,Barbados_2014
+Barbados,Barbados_2015
+Barbados,Barbados_2016
+Barbados,Barbados_2017
+Iceland,Iceland_2014
+Iceland,Iceland_2015
+Iceland,Iceland_2016
+Iceland,Iceland_2017
+Gambia,Gambia_2014
+Gambia,Gambia_2015
+Gambia,Gambia_2016
+Gambia,Gambia_2017
+Eswatini,Eswatini_2014
+Eswatini,Eswatini_2015
+Eswatini,Eswatini_2016
+Eswatini,Eswatini_2017
+Bahamas,Bahamas_2014
+Bahamas,Bahamas_2015
+Bahamas,Bahamas_2016
+Bahamas,Bahamas_2017
+Maldives,Maldives_2014
+Maldives,Maldives_2015
+Maldives,Maldives_2016
+Maldives,Maldives_2017
+Grenada,Grenada_2014
+Grenada,Grenada_2015
+Grenada,Grenada_2016
+Grenada,Grenada_2017
+Malta,Malta_2014
+Malta,Malta_2015
+Malta,Malta_2016
+Malta,Malta_2017
+Djibouti,Djibouti_2014
+Djibouti,Djibouti_2015
+Djibouti,Djibouti_2016
+Djibouti,Djibouti_2017
+Antigua and Barbuda,Antigua and Barbuda_2014
+Antigua and Barbuda,Antigua and Barbuda_2015
+Antigua and Barbuda,Antigua and Barbuda_2016
+Antigua and Barbuda,Antigua and Barbuda_2017
+Bhutan,Bhutan_2014
+Bhutan,Bhutan_2015
+Bhutan,Bhutan_2016
+Bhutan,Bhutan_2017
+Vanuatu,Vanuatu_2014
+Vanuatu,Vanuatu_2015
+Vanuatu,Vanuatu_2016
+Vanuatu,Vanuatu_2017
+Samoa,Samoa_2014
+Samoa,Samoa_2015
+Samoa,Samoa_2016
+Samoa,Samoa_2017
+Seychelles,Seychelles_2014
+Seychelles,Seychelles_2015
+Seychelles,Seychelles_2016
+Seychelles,Seychelles_2017
+Cape Verde,Cape Verde_2014
+Cape Verde,Cape Verde_2015
+Cape Verde,Cape Verde_2016
+Cape Verde,Cape Verde_2017
+Comoros,Comoros_2014
+Comoros,Comoros_2015
+Comoros,Comoros_2016
+Comoros,Comoros_2017
+Saint Lucia,Saint Lucia_2014
+Saint Lucia,Saint Lucia_2015
+Saint Lucia,Saint Lucia_2016
+Saint Lucia,Saint Lucia_2017
+Andorra,Andorra_2014
+Andorra,Andorra_2015
+Andorra,Andorra_2016
+Andorra,Andorra_2017
+Sao Tome and Principe,Sao Tome and Principe_2014
+Sao Tome and Principe,Sao Tome and Principe_2015
+Sao Tome and Principe,Sao Tome and Principe_2016
+Sao Tome and Principe,Sao Tome and Principe_2017
+Saint Kitts and Nevis,Saint Kitts and Nevis_2014
+Saint Kitts and Nevis,Saint Kitts and Nevis_2015
+Saint Kitts and Nevis,Saint Kitts and Nevis_2016
+Saint Kitts and Nevis,Saint Kitts and Nevis_2017
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines_2014
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines_2015
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines_2016
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines_2017
+Tonga,Tonga_2014
+Tonga,Tonga_2015
+Tonga,Tonga_2016
+Tonga,Tonga_2017
+Palau,Palau_2014
+Palau,Palau_2015
+Palau,Palau_2016
+Palau,Palau_2017
+Fiji,Fiji_2014
+Fiji,Fiji_2015
+Fiji,Fiji_2016
+Fiji,Fiji_2017
+Micronesia,Micronesia_2014
+Micronesia,Micronesia_2015
+Micronesia,Micronesia_2016
+Micronesia,Micronesia_2017
+Marshall Islands,Marshall Islands_2014
+Marshall Islands,Marshall Islands_2015
+Marshall Islands,Marshall Islands_2016
+Marshall Islands,Marshall Islands_2017
+Dominica,Dominica_2014
+Dominica,Dominica_2015
+Dominica,Dominica_2016
+Dominica,Dominica_2017
+Liechtenstein,Liechtenstein_2014
+Liechtenstein,Liechtenstein_2015
+Liechtenstein,Liechtenstein_2016
+Liechtenstein,Liechtenstein_2017
+Kiribati,Kiribati_2014
+Kiribati,Kiribati_2015
+Kiribati,Kiribati_2016
+Kiribati,Kiribati_2017
+Cook Islands,Cook Islands_2014
+Cook Islands,Cook Islands_2015
+Cook Islands,Cook Islands_2016
+Cook Islands,Cook Islands_2017
+Nauru,Nauru_2014
+Nauru,Nauru_2015
+Nauru,Nauru_2016
+Nauru,Nauru_2017
+Tuvalu,Tuvalu_2014
+Tuvalu,Tuvalu_2015
+Tuvalu,Tuvalu_2016
+Tuvalu,Tuvalu_2017
+Niue,Niue_2014
+Niue,Niue_2015
+Niue,Niue_2016
+Niue,Niue_2017
