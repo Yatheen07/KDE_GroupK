@@ -32,7 +32,7 @@
 <#GDP>
     a rr:TriplesMap ;
 
-    rr:logicalTable [ rr:tableName "GDPc" ] ;
+    rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
 		rr:template "http://data.example.org/economy/{ID}" ;
