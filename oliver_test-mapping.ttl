@@ -1,0 +1,112 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix oxly: <http://www.example.org/ont#> .
+
+<#Countries>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "COUNTRIES" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:class oxly:Country;
+	] ;
+
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:countryName;
+		  rr:objectMap [
+		  	 rr:column "COUNTRY" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:isPartOf ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Continent>;
+            rr:joinCondition [
+                rr:child "COUNTRY";
+                rr:parent "COUNTRY";
+            ]
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasGeography ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Geography>;
+            rr:joinCondition [
+                rr:child "COUNTRY";
+                rr:parent "ENTITY";
+            ]
+		] ; 
+	] ;
+
+.
+
+<#Continent>
+        a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "COUNTRIESCONTINENT" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{CONTINENT}" ;
+		rr:class oxly:Continent;
+	] ;
+
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:continentName;
+		  rr:objectMap [
+		  	 rr:column "CONTINENT" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+     rr:predicateObjectMap [
+		rr:predicate oxly:consitsOf ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Countries>;
+            rr:joinCondition [
+                rr:child "COUNTRY";
+                rr:parent "COUNTRY";
+            ]
+		] ; 
+	] ;
+
+
+.
+
+<#Geography>
+        a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "POPULATION" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/geography/{ENTITY}" ;
+		rr:class oxly:Geography;
+	] ;
+
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:year;
+		  rr:objectMap [
+		  	 rr:column "YEAR" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+    rr:predicateObjectMap [
+		  rr:predicate oxly:population;
+		  rr:objectMap [
+		  	 rr:column "POPULATION" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+.
