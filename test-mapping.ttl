@@ -34,21 +34,33 @@
                 rr:parent "ID";
             ]
 		] ; 
-	] ;
+  ] ;
 
-	rr:predicateObjectMap
-		[
-			rr:predicate oxly:hasMilitary;
-			rr:objectMap
-				[
-					rr:parentTriplesMap <#MilitaryExpenditure> ;
-					rr:joinCondition
-						[
-							rr:child "COUNTRY" ;
-							rr:parent "COUNTRY" ;
-						]
-				] ;
-		] ;
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasSustainability;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#HumanDevelopmentIndex>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ID";
+            ]
+		] ; 
+  ] ;
+
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hasSustainability;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#WellbeingIndex>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ID";
+            ]
+		] ; 
+  ] ;
+
+
+
 .
 
 <#GDP>
@@ -102,4 +114,81 @@
 	] ;
 
     .
+
+<#HumanDevelopmentIndex>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "HUMANDEVELOPMENTINDEX" ] ;
+
+    rr:subjectMap [
+      rr:template "http://data.example.org/Sustainabiliby/HDI/{ID}" ;
+      rr:class oxly:HumanDevelopmentIndex;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "ENTITY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:year;
+		rr:objectMap [ 
+			rr:column "YEAR" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:hdiScore;
+		rr:objectMap [ 
+			rr:column "HDI_SCORE" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+.
+
+
+<#WellbeingIndex>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "WELLBEINGINDEX" ] ;
+
+    rr:subjectMap [
+      rr:template "http://data.example.org/Sustainabiliby/WBI/{ID}" ;
+      rr:class oxly:WellbeingIndex;
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "ENTITY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:happinessScore;
+		rr:objectMap [ 
+			rr:column "HAPPINESSSCORE" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+
+    rr:predicateObjectMap [
+		rr:predicate oxly:corruptionScore;
+		rr:objectMap [ 
+			rr:column "CORRUPTIONINDEX" ; 
+			rr:datatype xsd:double ; 
+		] ; 
+	] ;
+
+.
+
 
