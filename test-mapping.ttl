@@ -28,7 +28,7 @@
     rr:predicateObjectMap [
 		rr:predicate oxly:hasEconomy ;
 		rr:objectMap [ 
-			rr:parentTriplesMap <#GDP>;
+			rr:parentTriplesMap <#Economy>;
             rr:joinCondition [
                 rr:child "COUNTRYYEAR";
                 rr:parent "ID";
@@ -39,29 +39,89 @@
     rr:predicateObjectMap [
 		rr:predicate oxly:hasSustainability;
 		rr:objectMap [ 
-			rr:parentTriplesMap <#HumanDevelopmentIndex>;
+			rr:parentTriplesMap <#Sustainability>;
             rr:joinCondition [
                 rr:child "COUNTRYYEAR";
                 rr:parent "ID";
             ]
 		] ; 
   ] ;
-
-
-    rr:predicateObjectMap [
-		rr:predicate oxly:hasSustainability;
-		rr:objectMap [ 
-			rr:parentTriplesMap <#WellbeingIndex>;
-            rr:joinCondition [
-                rr:child "COUNTRYYEAR";
-                rr:parent "ID";
-            ]
-		] ; 
-  ] ;
-
 
 
 .
+
+<#Economy>
+	a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "GDP" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:class oxly:GDP;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "COUNTRY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryGDP ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#GDP>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ID";
+            ]
+		] ; 
+  	] ;
+
+	.
+
+<#Sustainability>
+	a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "GDP" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:class oxly:GDP;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:Country;
+		rr:objectMap [ 
+			rr:column "COUNTRY" ; 
+			rr:datatype xsd:string ; 
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryHDI;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#HumanDevelopmentIndex>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ID";
+            ]
+		] ; 
+  	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:countryWBI;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#WellbeingIndex>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ENTITY";
+            ]
+		] ; 
+  	] ;
+	
+	.
 
 <#GDP>
     a rr:TriplesMap ;
@@ -160,7 +220,7 @@
     rr:logicalTable [ rr:tableName "WELLBEINGINDEX" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainabiliby/WBI/{ID}" ;
+      rr:template "http://data.example.org/Sustainabiliby/WBI/{ENTITY}" ;
       rr:class oxly:WellbeingIndex;
 	] ;
 
