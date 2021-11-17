@@ -87,7 +87,7 @@
     rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:template "http://data.example.org/sustainability/{ID}" ;
 		rr:class oxly:Sustainability;
 	] ;
 
