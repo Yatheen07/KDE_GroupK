@@ -192,7 +192,7 @@
     rr:logicalTable [ rr:tableName "HUMANDEVELOPMENTINDEX" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainabiliby/HDI/{ID}" ;
+      rr:template "http://data.example.org/Sustainability/HDI/{ID}" ;
       rr:class oxly:HumanDevelopmentIndex;
 	] ;
 
@@ -228,7 +228,7 @@
     rr:logicalTable [ rr:tableName "WELLBEINGINDEX" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainabiliby/WBI/{ENTITY}" ;
+      rr:template "http://data.example.org/Sustainability/WBI/{ENTITY}" ;
       rr:class oxly:WellbeingIndex;
 	] ;
 
@@ -265,7 +265,7 @@
     rr:logicalTable [ rr:tableName "GHGEMISSIONS" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainabiliby/Pollution/{ENTITY}" ;
+      rr:template "http://data.example.org/Sustainability/Pollution/{ENTITY}" ;
       rr:class oxly:Pollution;
 	] ;
 
@@ -285,17 +285,6 @@
 		] ; 
 	] ;
 
-	rr:predicateObjectMap [
-		rr:predicate oxly:countryWBI;
-		rr:objectMap [ 
-			rr:parentTriplesMap <#AIRPollutionDeaths>;
-            rr:joinCondition [
-                rr:child "ENTITY";
-                rr:parent "Id";
-            ]
-		] ; 
-  	] ;
-
 	.
 
 <#AIRPollutionDeaths>
@@ -304,7 +293,7 @@
     rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainabiliby/API/{Id}" ;
+      rr:template "http://data.example.org/Sustainability/API/{ID}" ;
       rr:class oxly:AirPollutionIndex;
 	] ;
 
@@ -332,6 +321,17 @@
 			rr:datatype xsd:double ; 
 		] ; 
 	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:contributesTO;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Pollution>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ENTITY";
+            ]
+		] ; 
+  	] ;
 
 	.
 
