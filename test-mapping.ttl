@@ -6,6 +6,38 @@
 
 @prefix oxly: <http://www.example.org/ont#> .
 
+<#Continent>
+        a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "COUNTRIESCONTINENT" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{CONTINENT}" ;
+		rr:class oxly:Continent;
+	] ;
+
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:continentName;
+		  rr:objectMap [
+		  	 rr:column "CONTINENT" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+     rr:predicateObjectMap [
+		rr:predicate oxly:consitsOf ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Countries>;
+            rr:joinCondition [
+                rr:child "COUNTRY";
+                rr:parent "COUNTRY";
+            ]
+		] ; 
+	] ;
+
+	.
+
 <#Countries>
     a rr:TriplesMap ;
 
@@ -45,8 +77,58 @@
                 rr:parent "ID";
             ]
 		] ; 
-  ] ;
+  	] ;
 
+	rr:predicateObjectMap [
+		rr:predicate oxly:isPartOf ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Continent>;
+			rr:joinCondition [
+				rr:child "COUNTRY";
+				rr:parent "COUNTRY";
+			]
+		] ; 
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate oxly:hasGeography ;
+		rr:objectMap [ 
+			rr:parentTriplesMap <#Geography>;
+            rr:joinCondition [
+                rr:child "COUNTRYYEAR";
+                rr:parent "ENTITY";
+            ]
+		] ; 
+	] ;
+
+
+.
+
+<#Geography>
+        a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "POPULATION" ] ;
+
+    rr:subjectMap [
+		rr:template "http://data.example.org/{ENTITY}" ;
+		rr:class oxly:Geography;
+	] ;
+
+	rr:predicateObjectMap [
+		  rr:predicate oxly:year;
+		  rr:objectMap [
+		  	 rr:column "YEAR" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
+
+    rr:predicateObjectMap [
+		  rr:predicate oxly:population;
+		  rr:objectMap [
+		  	 rr:column "POPULATION" ;
+		     rr:datatype xsd:string ;
+		  ] ;
+	] ;
 
 .
 
