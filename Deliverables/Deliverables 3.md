@@ -26,6 +26,9 @@
 
 10. Which contient has the highest average HDI?
 
+We aim to answer questions that link economic, geographic and sustainability data of a specific country together.
+We can also compare this data between different continents.
+
 ### Datasets
 
 > Description of datasets selected for application
@@ -36,26 +39,37 @@
   - Name: Air Pollution
   - Link: https://www.kaggle.com/pavan9065/air-pollution?select=share-deaths-air-pollution.csv
   - Format: .CSV
+  contains data about air polution for every country in the world for a range of years
 
 * Dataset 2:
   - Name: Green House Gas Historical Emission Data
   - Link: https://www.kaggle.com/saurabhshahane/green-house-gas-historical-emission-data
   - Format: .CSV
+  contains green house gas emissions for every country in the world for a range of years
 
 * Dataset 3:
   - Name: Global Economy, Population data from Macrotrends
   - Link: https://www.kaggle.com/kalilurrahman/global-economy-population-data-from-macrotrends?select=Global+Nations+Economy+-GNI.csv
   - Format: .CSV
+  contains the population for every country in the world for a range of years
 
 * Dataset 4:
   - Name: World Happiness Report
   - Link: https://www.kaggle.com/unsdsn/world-happiness
   - Format: .CSV
+  contains the happines index for every country in the world for a range of years
 
 * Dataset 5:
   - Name: WorldBank Data on GDP, Population and Military
   - Link: https://www.kaggle.com/greeshmagirish/worldbank-data-on-gdp-population-and-military?select=API_NY.GDP.MKTP.CD_DS2_en_csv_v2_559588.csv
   - Format: .CSV
+  contains data on GDP for every country in the world for a range of years
+
+* Dataset 6:
+  - Name: HumanDevelopmentIndex
+  - Link: https://ourworldindata.org/human-development-index
+  - Format: .CSV
+  contains the human development index for every country in the world for a range of years
 
 ### Assumptions made
 
@@ -73,16 +87,17 @@
 
 Before proceeding with Uplift, we need to analyse the data and the problem, then abstract the data into different entities based on the structure of the data table, and draw UML diagrams based on the structure and relationships of these entities. We then mapped the UML diagram to describe the nodes, attributes and relationships in the graph database using R2RML.
 
+
 ### Explanation of use of inverse, symmetric and transitive properties
 
 * **Inverse**
-  Relationships between nodes are distinguished between active and passive. 'inverse' allows us to access nodes by different relationship directions.
+  Relationships between nodes are distinguished between active and passive. 'inverse' allows us to access nodes by different relationship directions. Two predicates are inverse when their domain and range are swapped. For this, we chose the predicates Country -> "isPartOf" -> Continent and Continent -> "consistsOf" -> Country
 
 * **symmetric**
-  Nodes are related to each other as equals. With 'symmetric', two nodes can find each other using the same relationship.
+  Nodes are related to each other as equals. With 'symmetric', the property has the same domain and range. For this, we chose the predicate "isNeighbourTo" for the node "Country".
 
 * **transitive**
-  Nodes linked by the 'transitive' relationship and at different levels have the same conditions for inheritance of the relationship, so that a parent node can find its children and children's children by the same relationship.
+  Nodes linked by the 'transitive' relationship and at different levels have the same conditions for inheritance of the relationship, so that a parent node can find its children and children's children by the same relationship. For this, we chose the predicate "affects" (AirpolutionIndex affects Polution, Polution affects Sustainability of a counntry)
 
 
 ## Overview of Design
@@ -132,9 +147,10 @@ The section in the red box in the diagram below. The knowledge map of the select
 > * Report how you organised your project (e.g. meetings, common google doc ...).
 > * Conclusions: Self reflection of group on Strengths/weakness of ontology model, queries & interface
 
-* When building an ontology, you need to consider the structure of the data you currently have, and then create an ontology based on the structure of the data, sometimes even with some processing of the data to get a good structure.
+* When building an ontology, you need to consider the structure of the data you currently have, and then create an ontology based on the structure of the data, sometimes even with some processing of the data to get a good structure. We therefore had to rework the ontology multiple times.
 
 * When creating ontology, it is necessary to sort out the data according to its logical structure, which is always complex.
 
 * Although the basic syntax of SPARQL is not difficult, queries that require the use of UNION queries and aggregations make SPARQL much more complex, and SPARSQL like this is always long and error-prone, and it always takes a lot of time to find the problem when it occurs.
 
+* A problem we faced during uplifting was that in some datasets "year" was given as a column and in other datasets it was given as a row. Furthermore, some country names are spelled differently across the different datasets we used. We used python scripts to transform the datasets to our needs.
