@@ -26,7 +26,7 @@
 	] ;
 
      rr:predicateObjectMap [
-		rr:predicate oxly:consitsOf ;
+		rr:predicate oxly:consistsOf ;
 		rr:objectMap [ 
 			rr:parentTriplesMap <#Countries>;
             rr:joinCondition [
@@ -143,7 +143,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "COUNTRY" ; 
 			rr:datatype xsd:string ; 
@@ -174,7 +174,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "COUNTRY" ; 
 			rr:datatype xsd:string ; 
@@ -227,7 +227,7 @@
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "COUNTRY" ; 
 			rr:datatype xsd:string ; 
@@ -279,7 +279,7 @@
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "ENTITY" ; 
 			rr:datatype xsd:string ; 
@@ -315,7 +315,7 @@
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "ENTITY" ; 
 			rr:datatype xsd:string ; 
@@ -352,7 +352,7 @@
 	] ;
 
     rr:predicateObjectMap [
-		rr:predicate oxly:Country;
+		rr:predicate oxly:countryName;
 		rr:objectMap [ 
 			rr:column "ENTITY" ; 
 			rr:datatype xsd:string ; 
@@ -405,7 +405,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate oxly:contributesTO;
+		rr:predicate oxly:affects;
 		rr:objectMap [ 
 			rr:parentTriplesMap <#Pollution>;
             rr:joinCondition [
