@@ -1,0 +1,394 @@
+@prefix oxly: <http://www.example.org/ont/groupK#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.example.org/ont/groupK> .
+
+<http://www.example.org/ont/groupK> rdf:type owl:Ontology ;
+                                     owl:imports <http://ns.nature.com/terms/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.example.org/ont/groupK#isNeighbour
+:isNeighbour rdf:type owl:ObjectProperty ,
+                      owl:SymmetricProperty ;
+             rdfs:domain <http://www.example.org/ont/groupK#Country> ;
+             rdfs:range <http://www.example.org/ont/groupK#Country> ;
+             rdfs:comment "country is a neigbhbour to another country"@en .
+
+
+###  http://www.example.org/ont/groupK#affects
+<http://www.example.org/ont/groupK#affects> rdf:type owl:ObjectProperty ,
+                                                                                            owl:TransitiveProperty ;
+                                                                                   rdfs:domain <http://www.example.org/ont/groupK#AirPollutionIndex> ,
+                                                                                               <http://www.example.org/ont/groupK#Pollution> ;
+                                                                                   rdfs:range <http://www.example.org/ont/groupK#Pollution> ,
+                                                                                              <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#definition> "describes two concept that affect each other"@en ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "affects"@en .
+
+
+###  http://www.example.org/ont/groupK#consistsOf
+<http://www.example.org/ont/groupK#consistsOf> rdf:type owl:ObjectProperty ;
+                                                                                      owl:inverseOf <http://www.example.org/ont/groupK#isPartOf> ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Continent> ;
+                                                                                      rdfs:range <http://www.example.org/ont/groupK#Country> ;
+                                                                                      rdfs:comment "describes the countries that belong to a continent"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "consistsOf"@en .
+
+
+###  http://www.example.org/ont/groupK#contributesToEconomy
+<http://www.example.org/ont/groupK#contributesToEconomy> rdf:type owl:ObjectProperty ;
+                                                                                                rdfs:domain <http://www.example.org/ont/groupK#GDP> ;
+                                                                                                rdfs:range <http://www.example.org/ont/groupK#Economy> ;
+                                                                                                rdfs:comment "a factor that contributes to the economy of a country"@en ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "contributesToEconomy"@en .
+
+
+###  http://www.example.org/ont/groupK#contributesToSustainability
+<http://www.example.org/ont/groupK#contributesToSustainability> rdf:type owl:ObjectProperty ;
+                                                                                                       rdfs:domain <http://www.example.org/ont/groupK#HumanDevelopmentIndex> ,
+                                                                                                                   <http://www.example.org/ont/groupK#WellbeingIndex> ;
+                                                                                                       rdfs:range <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                                       rdfs:comment "a factor that contributes to the sustainability of a country"@en ;
+                                                                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "contributesToSustainability"@en .
+
+
+###  http://www.example.org/ont/groupK#countryGDP
+<http://www.example.org/ont/groupK#countryGDP> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Economy> ;
+                                                                                      rdfs:range <http://www.example.org/ont/groupK#GDP> ;
+                                                                                      rdfs:comment "relates a country to its GDP"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "countryGDP"@en .
+
+
+###  http://www.example.org/ont/groupK#countryHDI
+<http://www.example.org/ont/groupK#countryHDI> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                      rdfs:range <http://www.example.org/ont/groupK#HumanDevelopmentIndex> ;
+                                                                                      rdfs:comment "relates a country to its Human Development Index"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "countryHDI"@en .
+
+
+###  http://www.example.org/ont/groupK#countryPollution
+<http://www.example.org/ont/groupK#countryPollution> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:domain <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                            rdfs:range <http://www.example.org/ont/groupK#Pollution> ;
+                                                                                            rdfs:comment "relates a country to its polution"@en ;
+                                                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "countryPollution"@en .
+
+
+###  http://www.example.org/ont/groupK#countryWBI
+<http://www.example.org/ont/groupK#countryWBI> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                      rdfs:range <http://www.example.org/ont/groupK#WellbeingIndex> ;
+                                                                                      rdfs:comment "relates a country to its WellbeingIndex"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "countryWellbeingIndex"@en .
+
+
+###  http://www.example.org/ont/groupK#hasEconomy
+<http://www.example.org/ont/groupK#hasEconomy> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Country> ;
+                                                                                      rdfs:range <http://www.example.org/ont/groupK#Economy> ;
+                                                                                      rdfs:comment "relates a country to its economy"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasEconomy"@en .
+
+
+###  http://www.example.org/ont/groupK#hasGeography
+<http://www.example.org/ont/groupK#hasGeography> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://www.example.org/ont/groupK#Country> ;
+                                                                                        rdfs:range <http://www.example.org/ont/groupK#Geography> ;
+                                                                                        rdfs:comment "relates a country to its geography"@en ;
+                                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "hasGeography"@en .
+
+
+###  http://www.example.org/ont/groupK#hasSustainability
+<http://www.example.org/ont/groupK#hasSustainability> rdf:type owl:ObjectProperty ;
+                                                                                             rdfs:domain <http://www.example.org/ont/groupK#Country> ;
+                                                                                             rdfs:range <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                             rdfs:comment "relates a country to its sustainability"@en ;
+                                                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSustainability"@en .
+
+
+###  http://www.example.org/ont/groupK#improves
+<http://www.example.org/ont/groupK#improves> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.example.org/ont/groupK#Economy> ;
+                                                                                    rdfs:range <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                    rdfs:comment "connects two concepts that have an improving effect on each other"@en ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "improves"@en .
+
+
+###  http://www.example.org/ont/groupK#isPartOf
+<http://www.example.org/ont/groupK#isPartOf> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.example.org/ont/groupK#Country> ;
+                                                                                    rdfs:range <http://www.example.org/ont/groupK#Continent> ;
+                                                                                    rdfs:comment "describes of which continent a country is a part of"@en ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "isPartOf"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ns.nature.com/terms/credit
+<http://ns.nature.com/terms/credit> rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.example.org/ont/groupK#continentName
+<http://www.example.org/ont/groupK#continentName> rdf:type owl:DatatypeProperty ,
+                                                                                                  owl:FunctionalProperty ;
+                                                                                         rdfs:domain <http://www.example.org/ont/groupK#Continent> ;
+                                                                                         rdfs:range xsd:string ;
+                                                                                         rdfs:comment "The name of a continent"@en ;
+                                                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "continentName"@en .
+
+
+###  http://www.example.org/ont/groupK#corruptionScore
+<http://www.example.org/ont/groupK#corruptionScore> rdf:type owl:DatatypeProperty ,
+                                                                                                    owl:FunctionalProperty ;
+                                                                                           rdfs:domain <http://www.example.org/ont/groupK#WellbeingIndex> ;
+                                                                                           rdfs:range xsd:double ;
+                                                                                           rdfs:comment "The corruption score of a country according to the HappinesIndex"@en ;
+                                                                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "corruptionScore"@en .
+
+
+###  http://www.example.org/ont/groupK#countryName
+<http://www.example.org/ont/groupK#countryName> rdf:type owl:DatatypeProperty ,
+                                                                                                owl:FunctionalProperty ;
+                                                                                       rdfs:domain <http://www.example.org/ont/groupK#Country> ,
+                                                                                                   <http://www.example.org/ont/groupK#Economy> ,
+                                                                                                   <http://www.example.org/ont/groupK#GDP> ,
+                                                                                                   <http://www.example.org/ont/groupK#HumanDevelopmentIndex> ,
+                                                                                                   <http://www.example.org/ont/groupK#Pollution> ,
+                                                                                                   <http://www.example.org/ont/groupK#Sustainability> ,
+                                                                                                   <http://www.example.org/ont/groupK#WellbeingIndex> ;
+                                                                                       rdfs:range xsd:string ;
+                                                                                       rdfs:comment "The name of a country"@en ;
+                                                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "countryName"@en .
+
+
+###  http://www.example.org/ont/groupK#deathCount
+<http://www.example.org/ont/groupK#deathCount> rdf:type owl:DatatypeProperty ,
+                                                                                               owl:FunctionalProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#AirPollutionIndex> ;
+                                                                                      rdfs:range xsd:integer ;
+                                                                                      rdfs:comment "The death count of a country due to air pollution"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "deathCount"@en .
+
+
+###  http://www.example.org/ont/groupK#gdpGrowth
+<http://www.example.org/ont/groupK#gdpGrowth> rdf:type owl:DatatypeProperty ,
+                                                                                              owl:FunctionalProperty ;
+                                                                                     rdfs:domain <http://www.example.org/ont/groupK#GDP> ;
+                                                                                     rdfs:range xsd:double ;
+                                                                                     rdfs:comment "The GDP growth of a country"@en ;
+                                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "gdpGrowth"@en .
+
+
+###  http://www.example.org/ont/groupK#gdpValue
+<http://www.example.org/ont/groupK#gdpValue> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                    rdf:type owl:FunctionalProperty ;
+                                                                                    rdfs:domain <http://www.example.org/ont/groupK#GDP> ;
+                                                                                    rdfs:range xsd:double ;
+                                                                                    rdfs:comment "The GDP of an entity"@en ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "gdpValue"@en .
+
+
+###  http://www.example.org/ont/groupK#ghgEmission
+<http://www.example.org/ont/groupK#ghgEmission> rdf:type owl:DatatypeProperty ,
+                                                                                                owl:FunctionalProperty ;
+                                                                                       rdfs:domain <http://www.example.org/ont/groupK#Pollution> ;
+                                                                                       rdfs:range xsd:double ;
+                                                                                       rdfs:comment "The greenhouse gas emissions of an entity in Mega tons CO2"@en ;
+                                                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ghgEmission"@en .
+
+
+###  http://www.example.org/ont/groupK#happinessScore
+<http://www.example.org/ont/groupK#happinessScore> rdf:type owl:DatatypeProperty ,
+                                                                                                   owl:FunctionalProperty ;
+                                                                                          rdfs:domain <http://www.example.org/ont/groupK#WellbeingIndex> ;
+                                                                                          rdfs:range xsd:double ;
+                                                                                          rdfs:comment "The happiness score of a country according to the happines index"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "happinessScore"@en .
+
+
+###  http://www.example.org/ont/groupK#hdiScore
+<http://www.example.org/ont/groupK#hdiScore> rdf:type owl:DatatypeProperty ,
+                                                                                             owl:FunctionalProperty ;
+                                                                                    rdfs:domain <http://www.example.org/ont/groupK#HumanDevelopmentIndex> ;
+                                                                                    rdfs:range xsd:double ;
+                                                                                    rdfs:comment "The Human Development Index score of an entity"@en ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "hdiScore"@en .
+
+
+###  http://www.example.org/ont/groupK#militaryExpenditurePerGdp
+<http://www.example.org/ont/groupK#militaryExpenditurePerGdp> rdf:type owl:DatatypeProperty ,
+                                                                                                              owl:FunctionalProperty ;
+                                                                                                     rdfs:domain <http://www.example.org/ont/groupK#GDP> ;
+                                                                                                     rdfs:range xsd:double ;
+                                                                                                     rdfs:comment "The percentage of the GDP a country spends on its military"@en ;
+                                                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "militaryExpenditurePerGdp"@en .
+
+
+###  http://www.example.org/ont/groupK#population
+<http://www.example.org/ont/groupK#population> rdf:type owl:DatatypeProperty ,
+                                                                                               owl:FunctionalProperty ;
+                                                                                      rdfs:domain <http://www.example.org/ont/groupK#Geography> ;
+                                                                                      rdfs:range xsd:int ;
+                                                                                      rdfs:comment "The population of a country"@en ;
+                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "population"@en .
+
+
+###  http://www.example.org/ont/groupK#year
+<http://www.example.org/ont/groupK#year> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.example.org/ont/groupK#AirPollutionIndex> ,
+                                                                                            <http://www.example.org/ont/groupK#Economy> ,
+                                                                                            <http://www.example.org/ont/groupK#GDP> ,
+                                                                                            <http://www.example.org/ont/groupK#Geography> ,
+                                                                                            <http://www.example.org/ont/groupK#HumanDevelopmentIndex> ,
+                                                                                            <http://www.example.org/ont/groupK#Sustainability> ;
+                                                                                rdfs:range xsd:gYear ;
+                                                                                rdfs:comment "The year related to a entity"@en ;
+                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "year"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.example.org/ont/groupK#AirPollutionIndex
+<http://www.example.org/ont/groupK#AirPollutionIndex> rdf:type owl:Class ;
+                                                                                             rdfs:comment "groups together the air pollution data for a country for a specific year"@en ;
+                                                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "AirPollutionIndex"@en .
+
+
+###  http://www.example.org/ont/groupK#Continent
+<http://www.example.org/ont/groupK#Continent> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://www.example.org/ont/groupK#consistsOf> ;
+                                                                                                       owl:someValuesFrom <http://www.example.org/ont/groupK#Country>
+                                                                                                     ] ,
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://www.example.org/ont/groupK#consistsOf> ;
+                                                                                                       owl:allValuesFrom <http://www.example.org/ont/groupK#Country>
+                                                                                                     ] ;
+                                                                                     owl:disjointWith <http://www.example.org/ont/groupK#Country> ;
+                                                                                     rdfs:comment "a continet which contains different countries"@en ;
+                                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Continent"@en .
+
+
+###  http://www.example.org/ont/groupK#Country
+<http://www.example.org/ont/groupK#Country> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#hasEconomy> ;
+                                                                                                     owl:someValuesFrom <http://www.example.org/ont/groupK#Economy>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#hasGeography> ;
+                                                                                                     owl:someValuesFrom <http://www.example.org/ont/groupK#Geography>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#hasSustainability> ;
+                                                                                                     owl:someValuesFrom <http://www.example.org/ont/groupK#Sustainability>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#isPartOf> ;
+                                                                                                     owl:allValuesFrom <http://www.example.org/ont/groupK#Continent>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#isPartOf> ;
+                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onClass <http://www.example.org/ont/groupK#Continent>
+                                                                                                   ] ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Country"@en .
+
+
+###  http://www.example.org/ont/groupK#Economy
+<http://www.example.org/ont/groupK#Economy> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#improves> ;
+                                                                                                     owl:someValuesFrom <http://www.example.org/ont/groupK#GDP>
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.example.org/ont/groupK#improves> ;
+                                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onClass <http://www.example.org/ont/groupK#Sustainability>
+                                                                                                   ] ;
+                                                                                   rdfs:comment "groups together the economic data of a country"@en ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Economy"@en .
+
+
+###  http://www.example.org/ont/groupK#GDP
+<http://www.example.org/ont/groupK#GDP> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.example.org/ont/groupK#contributesToEconomy> ;
+                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onClass <http://www.example.org/ont/groupK#Economy>
+                                                                                               ] ;
+                                                                               rdfs:comment "groups together the GDP data of a country for a specific year"@en ;
+                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "GDP"@en .
+
+
+###  http://www.example.org/ont/groupK#Geography
+<http://www.example.org/ont/groupK#Geography> rdf:type owl:Class ;
+                                                                                     rdfs:comment "groups together the geography data of a country"@en ;
+                                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Geography"@en .
+
+
+###  http://www.example.org/ont/groupK#HumanDevelopmentIndex
+<http://www.example.org/ont/groupK#HumanDevelopmentIndex> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty <http://www.example.org/ont/groupK#contributesToSustainability> ;
+                                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                   owl:onClass <http://www.example.org/ont/groupK#Sustainability>
+                                                                                                                 ] ;
+                                                                                                 rdfs:comment "groups together the HumanDevelopmentIndex data for a country for a specific year"@en ;
+                                                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "HumanDevelopmentIndex"@en .
+
+
+###  http://www.example.org/ont/groupK#Pollution
+<http://www.example.org/ont/groupK#Pollution> rdf:type owl:Class ;
+                                                                                     rdfs:comment "groups the pollution data of a country for a specific year"@en ;
+                                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Pollution"@en .
+
+
+###  http://www.example.org/ont/groupK#Sustainability
+<http://www.example.org/ont/groupK#Sustainability> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.example.org/ont/groupK#countryHDI> ;
+                                                                                                            owl:someValuesFrom <http://www.example.org/ont/groupK#HumanDevelopmentIndex>
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.example.org/ont/groupK#countryPollution> ;
+                                                                                                            owl:someValuesFrom <http://www.example.org/ont/groupK#Pollution>
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.example.org/ont/groupK#countryWBI> ;
+                                                                                                            owl:someValuesFrom <http://www.example.org/ont/groupK#WellbeingIndex>
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.example.org/ont/groupK#improves> ;
+                                                                                                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                            owl:onClass <http://www.example.org/ont/groupK#Economy>
+                                                                                                          ] ;
+                                                                                          rdfs:comment "groups together the sustainability data of a country"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability"@en .
+
+
+###  http://www.example.org/ont/groupK#WellbeingIndex
+<http://www.example.org/ont/groupK#WellbeingIndex> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.example.org/ont/groupK#contributesToSustainability> ;
+                                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                            owl:onClass <http://www.example.org/ont/groupK#Sustainability>
+                                                                                                          ] ;
+                                                                                          rdfs:comment "groups together the air wellbeingIndex data for a country for a specific year"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "WellbeingIndex"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
