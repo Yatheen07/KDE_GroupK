@@ -4,7 +4,7 @@
 @prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix oxly: <http://www.example.org/ont#> .
+@prefix oxly: <http://www.example.org/ont/groupK#> .
 
 <#Continent>
         a rr:TriplesMap ;
@@ -12,7 +12,7 @@
     rr:logicalTable [ rr:tableName "COUNTRIESCONTINENT" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/{CONTINENT}" ;
+		rr:template "http://data.example.org/groupK/{CONTINENT}" ;
 		rr:class oxly:Continent;
 	] ;
 
@@ -44,7 +44,7 @@
     rr:logicalTable [ rr:tableName "COUNTRIES" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/{COUNTRY}" ;
+		rr:template "http://data.example.org/groupK/{COUNTRY}" ;
 		rr:class oxly:Country;
 	] ;
 
@@ -110,7 +110,7 @@
     rr:logicalTable [ rr:tableName "POPULATION" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/{ENTITY}" ;
+		rr:template "http://data.example.org/groupK/{ENTITY}" ;
 		rr:class oxly:Geography;
 	] ;
 
@@ -138,7 +138,7 @@
     rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:template "http://data.example.org/groupK/economy/{ID}" ;
 		rr:class oxly:Economy;
 	] ;
 
@@ -169,7 +169,7 @@
     rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/sustainability/{ID}" ;
+		rr:template "http://data.example.org/groupK/sustainability/{ID}" ;
 		rr:class oxly:Sustainability;
 	] ;
 
@@ -222,7 +222,7 @@
     rr:logicalTable [ rr:tableName "GDP" ] ;
 
     rr:subjectMap [
-		rr:template "http://data.example.org/economy/{ID}" ;
+		rr:template "http://data.example.org/groupK/economy/{ID}" ;
 		rr:class oxly:GDP;
 	] ;
 
@@ -274,7 +274,7 @@
     rr:logicalTable [ rr:tableName "HUMANDEVELOPMENTINDEX" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainability/{ID}" ;
+      rr:template "http://data.example.org/groupK/Sustainability/{ID}" ;
       rr:class oxly:HumanDevelopmentIndex;
 	] ;
 
@@ -310,7 +310,7 @@
     rr:logicalTable [ rr:tableName "WELLBEINGINDEX" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainability/{ENTITY}" ;
+      rr:template "http://data.example.org/groupK/Sustainability/{ENTITY}" ;
       rr:class oxly:WellbeingIndex;
 	] ;
 
@@ -347,7 +347,7 @@
     rr:logicalTable [ rr:tableName "GHGEMISSIONS" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainability/{ENTITY}" ;
+      rr:template "http://data.example.org/groupK/Sustainability/{ENTITY}" ;
       rr:class oxly:Pollution;
 	] ;
 
@@ -375,7 +375,7 @@
     rr:logicalTable [ rr:tableName "AIRPOLLUTIONDEATHS" ] ;
 
     rr:subjectMap [
-      rr:template "http://data.example.org/Sustainability/{ID}" ;
+      rr:template "http://data.example.org/groupK/Sustainability/{ID}" ;
       rr:class oxly:AirPollutionIndex;
 	] ;
 
