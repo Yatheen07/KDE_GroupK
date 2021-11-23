@@ -1,5 +1,6 @@
 package com.groupk.GraphDBIntegration;
 
+import org.apache.solr.common.util.Hash;
 import org.eclipse.rdf4j.repository.RepositoryConnection;
 import org.eclipse.rdf4j.repository.http.HTTPRepository;
 import org.eclipse.rdf4j.query.Binding;
@@ -9,48 +10,41 @@ import org.eclipse.rdf4j.model.Value;
 import com.groupk.GraphDBIntegration.QueryUtil;
 import org.openrdf.query.*;
 
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 public class QueryHandler {
 
-    public void executeQuery(String queryID, Map<String,String> params) throws Exception {
-
-        // Open connection to a new temporary repository
-        // (ruleset is irrelevant for this example)
-        //RepositoryConnection connection = EmbeddedGraphDB.openConnectionToTemporaryRepository("rdfs");
-
-        /* Alternative: connect to a remote repository
-
-        // Abstract representation of a remote repository accessible over HTTP
-        HTTPRepository repository = new HTTPRepository("http://localhost:7200/graphdb/repositories/myrepo");
-
-        // Separate connection to a repository
-        RepositoryConnection connection = repository.getConnection();
-
-        */
-        HTTPRepository repository = new HTTPRepository("http://Yatheens-MacBook-Pro.local:7200/repositories/kk");
+    public ArrayList<HashMap<String,String>> executeQuery(String queryID, Map<String,String> params) throws Exception {
+        ArrayList<HashMap<String,String>> result = new ArrayList<>();
+        HTTPRepository repository = new HTTPRepository("http://Yatheens-MacBook-Pro.local:7200/repositories/test");
         RepositoryConnection connection = (RepositoryConnection) repository.getConnection();
         try {
             String query = resolveQuery(queryID);
             // Preparing a SELECT query for later evaluation
             TupleQueryResult tupleQueryResult = QueryUtil.evaluateSelectQuery(connection,query);
-
+            HashMap<String,String> temp = new HashMap<>();
             while (tupleQueryResult.hasNext()) {
                 // Each result is represented by a BindingSet, which corresponds to a result row
                 BindingSet bindingSet = tupleQueryResult.next();
-
                 // Each BindingSet contains one or more Bindings
+                temp = new HashMap<>();
                 for (Binding binding : bindingSet) {
                     // Each Binding contains the variable name and the value for this result row
                     String name = binding.getName();
                     Value value = binding.getValue();
 
                     System.out.println(name + " = " + value);
+                    String ans = value.toString().contains("^^") ? value.toString().split("\\^\\^")[0] : value.toString();
+                    temp.put(name,ans);
                 }
-
+                result.add(temp);
                 // Bindings can also be accessed explicitly by variable name
                 //Binding binding = bindingSet.getBinding("x");
             }
+
 
             // Once we are done with a particular result we need to close it
             tupleQueryResult.close();
@@ -61,6 +55,7 @@ public class QueryHandler {
             // It is best to close the connection in a finally block
             connection.close();
         }
+        return result;
     }
 
     private String resolveQuery(String query){
@@ -85,6 +80,7 @@ public class QueryHandler {
                     }
                     ORDER BY DESC(?ghg)
                     LIMIT 1""";
+
             case "query2" -> """
                     prefix rr: <http://www.w3.org/ns/r2rml#>
                     prefix geo: <http://www.opengis.net/ont/geosparql#>
@@ -286,7 +282,7 @@ public class QueryHandler {
                     GROUP BY ?contiName
                     ORDER BY DESC(?hdi)
                     LIMIT 1""";
-            default -> "";
+            default -> "SELECT * WHERE {?s ?p ?o }";
         };
     }
 }

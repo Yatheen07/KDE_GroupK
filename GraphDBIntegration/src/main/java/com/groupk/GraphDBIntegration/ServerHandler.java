@@ -30,7 +30,7 @@ public class ServerHandler {
 
     public static void main(String[] args) throws Exception {
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
-        server.createContext("/executeQuery", new SPARQLQueryHandler());
+        server.createContext("/executeQuery", new com.groupk.GraphDBIntegration.ServerHandler.SPARQLQueryHandler());
         server.setExecutor(null); // creates a default executor
         server.start();
     }
@@ -39,23 +39,30 @@ public class ServerHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
             System.out.println("Request received");
-            String response = "Request Received";
+            HashMap<String,Object> response = new HashMap<>();
+            ArrayList<HashMap<String,String>> result = new ArrayList<>();
             try{
                 String requestQuery = t.getRequestURI().getRawQuery();
                 System.out.println(requestQuery);
                 Map<String, String> params = queryToMap(requestQuery);
                 if(params != null){
                     String queryNumber  = params.get("queryID").toString();
-                    new QueryHandler().executeQuery(queryNumber,params);
+                    result = new QueryHandler().executeQuery(queryNumber,params);
+                    Set<String> columns = result.get(0).keySet();
+                    response.put("Columns",columns);
+                    int rowCount = 0;
+                    for(HashMap row : result){
+                        response.put("Row"+rowCount++,row);
+                    }
                 }
             }
             catch (Exception e){
                 e.printStackTrace();
             }
-
-            t.sendResponseHeaders(200, response.getBytes().length);
+            System.out.println(result.toString());
+            t.sendResponseHeaders(200, response.toString().getBytes().length);
             OutputStream os = t.getResponseBody();
-            os.write(response.getBytes());
+            os.write(response.toString().getBytes());
             os.close();
         }
     }
