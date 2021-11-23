@@ -1,0 +1,52 @@
+/*button*/
+.button-1 {
+    background-color: #3366CC;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 100px;
+}
+.button-1:hover {
+    background-color: #699;
+    color: #fff;
+}
+
+/*input*/
+.input-1{
+    border: solid 1px #669966;
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 100px;
+}
+.input-1:hover {
+}
+
+/*label*/
+.label-1{
+    font-size: 16px;
+    color: dimgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

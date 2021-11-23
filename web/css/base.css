@@ -1,0 +1,167 @@
+.base{
+
+}
+
+.body{
+
+}
+
+.header{
+    border: solid 1px #f00;
+
+}
+
+.content{
+    border: solid 1px #f00;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.content .con-left {
+    border: solid 1px #f00;
+
+    float: left;
+    width: 800px;
+}
+.content .con-left .kg-graph {
+
+}
+
+.content .con-left .table-con {
+    border: solid 1px #f00;
+    width: 800px;
+}
+
+.content .con-left .table-con .table-box {
+}
+
+.content .con-left .table-con .table-box .table {
+
+}
+
+table.table {
+    border: solid 1px #000;
+    width: 800px;
+}
+
+table.table thead {
+    border: solid 1px #000;
+
+    background-color: #e7f5f2;
+}
+table.table thead tr {
+
+}
+table.table thead td {
+    border: solid 1px #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+table.table tbody {
+
+}
+
+table.table tbody tr {
+
+}
+
+table.table tbody td {
+    border: solid 1px #000;
+    color: #0000ff;
+    text-align: center;
+}
+
+.content .con-right {
+    border: solid 1px #00f;
+
+    float: right;
+    width: 400px;
+}
+
+.content .con-right .list-box {
+
+}
+
+.content .con-right .list-box .list-li {
+    border: solid 1px #0f0;
+}
+
+.list-box .list-li .head-box {
+    background-color: #e7f5f2;
+}
+.list-box .list-li .c-header {
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 350px;
+}
+
+.list-box .list-li .c-header  .label-box .label {
+    float: left;
+}
+
+.list-box .list-li .c-header  .label {
+
+}
+
+.list-box .list-li .c-header  .arrow {
+    float: right;
+}
+.list-box .list-li .c-header  .arrow {
+    background-color: dimgrey;
+    height: 15px;
+    width: 15px;
+}
+
+.list-box .list-li .c-con {
+}
+
+.list-box .list-li .c-con .input-box {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 350px;
+}
+
+.list-box .list-li .c-con .input-box .input-li {
+    height: 50px;
+}
+
+.list-box .list-li .c-con .input-box .input-li .label {
+    float: left;
+    line-height: 30px;
+    padding-right: 20px;
+    text-align: right;
+    width: 210px;
+}
+
+.list-box .list-li .c-con .input-box .input-li .input {
+    float: left;
+}
+
+.list-box .list-li .c-con .input-box .submit-box {
+
+}
+.list-box .list-li .c-con .input-box .submit-box .btn-box {
+    /*text-align: right;*/
+    height: 50px;
+    padding-right: 15px;
+}
+
+.list-box .list-li .c-con .input-box .submit-box .button-1 {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
