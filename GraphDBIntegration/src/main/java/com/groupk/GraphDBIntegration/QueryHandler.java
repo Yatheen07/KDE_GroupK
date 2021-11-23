@@ -9,8 +9,11 @@ import org.eclipse.rdf4j.model.Value;
 import com.groupk.GraphDBIntegration.QueryUtil;
 import org.openrdf.query.*;
 
+import java.util.Map;
+
 public class QueryHandler {
-    public void hello() throws Exception {
+
+    public void executeQuery(String queryID, Map<String,String> params) throws Exception {
 
         // Open connection to a new temporary repository
         // (ruleset is irrelevant for this example)
@@ -58,10 +61,6 @@ public class QueryHandler {
             // It is best to close the connection in a finally block
             connection.close();
         }
-    }
-
-    public static void main(String[] args) throws Exception {
-        new QueryHandler().hello();
     }
 }
 //TODO:
