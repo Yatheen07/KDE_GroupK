@@ -1,256 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/ctr.css">
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/base.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/group.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/base.js"></script>
 </head>
 <body>
 
-<div class="body">
-    <!--            top-->
-    <div class="header">
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <ul class="navbar-nav">
+    <li id="group-logo" class="nav-item active">
+      <a class="nav-link" href="#">Group K</a>
+    </li>
+  </ul>
+</nav>
+<div class="row">
+  <div class="col-sm-7">
+    <div class="row" style="margin: 20px;">
+
+      <table id="table" class="table">
+        <thead class="thead-dark">
+          <tr>
+          </tr>
+        </thead>
+        <tbody style="background-color: #eeeee4;">
+          <tr>
+            <td>
+                <div style="color: #aaaaaa; font-size: 48px; text-align: center;padding: 100px;">
+                    Group K
+                </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
-    <!--            bottom-->
-    <div class="content">
-        <!--                left-->
-        <div class="con-left">
-            <div class="kg-graph">
+  </div>
+  <div class="col-sm-5">
+    <div style="margin:10px">
+      <div style="height: 10px"></div>
+      <table class="selector table table-dark table-hover" style="font-size: 20px;">
+        <thead>
+          <tr>
+            <th>Competency Questions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="query1" class="button_q" >1.What is the GDP of the Country with the
+                <select>
+                    <option value="top">Most</option>
+                    <option value="bottom">Least</option>
+                </select>
+                GHG Emission?
+            </td>
+            <td>
+                <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+            </td>
+          </tr>
+          <tr>
+           <td id="query2" class="button_q" >2.What is the HDI of country with
+               <select>
+                   <option value="top">Most</option>
+                   <option value="bottom">Least</option>
+               </select>
+               GDP?
+           </td>
+              <td>
+                  <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+              </td>
+         </tr>
+         <tr>
+           <td id="query3" class="button_q">3. What is the military of country with the
+               <select>
+                   <option value="top">Highest</option>
+                   <option value="bottom">Least</option>
+               </select>
+               GHG Emission?</td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
+         </tr>
+         <tr>
+           <td id="query4" class="button_q">4. What is the Average GHG Emission of countries in
+               <select>
+                   <option>Asia</option>
+                   <option>Europe</option>
+               </select>
+               ?
+           </td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subContinent(this)">
+             </td>
 
-            </div>
-            <div class="table-con">
-                <div class="table-box">
-                    <table id="table" class="table">
-                        <thead>
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    3
-                                </td>
-                                <td>
-                                    4
-                                </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>
-                                1
-                            </td>
-                            <td>
-                                2
-                            </td>
-                            <td>
-                                3
-                            </td>
-                            <td>
-                                4
-                            </td>
-                        </tr>
+         </tr>
+         <tr>
+           <td id="query5" class="button_q">5. What is the Population of the country with
+               <select>
+                   <option value="top">Highest</option>
+                   <option value="bottom">Least</option>
+               </select>
+               Air pollution death rate?</td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
+         </tr>
+         <tr>
+           <td id="query6" class="button_q">6.Does corruption offset the GDP and Happiness score?</td>
+         </tr>
+         <tr>
+           <td id="query7" class="button_q">7. What is the happiness score of country with the
+               <select>
+                   <option value="top">Highest</option>
+                   <option value="bottom">Least</option>
+               </select>
+               military?</td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
+         </tr>
+         <tr>
+           <td id="query8" class="button_q">8. What is the average happiness score across
+               <select>
+                   <option>Asia</option>
+                   <option>Europe</option>
+               </select>
+               ?
+           </td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subContinent(this)">
+             </td>
+         </tr>
+         <tr>
+           <td id="query9" class="button_q">9. Which country has the
+               <select>
+                   <option value="top">Highest</option>
+                   <option value="bottom">Least</option>
+               </select>
+               HDI in Asia?</td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
+         </tr>
+         <tr>
+           <td id="query10" class="button_q">10.Which continent has the
+               <select>
+                   <option value="top">Highest</option>
+                   <option value="bottom">Least</option>
+               </select>
+               average HDI?</td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
+         </tr>
 
-
-                        <tr>
-                            <td>
-                                1
-                            </td>
-                            <td>
-                                2
-                            </td>
-                            <td>
-                                3
-                            </td>
-                            <td>
-                                4
-                            </td>
-                        </tr>
-
-                        </tbody>
-                    </table>
-
-                </div>
-            </div>
-        </div>
-        <!--                right-->
-        <div class="con-right">
-            <div class="list-box">
-
-                <div class="list-li">
-                    <div class="head-box">
-                        <div class="c-header">
-                            <div class="c-header-con">
-                                <div class="label-box">
-                                    <div class="label label-1">
-                                        hhhhhh
-                                    </div>
-                                </div>
-                                <div class="arrow">
-                                    <div class="pic">
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-con">
-
-                        <div class="input-box">
-
-                            <div class="input-li">
-                                <div class="label label-1">
-                                    xxxx
-                                </div>
-                                <div class="input">
-                                    <input class="input-1"  type="text" value="xxx">
-                                </div>
-                            </div>
-<!--                            <div class="input-li">-->
-<!--                                <div class="label label-1">-->
-<!--                                    xxxx-->
-<!--                                </div>-->
-<!--                                <div class="input">-->
-<!--                                    <input class="input-1"  type="text" value="xxx">-->
-<!--                                </div>-->
-<!--                            </div>-->
-                            <div class="submit-box">
-                                <div class="btn-box">
-                                    <div id="sss" class="button-1">
-                                        xxxxxxx
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!---->
-                <div class="list-li">
-                    <div class="head-box">
-                        <div class="c-header">
-                            <div class="c-header-con">
-                                <div class="label-box">
-                                    <div class="label label-1">
-                                        hhhhhh
-                                    </div>
-                                </div>
-                                <div class="arrow">
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-con">
-
-                        <div class="input-box">
-
-                            <div class="input-li">
-                                <div class="label label-1">
-                                    xxxx
-                                </div>
-                                <div class="input">
-                                    <input class="input-1" type="text" value="xxx">
-                                </div>
-                            </div>
-                            <div class="input-li">
-                                <div class="label label-1">
-                                    xxxx
-                                </div>
-                                <div class="input">
-                                    <input class="input-1"  type="text" value="xxx">
-                                </div>
-                            </div>
-                            <div class="submit-box">
-                                <div class="btn-box">
-                                    <div class="button">
-                                        xxxxxxx
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="list-li">
-                    <div class="head-box">
-                        <div class="c-header">
-                            <div class="c-header-con">
-                                <div class="label-box">
-                                    <div class="label label-1">
-                                        hhhhhhhh
-                                    </div>
-                                </div>
-                                <div class="arrow">
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-con">
-
-                        <div class="input-box">
-
-                            <div class="input-li">
-                                <div class="label label-1">
-                                    xxxx
-                                </div>
-                                <div class="input">
-                                    <input class="input-1"  type="text" value="xxx">
-                                </div>
-                            </div>
-                            <div class="input-li">
-                                <div class="label label-1">
-                                    xxxx
-                                </div>
-                                <div class="input">
-                                    <input class="input-1"  type="text" value="xxx">
-                                </div>
-                            </div>
-                            <div class="submit-box">
-                                <div class="btn-box">
-                                    <div class=utton">
-                                        xxxxxxx
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!--                       -->
-            </div>
-
-        </div>
+        </tbody>
+      </table>
     </div>
-
+  </div>
 </div>
+
 
 </body>
 </html>
-
-
-
-
-
