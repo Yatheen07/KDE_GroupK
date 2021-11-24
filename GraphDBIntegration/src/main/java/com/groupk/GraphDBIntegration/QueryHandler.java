@@ -19,9 +19,11 @@ public class QueryHandler {
 
     public ArrayList<HashMap<String,String>> executeQuery(String queryID, Map<String,String> params) throws Exception {
         ArrayList<HashMap<String,String>> result = new ArrayList<>();
-        HTTPRepository repository = new HTTPRepository("http://localhost:7200/repositories/test");
+        HTTPRepository repository = new HTTPRepository("http://DESKTOP-41GLD0T:7200/repositories/test");
         RepositoryConnection connection = (RepositoryConnection) repository.getConnection();
         try {
+            System.out.println("params " + params.keySet());
+            System.out.println("queryID " +queryID);
             String query = resolveQuery(queryID,params);
             System.out.println(query);
             // Preparing a SELECT query for later evaluation
@@ -39,6 +41,7 @@ public class QueryHandler {
 
                     System.out.println(name + " = " + value);
                     String ans = value.toString().contains("^^") ? value.toString().split("\\^\\^")[0] : value.toString();
+                    name = "\"" + name + "\"";
                     temp.put(name,ans);
                 }
                 result.add(temp);

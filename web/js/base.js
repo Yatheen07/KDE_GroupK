@@ -34,9 +34,34 @@ function submitItem(q, key, val){
  * @param msg
  */
 function ajaxSparql(query, link=__LINK__, msg=__MSG__){
-    $.ajax({
-        url: link,
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    var settings = {
+        'cache': false,
+        "async": true,
+        "crossDomain": true,
+        "url": link ,
+        "method": "GET",
+        "data": query,
+        "headers": {
+            "accept": "application/json",
+            "Access-Control-Allow-Origin": "x-requested-with"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+        showInTable_new(response);
+    });
+    /*$.ajax({
+        url: link, 
+        crossDomain: true,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"origin, content-type, accept, authorization",
+            "Access-Control-Allow-Credentials":true,
+            "Access-Control-Allow-Methods":"GET",
+            "Access-Control-Max-Age": "1209600"
+            },
         dataType: "json",
         // crossDomain: true,
         type: 'GET',
@@ -48,7 +73,7 @@ function ajaxSparql(query, link=__LINK__, msg=__MSG__){
     }).always((o)=>{
         console.log(__MSG__.always);
         showInTable_new(o);
-    });
+    });*/
 }
 
 /**
@@ -57,6 +82,13 @@ function ajaxSparql(query, link=__LINK__, msg=__MSG__){
  * @param id The id which you want put the data in.
  */
 function showInTable_new(data, id="table") {
+    console.log(typeof data);
+    console.log(data);
+    data = JSON.parse(data);
+/*
+    console.log(typeof data);
+    console.log(data);*/
+
     let thead = "<th>" + data["Columns"][0] + "</th>" + "<th>" + data["Columns"][1] + "</th>" + "<th>" + data["Columns"][2] + "</th>";
     let tbody = "";
 

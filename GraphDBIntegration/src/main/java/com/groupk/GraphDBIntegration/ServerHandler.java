@@ -38,6 +38,7 @@ public class ServerHandler {
     static class SPARQLQueryHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
+
             System.out.println("Request received");
             HashMap<String,Object> response = new HashMap<>();
             ArrayList<HashMap<String,String>> result = new ArrayList<>();
@@ -49,20 +50,31 @@ public class ServerHandler {
                     String queryNumber  = params.get("queryID").toString();
                     result = new QueryHandler().executeQuery(queryNumber,params);
                     Set<String> columns = result.get(0).keySet();
-                    response.put("Columns",columns);
+                    response.put("\"Columns\"",columns);
                     int rowCount = 0;
                     for(HashMap row : result){
-                        response.put("Row"+rowCount++,row);
+                        response.put("\"Row"+ rowCount++ +"\"",row);
                     }
+                }
+                else {
+                    System.out.println("NULL");
                 }
             }
             catch (Exception e){
                 e.printStackTrace();
             }
             System.out.println(result.toString());
-            t.sendResponseHeaders(200, response.toString().getBytes().length);
+
+
+            t.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
+            t.getResponseHeaders().add("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
+            t.getResponseHeaders().add("Access-Control-Allow-Headers", "*");
+            t.getResponseHeaders().add("Access-Control-Allow-Credentials", "true");
+            t.getResponseHeaders().add("Access-Control-Allow-Credentials-Header", "*");
+            //t.getResponseHeaders().add("Content-Type", "application/json");
+            t.sendResponseHeaders(200, response.toString().replaceAll("=",":").getBytes().length);
             OutputStream os = t.getResponseBody();
-            os.write(response.toString().getBytes());
+            os.write(response.toString().replaceAll("=",":").getBytes());
             os.close();
         }
     }
