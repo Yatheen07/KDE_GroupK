@@ -13,6 +13,7 @@
     --green-3: #2B534E;
 
     --add-1: #343A40;
+    --add-2: #F7F7F7;
 }
 
 #group-logo{
@@ -34,9 +35,9 @@ nav {
 table thead,
 table thead tr,
 table thead tr th {
-    background-color: var(--red-1)!important;
+    background-color: var(--add-1)!important;
     border: none!important;
-    color: var(--white-1)!important;
+    color: var(--add-2)!important;
 }
 
 table.table.selector tbody {
