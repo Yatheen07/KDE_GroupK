@@ -2,14 +2,17 @@
     --logo-1: #EBBC1D;
     --logo-2: #F2D752;
     --logo-3: #BE7E10;
-    --blue-1: #1C3256;
-    --white-1: #F7F7F7;
-    --white-2: #DCDCDC;
-    --red-1: #d54a33;
+    /*--blue-1: #1C3256;*/
+    /*--white-1: #F7F7F7;*/
+    /*--white-2: #DCDCDC;*/
+    --white-2: #d54a33;
     --grey-1: #6D6D6D;
+    /*--red-1: #d54a33;*/
     --green-1: #39A598;
     --green-2: #88D4CB;
     --green-3: #2B534E;
+
+    --add-1: #343A40;
 }
 
 #group-logo{
@@ -24,7 +27,7 @@
 }
 
 nav {
-    background-color: var(--blue-1)!important;
+    background-color: var(--add-1)!important;
     color: var(--white-1);
 }
 
@@ -74,10 +77,11 @@ table.table tbody tr td:last-child .btn:hover {
 }
 
 table.table tbody select {
-    background-color: var(--white-1);
+    /*background-color: var(--white-1);*/
+    background-color: var(--green-3);
     border-radius: 4px;
     border: solid 0px var(--white-2);
-    color: var(--blue-1);
+    color: var(--logo-3);
     cursor: pointer;
     outline: none;
 }

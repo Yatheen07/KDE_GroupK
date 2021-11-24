@@ -22,7 +22,10 @@
 </nav>
 <div class="row">
   <div class="col-sm-7">
-    <div class="row" style="margin: 20px;">
+      <div class="row" style="margin: 20px;">
+          <img src="img/ontology.png" style="width: 100%">
+      </div>
+      <div class="row" style="margin: 20px;">
 
       <table id="table" class="table">
         <thead class="thead-dark">
@@ -112,7 +115,15 @@
              </td>
          </tr>
          <tr>
-           <td id="query6" class="button_q">6.Does corruption offset the GDP and Happiness score?</td>
+           <td id="query6" class="button_q">6.Does corruption offset the GDP and Happiness score?
+               <select style="visibility: hidden;">
+                   <option value="DESC">Highest</option>
+                   <option value="ASC">Least</option>
+               </select>
+           </td>
+             <td>
+                 <input type="button" class="btn btn-info submit" value="Submit" onclick="subSort(this)">
+             </td>
          </tr>
          <tr>
            <td id="query7" class="button_q">7. What is the happiness score of country with the
