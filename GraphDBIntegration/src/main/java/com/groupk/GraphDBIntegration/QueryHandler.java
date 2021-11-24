@@ -106,72 +106,74 @@ public class QueryHandler {
                              "}\n" +
                              "ORDER BY " + params.get("sort") + "(?gdp)\n" +
                              "LIMIT 1";
-            case "query3" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT ?countryName ?ghg ?military
-                    WHERE {
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus ;
-                        oxly:hasEconomy ?eco .
-                        ?sus oxly:countryPollution ?pollution .
-                        ?pollution oxly:ghgEmission ?ghg .
-                        ?eco oxly:countryGDP ?gdp_entity .
-                        ?gdp_entity oxly:militaryExpenditurePerGdp ?military .
-                    }
-                    ORDER BY DESC(?ghg)
-                    LIMIT 1
-                    """;
-            case "query4" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT ?countryName ?ghg ?military
-                    WHERE {
-                       
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus ;
-                        oxly:hasEconomy ?eco .
-                        ?sus oxly:countryPollution ?pollution .
-                        ?pollution oxly:ghgEmission ?ghg .
-                        ?eco oxly:countryGDP ?gdp_entity .
-                        ?gdp_entity oxly:militaryExpenditurePerGdp ?military .
-                    }
-                    ORDER BY DESC(?ghg)
-                    LIMIT 1""";
-            case "query5" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT DISTINCT ?countryName ?contiName ?countryName ?population ?airDeathRate
-                    WHERE {
-                        ?conti oxly:consistsOf ?country ;
-                               oxly:continentName ?contiName .
-                        ?country oxly:countryName ?countryName ;
-                                 oxly:hasSustainability ?sus ;
-                                 oxly:hasGeography ?geo .
-                        ?sus oxly:countryPollution ?pollution .
-                        ?airDeath oxly:deathCount ?airDeathRate ;
-                                  oxly:year ?airYear .
-                        ?geo oxly:population ?population .
-
-                        FILTER(CONTAINS(str(?airYear), "2017"))
-                    }
-                    ORDER BY DESC(?airDeathRate)
-                    LIMIT 1""";
+            case "query3" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT ?countryName ?ghg ?military\n" +
+                             "WHERE {\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "    oxly:hasSustainability ?sus ;\n" +
+                             "    oxly:hasEconomy ?eco .\n" +
+                             "    ?sus oxly:countryPollution ?pollution .\n" +
+                             "    ?pollution oxly:ghgEmission ?ghg .\n" +
+                             "    ?eco oxly:countryGDP ?gdp_entity .\n" +
+                             "    ?gdp_entity oxly:militaryExpenditurePerGdp ?military .\n" +
+                             "}\n" +
+                             "ORDER BY " + params.get("sort") +"(?ghg)\n" +
+                             "LIMIT 1\n";
+            case "query4" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "       prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "       prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "       prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "       prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "       prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "\n" +
+                             "\n" +
+                             "       SELECT DISTINCT ?contiName (AVG(?ghg) AS ?ghg ) (AVG(?hdi) AS ?hdi)\n" +
+                             "       WHERE {\n" +
+                             "       ?conti oxly:consistsOf ?country ;\n" +
+                             "       oxly:continentName ?contiName .\n" +
+                             "       ?country oxly:countryName ?countryName ;\n" +
+                             "       oxly:hasSustainability ?sus.\n" +
+                             "       ?sus oxly:countryPollution ?pollution ;\n" +
+                             "       oxly:countryHDI ?humanDev .\n" +
+                             "       ?humanDev oxly:hdiScore ?hdi .\n" +
+                             "\n" +
+                             "\n" +
+                             "\n" +
+                             "       ?pollution oxly:ghgEmission ?ghg .\n" +
+                             "\n" +
+                             "       FILTER(CONTAINS(str(?contiName), \"" + params.get("continent") +"\"))\n" +
+                             "       }\n" +
+                             "       GROUP BY ?contiName";
+            case "query5" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT DISTINCT ?countryName ?contiName ?countryName ?population ?airDeathRate\n" +
+                             "WHERE {\n" +
+                             "    ?conti oxly:consistsOf ?country ;\n" +
+                             "           oxly:continentName ?contiName .\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "             oxly:hasSustainability ?sus ;\n" +
+                             "             oxly:hasGeography ?geo .\n" +
+                             "    ?sus oxly:countryPollution ?pollution .\n" +
+                             "    ?airDeath oxly:deathCount ?airDeathRate ;\n" +
+                             "              oxly:year ?airYear .\n" +
+                             "    ?geo oxly:population ?population .\n" +
+                             "\n" +
+                             "    FILTER(CONTAINS(str(?airYear), \"2017\"))\n" +
+                             "}\n" +
+                             "ORDER BY " + params.get("sort") + "(?airDeathRate)\n" +
+                             "LIMIT 1";
             case "query6" -> """
                     prefix rr: <http://www.w3.org/ns/r2rml#>
                     prefix geo: <http://www.opengis.net/ont/geosparql#>
@@ -196,95 +198,91 @@ public class QueryHandler {
 
                     }
                     GROUP BY ?countryName""";
-            case "query7" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT ?countryName ?happiness_score ?military
-                    WHERE {
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus ;
-                                 oxly:hasEconomy ?eco .
-                        ?sus oxly:countryWBI ?well .
-                       
-                        ?well oxly:corruptionScore ?corr ;
-                              oxly:happinessScore ?happiness_score.
-                       
-                        ?eco oxly:countryGDP ?gdp_entity .
-                        ?gdp_entity oxly:militaryExpenditurePerGdp ?military .
-                    }
-                    ORDER BY DESC(?military)
-                    LIMIT 1""";
-            case "query8" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT DISTINCT ?contiName (AVG(?happiness_score) AS ?happiness_score )
-                    WHERE {
-                        ?conti oxly:consistsOf ?country ;
-                               oxly:continentName ?contiName .
-                       
-                        ?country oxly:countryName ?countryName ;
-                       oxly:hasSustainability ?sus .
-                       
-                        ?well oxly:happinessScore ?happiness_score.
-                       
-                        FILTER(CONTAINS(str(?contiName), "Europe"))
-                    }
-                    GROUP BY ?contiName""";
-            case "query9" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT DISTINCT ?countryName ?hdi
-                    WHERE {
-                        ?conti oxly:consistsOf ?country ;
-                               oxly:continentName ?contiName .
-                       
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus .
-                       
-                        ?sus oxly:countryHDI ?humanDev .
-                        ?humanDev oxly:hdiScore ?hdi .
-                       
-                        FILTER(CONTAINS(str(?contiName), "Asia"))
-                    }
-                    ORDER BY DESC(?hdi)
-                    LIMIT 1""";
-            case "query10" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT DISTINCT ?contiName (AVG(?hdi) AS ?hdi)
-                    WHERE {
-                        ?conti oxly:consistsOf ?country ;
-                               oxly:continentName ?contiName .
-                       
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus .
-
-                        ?sus oxly:countryHDI ?humanDev .
-                        ?humanDev oxly:hdiScore ?hdi .
-                    }
-                    GROUP BY ?contiName
-                    ORDER BY DESC(?hdi)
-                    LIMIT 1""";
+            case "query7" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT ?countryName ?happiness_score ?military\n" +
+                             "WHERE {\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "    oxly:hasSustainability ?sus ;\n" +
+                             "             oxly:hasEconomy ?eco .\n" +
+                             "    ?sus oxly:countryWBI ?well .\n" +
+                             "\n" +
+                             "    ?well oxly:corruptionScore ?corr ;\n" +
+                             "          oxly:happinessScore ?happiness_score.\n" +
+                             "\n" +
+                             "    ?eco oxly:countryGDP ?gdp_entity .\n" +
+                             "    ?gdp_entity oxly:militaryExpenditurePerGdp ?military .\n" +
+                             "}\n" +
+                             "ORDER BY " + params.get("sort") + "(?military)\n" +
+                             "LIMIT 1";
+            case "query8" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT DISTINCT ?contiName (AVG(?happiness_score) AS ?happiness_score )\n" +
+                             "WHERE {\n" +
+                             "    ?conti oxly:consistsOf ?country ;\n" +
+                             "           oxly:continentName ?contiName .\n" +
+                             "\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "   oxly:hasSustainability ?sus .\n" +
+                             "\n" +
+                             "    ?well oxly:happinessScore ?happiness_score.\n" +
+                             "\n" +
+                             "    FILTER(CONTAINS(str(?contiName), \""+ params.get("continent") +"\"))\n" +
+                             "}\n" +
+                             "GROUP BY ?contiName";
+            case "query9" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT DISTINCT ?countryName ?hdi\n" +
+                             "WHERE {\n" +
+                             "    ?conti oxly:consistsOf ?country ;\n" +
+                             "           oxly:continentName ?contiName .\n" +
+                             "\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "    oxly:hasSustainability ?sus .\n" +
+                             "\n" +
+                             "    ?sus oxly:countryHDI ?humanDev .\n" +
+                             "    ?humanDev oxly:hdiScore ?hdi .\n" +
+                             "\n" +
+                             "    FILTER(CONTAINS(str(?contiName), \"Asia\"))\n" +
+                             "}\n" +
+                             "ORDER BY "+ params.get("sort") + "(?hdi)\n" +
+                             "LIMIT 1";
+            case "query10" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                              "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                              "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                              "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                              "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                              "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                              "\n" +
+                              "SELECT DISTINCT ?contiName (AVG(?hdi) AS ?hdi)\n" +
+                              "WHERE {\n" +
+                              "    ?conti oxly:consistsOf ?country ;\n" +
+                              "           oxly:continentName ?contiName .\n" +
+                              "\n" +
+                              "    ?country oxly:countryName ?countryName ;\n" +
+                              "    oxly:hasSustainability ?sus .\n" +
+                              "\n" +
+                              "    ?sus oxly:countryHDI ?humanDev .\n" +
+                              "    ?humanDev oxly:hdiScore ?hdi .\n" +
+                              "}\n" +
+                              "GROUP BY ?contiName\n" +
+                              "ORDER BY " + params.get("sort") + "(?hdi)\n" +
+                              "LIMIT 1";
             default -> "SELECT * WHERE {?s ?p ?o }";
         };
     }
