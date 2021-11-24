@@ -64,7 +64,10 @@ function ajaxSparql(query, link=__LINK__, msg=__MSG__){
     $.ajax(settings).done(function (response) {
         console.log(response);
         showInTable_new(response);
+    }).fail((o)=>{
+        // showInTable_new(dataSparql);
     });
+
     /*$.ajax({
         url: link, 
         crossDomain: true,
@@ -103,12 +106,12 @@ function showInTable_new(data, id="table") {
     console.log(typeof data);
     console.log(data);*/
 
-    let thead = "<th>" + data["Columns"][0] + "</th>" + "<th>" + data["Columns"][1] + "</th>" + data["Columns"][2]? "<th>" + data["Columns"][2] + "</th>" : "";
+    let thead = "<th>" + data["Columns"][0] + "</th>" + "<th>" + data["Columns"][1] + "</th>" + (data["Columns"][2]? "<th>" + data["Columns"][2] + "</th>" : "");
     let tbody = "";
 
     for(let k in data)
         if(!k.indexOf("Row")>0)
-            tbody += "<tr>" + "<td>" + data[k][data.Columns[0]] + "</td>" + "<td>" + data[k][data.Columns[1]] + "</td>" + "<td>" + data[k][data.Columns[2]]? data[k][data.Columns[2]] + "</td>" + "</tr>" : "";
+            tbody += "<tr>" + "<td>" + data[k][data.Columns[0]] + "</td>" + "<td>" + data[k][data.Columns[1]] + "</td>" + "<td>" + (data[k][data.Columns[2]]? data[k][data.Columns[2]] + "</td>" + "</tr>" : "");
 
     let table = "<thead class=\"thead-dark\">" + thead + "</thead>" + "<tbody style=\"background-color: #eeeee4;\">"+ tbody +"</tbody>";
 
