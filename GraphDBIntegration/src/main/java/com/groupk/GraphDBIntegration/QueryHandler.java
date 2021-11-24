@@ -19,10 +19,11 @@ public class QueryHandler {
 
     public ArrayList<HashMap<String,String>> executeQuery(String queryID, Map<String,String> params) throws Exception {
         ArrayList<HashMap<String,String>> result = new ArrayList<>();
-        HTTPRepository repository = new HTTPRepository("http://Yatheens-MacBook-Pro.local:7200/repositories/test");
+        HTTPRepository repository = new HTTPRepository("http://localhost:7200/repositories/test");
         RepositoryConnection connection = (RepositoryConnection) repository.getConnection();
         try {
-            String query = resolveQuery(queryID);
+            String query = resolveQuery(queryID,params);
+            System.out.println(query);
             // Preparing a SELECT query for later evaluation
             TupleQueryResult tupleQueryResult = QueryUtil.evaluateSelectQuery(connection,query);
             HashMap<String,String> temp = new HashMap<>();
@@ -58,51 +59,50 @@ public class QueryHandler {
         return result;
     }
 
-    private String resolveQuery(String query){
+    private String resolveQuery(String query, Map<String,String> params){
         return switch (query) {
-            case "query1" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
+            case "query1" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT ?countryName ?ghg ?gdp\n" +
+                             "WHERE {\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "    oxly:hasSustainability ?sus ;\n" +
+                             "             oxly:hasEconomy ?eco .\n" +
+                             "    ?sus oxly:countryPollution ?pollution .\n" +
+                             "    ?pollution oxly:ghgEmission ?ghg .\n" +
+                             "    ?eco oxly:countryGDP ?gdp_entity .\n" +
+                             "    ?gdp_entity oxly:gdpValue ?gdp .\n" +
+                             "}\n" +
+                             "ORDER BY " + params.get("sort") + "(?ghg)\n" +
+                             "LIMIT 1";
 
-                    SELECT ?countryName ?ghg ?gdp
-                    WHERE {
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus ;
-                                 oxly:hasEconomy ?eco .
-                        ?sus oxly:countryPollution ?pollution .
-                        ?pollution oxly:ghgEmission ?ghg .
-                        ?eco oxly:countryGDP ?gdp_entity .
-                        ?gdp_entity oxly:gdpValue ?gdp .
-                    }
-                    ORDER BY DESC(?ghg)
-                    LIMIT 1""";
 
-            case "query2" -> """
-                    prefix rr: <http://www.w3.org/ns/r2rml#>
-                    prefix geo: <http://www.opengis.net/ont/geosparql#>
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                    prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-                    prefix oxly: <http://www.example.org/ont/groupK#>
-
-                    SELECT ?countryName ?hdi ?gdp
-                    WHERE {
-                       
-                        ?country oxly:countryName ?countryName ;
-                        oxly:hasSustainability ?sus ;
-                        oxly:hasEconomy ?eco .
-                        ?sus oxly:countryHDI ?humanDev .
-                        ?humanDev oxly:hdiScore ?hdi .
-                       
-                        ?eco oxly:countryGDP ?gdp_entity .
-                        ?gdp_entity oxly:gdpValue ?gdp .
-                    }
-                    ORDER BY ASC(?gdp)
-                    LIMIT 1""";
+            case "query2" -> "prefix rr: <http://www.w3.org/ns/r2rml#>\n" +
+                             "prefix geo: <http://www.opengis.net/ont/geosparql#>\n" +
+                             "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                             "prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" +
+                             "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                             "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
+                             "\n" +
+                             "SELECT ?countryName ?hdi ?gdp\n" +
+                             "WHERE {\n" +
+                             "\n" +
+                             "    ?country oxly:countryName ?countryName ;\n" +
+                             "    oxly:hasSustainability ?sus ;\n" +
+                             "    oxly:hasEconomy ?eco .\n" +
+                             "    ?sus oxly:countryHDI ?humanDev .\n" +
+                             "    ?humanDev oxly:hdiScore ?hdi .\n" +
+                             "\n" +
+                             "    ?eco oxly:countryGDP ?gdp_entity .\n" +
+                             "    ?gdp_entity oxly:gdpValue ?gdp .\n" +
+                             "}\n" +
+                             "ORDER BY " + params.get("sort") + "(?gdp)\n" +
+                             "LIMIT 1";
             case "query3" -> """
                     prefix rr: <http://www.w3.org/ns/r2rml#>
                     prefix geo: <http://www.opengis.net/ont/geosparql#>
