@@ -158,22 +158,26 @@ public class QueryHandler {
                              "prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
                              "prefix oxly: <http://www.example.org/ont/groupK#>\n" +
                              "\n" +
-                             "SELECT DISTINCT ?countryName ?contiName ?countryName ?population ?airDeathRate\n" +
-                             "WHERE {\n" +
-                             "    ?conti oxly:consistsOf ?country ;\n" +
-                             "           oxly:continentName ?contiName .\n" +
-                             "    ?country oxly:countryName ?countryName ;\n" +
-                             "             oxly:hasSustainability ?sus ;\n" +
-                             "             oxly:hasGeography ?geo .\n" +
-                             "    ?sus oxly:countryPollution ?pollution .\n" +
-                             "    ?airDeath oxly:deathCount ?airDeathRate ;\n" +
-                             "              oxly:year ?airYear .\n" +
-                             "    ?geo oxly:population ?population .\n" +
                              "\n" +
-                             "    FILTER(CONTAINS(str(?airYear), \"2017\"))\n" +
+                             "\n" +
+                             "SELECT DISTINCT ?countryName ?countryName ?population ?airDeathRate\n" +
+                             "WHERE {\n" +
+                             "?conti oxly:consistsOf ?country ;\n" +
+                             "oxly:continentName ?contiName .\n" +
+                             "?country oxly:countryName ?countryName ;\n" +
+                             "oxly:hasSustainability ?sus ;\n" +
+                             "oxly:hasGeography ?geo .\n" +
+                             "?sus oxly:countryPollution ?pollution .\n" +
+                             "?airDeath oxly:deathCount ?airDeathRate ;\n" +
+                             "oxly:year ?airYear .\n" +
+                             "?geo oxly:population ?population .\n" +
+                             "\n" +
+                             "\n" +
+                             "\n" +
+                             "FILTER(CONTAINS(str(?airYear), \"2015\"))\n" +
                              "}\n" +
                              "ORDER BY " + params.get("sort") + "(?airDeathRate)\n" +
-                             "LIMIT 1";
+                             "LIMIT 1\n";
             case "query6" -> """
                     prefix rr: <http://www.w3.org/ns/r2rml#>
                     prefix geo: <http://www.opengis.net/ont/geosparql#>
