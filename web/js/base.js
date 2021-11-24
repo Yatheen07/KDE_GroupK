@@ -47,7 +47,7 @@ function ajaxSparql(query, link=__LINK__, msg=__MSG__){
         console.log(__MSG__.fail);
     }).always((o)=>{
         console.log(__MSG__.always);
-        showInTable_new(dataSparql);
+        showInTable_new(o);
     });
 }
 
