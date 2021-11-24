@@ -2,18 +2,18 @@
  * All config data below here.
  */
 
-var __LINK__ = 'http://localhost:8000/executeQuery';
+// var __LINK__ = 'http://localhost:8000/executeQuery';
 
 /**
  * This is the alert message about What will happen when the ajax is done, fail and always.
  * @type {{always: string, fail: string, done: string}}
  * @private
  */
-var __MSG__ = {
-    done: 'Successful',
-    fail: 'do fail',
-    always: 'do always'
-}
+// var __MSG__ = {
+//     done: 'Successful',
+//     fail: 'do fail',
+//     always: 'do always'
+// }
 
 /**
  * @type {{Row0: {military: string, countryName: string, happiness_score: string}, Row1: {military: string, countryName: string, happiness_score: string}, Columns: string[]}}

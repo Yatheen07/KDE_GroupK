@@ -1,4 +1,17 @@
-loadJS('/js/config.js');
+// loadJS('/js/config.js');
+
+var __LINK__ = 'http://localhost:8000/executeQuery';
+
+/**
+ * This is the alert message about What will happen when the ajax is done, fail and always.
+ * @type {{always: string, fail: string, done: string}}
+ * @private
+ */
+var __MSG__ = {
+    done: 'Successful',
+    fail: 'do fail',
+    always: 'do always'
+}
 
 function  subSort(obj){
     submitItem($(obj).parent().prev().attr('id'), 'sort', $(obj).parent().prev().children('select').val())
