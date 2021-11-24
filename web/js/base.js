@@ -13,6 +13,20 @@ var __MSG__ = {
     always: 'do always'
 }
 
+var dataSparql = {
+    "Row0": {
+        "military": "13.32567233",
+        "countryName": "Saudi Arabia",
+        "happiness_score": "6.411"
+    },
+    "Row1": {
+        "military": "2342342342342",
+        "countryName": "aAAAAAA",
+        "happiness_score": "77777777777777777777777777777.411"
+    },
+    "Columns":["military", "countryName", "happiness_score"]
+};
+
 function  subSort(obj){
     submitItem($(obj).parent().prev().attr('id'), 'sort', $(obj).parent().prev().children('select').val())
 }
@@ -89,12 +103,12 @@ function showInTable_new(data, id="table") {
     console.log(typeof data);
     console.log(data);*/
 
-    let thead = "<th>" + data["Columns"][0] + "</th>" + "<th>" + data["Columns"][1] + "</th>" + "<th>" + data["Columns"][2] + "</th>";
+    let thead = "<th>" + data["Columns"][0] + "</th>" + "<th>" + data["Columns"][1] + "</th>" + data["Columns"][2]? "<th>" + data["Columns"][2] + "</th>" : "";
     let tbody = "";
 
     for(let k in data)
         if(!k.indexOf("Row")>0)
-            tbody += "<tr>" + "<td>" + data[k][data.Columns[0]] + "</td>" + "<td>" + data[k][data.Columns[1]] + "</td>" + "<td>" + data[k][data.Columns[2]] + "</td>" + "</tr>";
+            tbody += "<tr>" + "<td>" + data[k][data.Columns[0]] + "</td>" + "<td>" + data[k][data.Columns[1]] + "</td>" + "<td>" + data[k][data.Columns[2]]? data[k][data.Columns[2]] + "</td>" + "</tr>" : "";
 
     let table = "<thead class=\"thead-dark\">" + thead + "</thead>" + "<tbody style=\"background-color: #eeeee4;\">"+ tbody +"</tbody>";
 
